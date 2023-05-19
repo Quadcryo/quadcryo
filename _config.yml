@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank 
+title:  
 first_name: matias
-middle_name: blank
+middle_name: 
 last_name: relyea
 email: heyanlong@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -55,7 +55,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 500px
 
 # TODO: add layout settings (single page vs. multi-page)
 
