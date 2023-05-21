@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:  Matias Relyea
+title:  about me
 first_name: matias
 middle_name: 
 last_name: relyea
@@ -14,7 +14,7 @@ footer_text: >
 keywords: 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://quadcryo.github.io
 baseurl: /al-folio
