@@ -4,7 +4,7 @@ title: about
 permalink: /
 profile:
   align: right
-  image: snoopytorus.jpg
+  image: torussnoopy.png
   image_circular: true
   address: this is snoopy on a torus. he says hi
 ---
