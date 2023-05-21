@@ -1,11 +1,11 @@
 ---
 layout: about
-title: publications
+title: about
 permalink: /
 profile:
   align: right
   image: snoopytorus.jpg
-  image_circular: false 
+  image_circular: true
   address: "this is snoopy on a torus. he says hi"
 ---
 
