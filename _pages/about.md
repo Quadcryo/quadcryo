@@ -4,7 +4,7 @@ title: about
 permalink: /
 profile:
   align: right
-  image: <imgsrc=“/Quadcryo/assets/img/snoopytorus.jpg”>
+  image: snoopytorus.jpg
   image_circular: true
   address: "this is snoopy on a torus. he says hi"
 ---
