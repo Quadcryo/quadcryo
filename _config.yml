@@ -9,9 +9,8 @@ last_name: relyea
 email: heyanlong@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
-footer_text: >
-
-keywords: 
+footer_text: 
+keywords: matias relyea, matias, mathematics, number theory, high school research
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: δ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -53,7 +52,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 500px
+max_width: 800px
 
 # TODO: add layout settings (single page vs. multi-page)
 
