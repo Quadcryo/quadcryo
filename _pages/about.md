@@ -5,7 +5,7 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
   address: <p> this is snoopy on a torus. he says hi </p>
 ---
 
