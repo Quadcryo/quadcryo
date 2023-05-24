@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quantum mechanics and computation with linear algebra research
+title: qm and computation with linalg research
 description: This has been an ongoing project for many months now. I have worked on it actively and inactively over this time, and have made significant progress in linear algebra and working in Hilbert Space. While I know that many topics here will require significantly more reading and problem-solving, it is healthy to create goals along the way, so that is just what I have done. My research goal right now is to understand the spectral theorem and spectral decomposition. 
 img: bra ket.png
 importance: 1
