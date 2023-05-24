@@ -7,12 +7,6 @@ importance: 2
 category: work
 ---
 
-<!-- _projects/stats project.md -->
-<div class="projects">
-
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
+<object data="" type="application/pdf" width="100%" height="500px">
+      <p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p>
+    </object>
