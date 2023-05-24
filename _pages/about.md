@@ -1,11 +1,11 @@
 ---
-layout: about
-title: about
+layout: about me
+title: about me
 permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   address: <p> this is snoopy on a torus. he says hi </p>
 ---
 

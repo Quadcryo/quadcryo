@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: recent papers and publications in reversed chronological order
+permalink: /papers/
+title: papers
+description: these are my most recent publications in chronological order. 
 years: [2022]
 nav: true
 nav_order: 1
