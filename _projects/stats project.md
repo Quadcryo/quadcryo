@@ -8,7 +8,7 @@ category: work
 ---
 
 <!-- _projects/stats project.md -->
-<div class="publications">
+<div class="projects">
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
