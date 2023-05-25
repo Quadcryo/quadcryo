@@ -13,5 +13,6 @@ category: completed
 
  <object data="/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf" type="projectpdf/pdf" width="100%" height="500px">
       <p>Unable to display PDF file. <a href="/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf">Download</a> instead.</p>
+    </object>
 
 
