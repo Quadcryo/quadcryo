@@ -9,7 +9,7 @@ category: work
 
 
 
-
+<html>
   <head>
     <title>project</title>
   </head>
@@ -19,3 +19,4 @@ category: work
       <p>Unable to display PDF file. <a href="assets/pdf/matias-kyle-mathfunconf-stats.pdf">Download</a> instead.</p>
     </iframe>
   </body>
+  <html>
