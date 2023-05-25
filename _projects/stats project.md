@@ -5,13 +5,10 @@ description: here we investigated whether doing math because it is fun has an as
 img: assets/img/stats_paper_matias_kyle.png
 importance: 2
 category: completed
-redirect: matias-kyle-mathfunconf-stats.pdf
 ---
-
-
-
-  %<object src="assets/pdf/matias-kyle-mathfunconf-stats.pdf" frameborder="0" height="500" width="1000">
-  </object>
-
+  <body>
+    <h1>Is there an association between doing math homework because it is fun and average math confidence in high school students?</h1>
+    <p>The pdf is linked <a href="assets/pdf/matias-kyle-mathfunconf-stats.pdf">here</a>.</p>
+  </body>
 
 
