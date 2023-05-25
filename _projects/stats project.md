@@ -5,11 +5,12 @@ description: here we investigated whether doing math because it is fun has an as
 img: assets/img/stats_paper_matias_kyle.png
 importance: 2
 category: completed
+redirect: matias-kyle-mathfunconf-stats.pdf
 ---
 
 
 
-  <object src="assets/pdf/matias-kyle-mathfunconf-stats.pdf" frameborder="0" height="500" width="1000">
+  %<object src="assets/pdf/matias-kyle-mathfunconf-stats.pdf" frameborder="0" height="500" width="1000">
   </object>
 
 
