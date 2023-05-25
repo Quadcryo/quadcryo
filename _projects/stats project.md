@@ -12,8 +12,8 @@ category: work
 <html>
   <body>
     <h1>project</h1>
-    <iframe data="assets/pdf/matias-kyle-mathfunconf-stats.pdf" type="application/pdf" width="100%" height="500px">
-      <p>Unable to display PDF file. <a href="assets/pdf/matias-kyle-mathfunconf-stats.pdf">Download</a> instead.</p>
+    <iframe data="/assets/pdf/matias-kyle-mathfunconf-stats.pdf" type="application/pdf" width="100%" height="500px">
+      <p>Unable to display PDF file. <a href="/assets/pdf/matias-kyle-mathfunconf-stats.pdf">Download</a> instead.</p>
     </iframe>
   </body>
   <html>
