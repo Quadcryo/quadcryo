@@ -8,9 +8,9 @@ category: completed
 ---
 
 
-<html>
+
   <body>
-    <embed src="assets/pdf/matias-kyle-mathfunconf-stats.pdf" height="500" width="1000">
+    <embed src="/assets/pdf/matias-kyle-mathfunconf-stats.pdf" height="500" width="1000">
   </body>
-  </html>
+
 
