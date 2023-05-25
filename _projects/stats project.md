@@ -8,9 +8,10 @@ category: completed
 ---
 
 
-<embed src="https://quadcryo.github.io/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf" type="asset/pdf" />
+<5object src="https://quadcryo.github.io/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf" type="asset/pdf" />
 
 
-
+ <object data="/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf" type="projectpdf/pdf" width="100%" height="500px">
+      <p>Unable to display PDF file. <a href="/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf">Download</a> instead.</p>
 
 
