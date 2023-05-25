@@ -10,8 +10,7 @@ category: completed
 
 <html>
   <body>
-    <iframe data="/assets/pdf/matias-kyle-mathfunconf-stats.pdf" type="application/pdf" width="100%" height="500px">
-      <p>Unable to display PDF file. <a href="/assets/pdf/matias-kyle-mathfunconf-stats.pdf">Download</a> instead.</p>
-    </iframe>
+    <embed src="assets/pdf/matias-kyle-mathfunconf-stats.pdf" height="500" width="1000">
   </body>
   </html>
+
