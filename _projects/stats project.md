@@ -10,9 +10,6 @@ category: work
 
 
 <html>
-  <head>
-    <title>project</title>
-  </head>
   <body>
     <h1>project</h1>
     <iframe data="assets/pdf/matias-kyle-mathfunconf-stats.pdf" type="application/pdf" width="100%" height="500px">
