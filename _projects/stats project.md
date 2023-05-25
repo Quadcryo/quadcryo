@@ -9,7 +9,7 @@ category: completed
 
 
 
-  <iframe src="matias-kyle-mathfunconf-stats.pdf" frameborder="0" height="500" width="1000">
+  <iframe src="assets/pdf/matias-kyle-mathfunconf-stats.pdf" frameborder="0" height="500" width="1000">
   </iframe>
 
 
