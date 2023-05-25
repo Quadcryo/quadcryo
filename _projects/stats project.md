@@ -8,7 +8,7 @@ category: completed
 ---
 
 
-<embed src="https://quadcryo.github.io/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf" type="asset/pdf" />
+<embed src="https://quadcryo.github.io/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf" type="asset/pdf" />
 
 
 
