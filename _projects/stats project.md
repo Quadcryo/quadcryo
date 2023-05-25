@@ -8,7 +8,7 @@ category: completed
 ---
 
   <h1> <b> Is there an association between doing math homework because it is fun and average math confidence in high school students? <b> 
-  <p>The pdf is linked <a href="https://quadcryo.github.io/assets/pdf/matias-relyea-hyle-hollars-math-fun-confidence-stats.pdf" target="assets/pdf">here</a>.</p>
+  <p>The pdf is linked <a href="https://quadcryo.github.io/assets/pdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf" target="assets/pdf">here</a>.</p>
 
 
 
