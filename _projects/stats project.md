@@ -5,14 +5,14 @@ description: here we investigated whether doing math because it is fun has an as
 img: assets/img/stats_paper_matias_kyle.png
 importance: 2
 category: completed
-redirect: https://quadcryo.github.io/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf
+
 ---
 
+<h1> <b> Is there an association between doing math homework because it is fun and average math confidence in high school students? <b>
+<i> Abstract <i>
+In this paper, we use data obtained from a survey of high school students to determine the link between students having fun on math homework and their confidence in solving math problems.
 
 
-
- <3object data="/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf" type="projectpdf/pdf" width="100%" height="500px">
-      <p>Unable to display PDF file. <a href="/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf">Download</a> instead.</p>
-    </object>
+<p> The link can be found <a href="https://quadcryo.github.io/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf">here</a>.</p>
 
 
