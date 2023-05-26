@@ -1,8 +1,8 @@
 ---
 layout: page
-title: qm and computation with linalg research
+title: QM and computation with linalg research
 description: linear algebra, quantum mechanics, quantum computation
-img: bra ket.png
+img: assets/img/bra ket.png
 importance: 1
 category: ongoing
 ---

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: projects that I have done and am currently working on
+description: Projects that are completed and ongoing. 
 nav: true
 nav_order: 2
 display_categories: [ongoing, completed]
