@@ -1,7 +1,7 @@
 ---
 layout: page
 title: qm and computation with linalg research
-description: a project that I am working on periodically
+description: linear algebra, quantum mechanics, quantum computation
 img: bra ket.png
 importance: 1
 category: ongoing
