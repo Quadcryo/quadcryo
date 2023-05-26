@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /papers/
-title: Papers
+title: papers
 description: These are my most finished papers in chronological order. 
 years: [2022]
 nav: true
