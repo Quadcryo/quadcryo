@@ -1,30 +1,14 @@
 ---
 layout: post
-title:  a post with formatting and links
-date:   2015-03-15 16:40:16
-description: march & april, looking forward to summer
-tags: formatting links
-categories: sample-posts
+title:  an introduction to this website
+date:   2023-05-26 19:05
+description: some words and some nonwords
 ---
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
-#### Hipster list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
-<hr>
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-<blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
-</blockquote>
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+This is the first post on this website. I have created this website to display my work as an amateur mathematician. Even though I am only a high school student, there are many more opportunities for me to explore my interests in mathematics, and many more opportunities for me to collaborate with friends and professors - or work independently - to produce valuable research.
+<br>
+<br>
+While this space is largely for displaying my formal work, nothing is stopping me from using it to document any of my research journeys, academic interests, or even casual discoveries and playful expositions. All of my work here is done with and sometimes without purpose. The only limitation for whatever interests me is prerequisites, but even that can eventually be transgressed. I guess that means that what I do here is like a cloud... dreamy... drifting, and oh so unpredictable. 
+<br>
+<br>
+Slightly forced metaphors aside, the reason that I have been able to do much of the work displayed here is attributed to a multitude of significant people who have guided me through my expositions and self-discovery. While I cannot name each individual, it is important to acknowledge the origin of this lifelong interest in mathematics. Something so valuable takes an immense amount of passion and belief to awaken, so I would like to thank 王老师 for being the ticket to my future endeavours; the first ray of sun on such a blazing horizon by the sea...
