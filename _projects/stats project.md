@@ -8,8 +8,8 @@ category: completed
 
 ---
 
-<h1> <b> Is there an association between doing math homework because it is fun and average math confidence in high school students?  <b>
-<br>
+<h1>  Is there an association between doing math homework because it is fun and average math confidence in high school students?  <h1>
+<br> 
 <br>
 <i>Abstract </i>
 <br>
