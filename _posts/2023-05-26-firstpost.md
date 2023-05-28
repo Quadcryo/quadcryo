@@ -2,7 +2,7 @@
 layout: post
 title:  An introduction to this website
 date:   2023-05-26 19:05:00-0400
-description: some words and some nonwords
+description: Some words and some nonwords
 ---
 
 This is the first post on this website. I have created this website to display my work as an amateur mathematician. Even though I am only a high school student, there are many more opportunities for me to explore my interests in mathematics, and many more opportunities for me to collaborate with friends and professors - or work independently - to produce valuable research.
