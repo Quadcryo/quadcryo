@@ -2,7 +2,7 @@
 layout: page
 permalink: /papers/
 title: papers
-description: These are my finished papers in chronological order. 
+description: These are my finished papers in chronological order. (They are expository research so far, but there is more original research to come.)
 years: [2022]
 nav: true
 nav_order: 1
