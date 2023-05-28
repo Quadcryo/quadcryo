@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  an introduction to this website
+title:  An introduction to this website
 date:   2023-05-26 19:05:00-0400
 description: some words and some nonwords
 ---
