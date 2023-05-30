@@ -5,7 +5,7 @@ date:   2023-05-26 19:05:00-0400
 description: Some words and some nonwords
 ---
 
-This is the first post on this website. I have created this website to display my work as an amateur mathematician. Even though I am only a high school student, there are many more opportunities for me to explore my interests in mathematics, and many more opportunities for me to collaborate with friends and professors - or work independently - to produce valuable research.
+This is the first post on this website. I have created this website to display my work as an amateur mathematician. (It has been largely inspired by a similar website created by one of my friends, Kyle: you can find his website <a href="https://12buntu.github.io/Book-N/">here</a>) Even though I am only a high school student, there are many more opportunities for me to explore my interests in mathematics, and many more opportunities for me to collaborate with friends and professors - or work independently - to produce valuable research.
 <br>
 <br>
 While this space is largely for displaying my formal work, nothing is stopping me from using it to document any of my research journeys, academic interests, or even casual discoveries and playful expositions. All of my work here is done with and sometimes without purpose. The only limitation for whatever interests me is prerequisites, but even that can eventually be transgressed. I guess that means that what I do here is like a cloud... dreamy... drifting, and oh so unpredictable. 
