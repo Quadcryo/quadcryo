@@ -12,9 +12,9 @@ category: ongoing
 This has been an ongoing project for many months now. I have worked on it actively and inactively over this time, and have made significant progress in linear algebra and working in Hilbert Space. While I know that many topics here will require significantly more reading and problem-solving, it is healthy to create goals along the way, so that is just what I have done. My research goal right now is to understand the spectral theorem and spectral decomposition. 
 </p>
 
-<h2> 
+<h1> 
 NOTES 
-</h2> 
+</h1> 
 
 
 <br>
@@ -36,8 +36,12 @@ $$
 \begin{equation*} A\sum_{i}a_{i}|v_{i}\rangle  = \sum_{i}a_{i}A|v_{i}\rangle .\end{equation*}
 $$
 
+<h2> 
+Definition of the inner product and other
+</h2> 
+
 <br>
-Now let us define the inner product. An inner product is a number given by $$(\cdot,\cdot)$$ for objects "$$\cdot$$". An inner product is linear in the second argument, 
+Let us define the inner product. An inner product is a number given by $$(\cdot,\cdot)$$ for objects "$$\cdot$$". An inner product is linear in the second argument, 
 <br>
 
 $$
@@ -56,3 +60,41 @@ $$
 = \sum_{i}\lambda_{i}^{*}(|w_{i}\rangle,|v\rangle).
 \end{align*}
 $$
+
+<br>
+<br>
+Note that a vector space with an inner product attached to it is known as "inner product space", and in quantum mechanics is known as "Hilbert space". We will be referring to this space as an inner product space for now, but will adopt the term "Hilbert space" eventually. Now that we have defined the inner product, we can begin introducing some more notation and techniques. The inner product is commonly notated as $$\langle v|w\rangle $$ for two vectors $$\langle v|$$ and $$ w\rangle $$, and are orthogonal if $$\langle v|w\rangle = 0$$. We define the norm of a vector $$ v\rangle $$ to be its magnitude, and write it as $$\left\Vert v\rangle \right\Vert = \sqrt{\langle v|v\rangle }$$. A unit vector is a vector $$ v\rangle $$ such that $$\left\Vert v\rangle \right\Vert = 1$$. A vector is normalised if $$\left\Vert v\rangle \right\Vert $$. To normalise a vector, we divide by its norm, so the normalised form of a vector $$ v\rangle $$ is given as $$ v\rangle /\left\Vert v\rangle \right\Vert $$. A set of vectors $$|i\rangle $$ for $$i$$ is orthonormal if every vector in the set is a unit vector, and distinct vectors in the set are orthogonal (no vector except for the $$0$$ vector is orthogonal to itself) so that $$\langle i|j \rangle = \delta_{ij}$$, where $$\delta_{ij}$$ denotes the Kronecker delta. 
+<br>
+
+<h2>
+The Gram-Schmidt process and proof
+</h2>
+
+<br>
+There exists a method for constructing an orthonormal basis from an existing basis, known as the Gram-Schmidt process. If we have a basis $$|w_{1} \rangle, |w_{2}\rangle, \ldots, |w_{d}\rangle$$ in an inner product space $$V$$, then we can construct an orthonormal basis $$|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{d}\rangle$$ for $$V$$. Let us define 
+<br>
+
+$$
+\begin{equation*} |v_{1}\rangle = \frac{|w_{1}\rangle}{\left\Vert |w_{1}\rangle \right\Vert } \end{equation*}
+$$
+
+<br>
+Then for $$k$$ going from $$1$$ to $$d-1$$, we can define inductively
+<br>
+
+$$
+\begin{equation*} |v_{k+1}\rangle = \frac{|w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle}{\left\Vert |w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle \right\Vert}. \end{equation*}
+$$
+
+<br>
+Using this inductive technique, we can always generate some orthonormal basis $$|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{d}\rangle$$. Notice that despite it seeming very complex, it uses the same general idea of normalisation by dividing by norm. Also notice that the numerator is a vector because the inner product always yields a number. 
+<br>
+<br>
+<b> Theorem </b> (Gram-Schmidt process)
+<br>
+<br>
+\blacksquare
+<br>
+
+
+
