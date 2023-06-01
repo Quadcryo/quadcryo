@@ -13,7 +13,7 @@ This has been an ongoing project for many months now. I have worked on it active
 </p>
 
 
-<h1> NOTES <h1>
+NOTES 
 
 
 <br>
