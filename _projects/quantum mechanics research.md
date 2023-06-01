@@ -22,6 +22,7 @@ We will assume a knowledge of basic linear algebra, such as vector spaces, eigen
 <br>
 <br>
 In quantum mechanics, we commonly refer to matrices as "linear operators". A linear operator is a function $$A: V \rightarrow W$$ from a vector space $$V$$ to a vector space $$W$$ that is linear in its inputs, namely 
+<br>
 
 <p>
 $$\begin{equation*} A\big(\sum_{i}a_{i}|v_{i}\rangle \big) = \sum_{i}a_{i}A(|v_{i}\rangle) \end{equation*},$$
