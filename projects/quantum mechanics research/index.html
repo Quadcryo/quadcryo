@@ -137,9 +137,15 @@ In quantum mechanics, we commonly refer to matrices as “linear operators”. A
 <br>
 <br></p>
 
-<p>\begin{center}
-    $$\begin{equation<em>} A\big(\sum_{i}a_{i}|v_{i}\rangle \big) = \sum_{i}a_{i}A(|v_{i}\rangle) \end{equation</em>},
-\end{center}</p>
+<table>
+  <tbody>
+    <tr>
+      <td>$$\begin{equation^{*}} A\big(\sum_{i}a_{i}</td>
+      <td>v_{i}\rangle \big) = \sum_{i}a_{i}A(</td>
+      <td>v_{i}\rangle) \end{equation^{*}},</td>
+    </tr>
+  </tbody>
+</table>
 
 <p><br>
 <br>
@@ -147,9 +153,7 @@ where \(A\) is a linear operator. However, to simplify notation, instead of tedi
 <br>
 <br></p>
 
-<p>\begin{center}
-    \(\)\begin{equation<em>} A\sum_{i}a_{i}|v_{i}\rangle  = \sum_{i}a_{i}A|v_{i}\rangle \end{equation</em>}.\(\)
-\end{center}</p>
+\[\begin{equation^{*}} A\sum_{i}a_{i}|v_{i}\rangle  = \sum_{i}a_{i}A|v_{i}\rangle \end{equation^{*}}.\]
 
 <p><br>
 <br>
@@ -157,21 +161,29 @@ Now let us define the inner product. An inner product is a number given by \((\c
 <br>
 <br></p>
 
-<p>\begin{center}
-    \(\big(|v_{i}\rangle,\sum_{i}\lambda_{i}|w_{i}\rangle\big) = \sum_{i}\lambda_{i}(|v\rangle,|w_{i}\rangle\).
-\end{center}</p>
+<table>
+  <tbody>
+    <tr>
+      <td>$$\big(</td>
+      <td>v_{i}\rangle,\sum_{i}\lambda_{i}</td>
+      <td>w_{i}\rangle\big) = \sum_{i}\lambda_{i}(</td>
+      <td>v\rangle,</td>
+      <td>w_{i}\rangle$$.</td>
+    </tr>
+  </tbody>
+</table>
 
 <p><br>
 <br>
-The inner product also satisfies \((|v\rangle,|w\rangle)=(|w\rangle,|v\rangle)*\), where “\(*\)” denotes conjugation. Moreover, \((|v\rangle,|v\rangle)\geq 0\), and is \(0\) iff. \(|v\rangle=0\). Quite beautifully, the inner product is also conjugate linear in the first argument. This follows from
+The inner product also satisfies \((|v\rangle,|w\rangle)=(|w\rangle,|v\rangle)^{*}\), where “\(^{*}\)” denotes conjugation. Moreover, \((|v\rangle,|v\rangle)\geq 0\), and is \(0\) iff. \(|v\rangle=0\). Quite beautifully, the inner product is also conjugate linear in the first argument. This follows from
 <br>
 <br></p>
 
 \[\begin{align*}
 \big(\sum_{i}\lambda_{i}|w_{i}\rangle,|v\rangle\big) &amp; 
-= \big(|v\rangle,\sum_{i}\lambda_{i}|w_{i}\rangle\big)* \\ &amp;
-= \sum_{i}\lambda_{i}*(|v\rangle,|w_{i}\rangle)* \\ &amp;
-= \sum_{i}\lambda_{i}*(|w_{i}\rangle,|v\rangle).
+= \big(|v\rangle,\sum_{i}\lambda_{i}|w_{i}\rangle\big)^{*} \\ &amp;
+= \sum_{i}\lambda_{i}^{*}(|v\rangle,|w_{i}\rangle)^{*} \\ &amp;
+= \sum_{i}\lambda_{i}^{*}(|w_{i}\rangle,|v\rangle).
 \end{align*}\]
 
           </article>
