@@ -188,13 +188,15 @@ Then for \(k\) going from \(1\) to \(d-1\), we can define inductively
 \[\begin{equation*} |v_{k+1}\rangle = \frac{|w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle}{\left\Vert |w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle \right\Vert}. \end{equation*}\]
 
 <p><br>
-Using this inductive technique, we can always generate some orthonormal basis \(|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{d}\rangle\). Notice that despite it seeming very complex, it uses the same general idea of normalisation by dividing by norm. Also notice that the numerator is a vector because the inner product always yields a number. 
+Using this technique, we can always generate some orthonormal basis \(|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{d}\rangle\). Notice that despite it seeming very complex, it uses the same general idea of normalisation by dividing by norm. Also notice that the numerator is a vector because the inner product always yields a number. We will now prove that this process in fact gives us an orthonormal basis. 
 <br>
 <br>
 <b> Theorem </b> (Gram-Schmidt process)
 <br>
 <br>
-\blacksquare
+Let \(V\) be an inner product space, and let \(S = \{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{d}\rangle \}\) be a linearly independent subspace of vectors from \(V\). Define the set \(\overline S = \{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{d}\rangle \}\). Let \(w_{1}=v_{1}\) and \(|v_{k+1}\rangle = \frac{|w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle}{\left\Vert |w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle \right\Vert}\). Then \(\overline S\) is an orthonormal basis for \(V\), or \(\text{span}(S)=\text{span}(\overline S)=V\).</p>
+
+<p>■
 <br></p>
 
 
