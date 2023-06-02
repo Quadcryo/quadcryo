@@ -118,12 +118,12 @@ $$
 $$
 
 <br>
-Since $$S$$ is a linearly independent set, $$|v_{k}\rangle \not\in \text{span}\{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{k}\rangle\}$$. This is obvious because a vector cannot be contained within a span of vectors not containing itself. From this it also follows that $$|v_{k}\rangle \not\in \text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k}\rangle\}$$. Although the denominator of equation $$(1)$$ consists of a possible linear combination of vectors that could result in an indeterminate form, the previous fact mitigates that, so we know that the expression is valid. Note also that $$\left\Vert |v_{k}\rangle = 1 \right\Vert $$. To show that $$\overline S$$ is orthonormal, note that 
+Since $$S$$ is a linearly independent set, $$|v_{k}\rangle \not\in \text{span}\{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{k}\rangle\}$$. This is obvious because a vector cannot be contained within a span of vectors not containing itself. From this it also follows that $$|v_{k}\rangle \not\in \text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k}\rangle\}$$. Although the denominator of equation $$(1)$$ consists of a possible linear combination of vectors that could result in an indeterminate form, the previous fact mitigates that, so we know that the expression is valid. Note also that $$\left\Vert |v_{k}\rangle \right\Vert =1 $$. To show that $$\overline S$$ is orthonormal, note that 
 <br>
 
 $$
 \begin{align*} 
-\langle v_{k}|v_{i} \rangle = \bigg\langle \frac{|w_{k}\rangle - \langle w_{k}|v_{1}\rangle|v_{1}\rangle - \langle w_{k}|v_{2}\rangle|v_{2}\rangle - \cdots - \langle w_{k}|v_{k-1}\rangle|v_{k-1}\rangle}{\left\Vert |w_{k}\rangle - \langle w_{k}|v_{1}\rangle|v_{1}\rangle - \langle w_{k}|v_{2}\rangle|v_{2}\rangle - \cdots - \langle w_{k}|v_{k-1}\rangle|v_{k-1}\rangle \right\Vert} \bigg\rvert v_{i} \bigg\rangle \\ 
+\langle v_{k}|v_{i} \rangle & = \bigg\langle \frac{|w_{k}\rangle - \langle w_{k}|v_{1}\rangle|v_{1}\rangle - \langle w_{k}|v_{2}\rangle|v_{2}\rangle - \cdots - \langle w_{k}|v_{k-1}\rangle|v_{k-1}\rangle}{\left\Vert |w_{k}\rangle - \langle w_{k}|v_{1}\rangle|v_{1}\rangle - \langle w_{k}|v_{2}\rangle|v_{2}\rangle - \cdots - \langle w_{k}|v_{k-1}\rangle|v_{k-1}\rangle \right\Vert} \bigg\rvert v_{i} \bigg\rangle \\ &
 =\frac{\langle w_{k}|v_{i}\rangle - \langle w_{k}|v_{i}\rangle}{\left\Vert |w_{k}\rangle - \langle w_{k}|v_{1}\rangle|v_{1}\rangle - \langle w_{k}|v_{2}\rangle|v_{2}\rangle - \cdots - \langle w_{k}|v_{k-1}\rangle|v_{k-1}\rangle \right\Vert} &
 =0
 \end{align*}
