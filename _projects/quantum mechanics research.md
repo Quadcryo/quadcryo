@@ -16,7 +16,6 @@ This has been an ongoing project for many months now. I have worked on it active
 NOTES 
 </h1> 
 
-
 <br>
 We will assume a knowledge of basic linear algebra, such as vector spaces, eigenvectors, eigenvalues, transpose, trace, and characteristic equations. In order to begin to understand quantum mechanics, one must begin with the absolute basics of linear algebra. A finite-dimensional vector space with $$\text{dim}(V)=n$$ is a vector space $$V$$ for which there exists some finite set of vectors $$U=\{u_{1},u_{2},\ldots,u_{n}\}$$ that spans the vector space, or $$\text{span}(U)=V$$. An important notation to understand in quantum mechanics is the braket notation. With this notation, we denote a vector as a so-called "ket", represented as $$|v_{i}\rangle\in V$$, where $$V$$ is a vector space. The "bra" portion of the braket notation is represented as $$\langle v_{i}|$$, and we will explain its significance later. 
 <br>
@@ -87,13 +86,15 @@ $$
 $$
 
 <br>
-Using this inductive technique, we can always generate some orthonormal basis $$|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{d}\rangle$$. Notice that despite it seeming very complex, it uses the same general idea of normalisation by dividing by norm. Also notice that the numerator is a vector because the inner product always yields a number. 
+Using this technique, we can always generate some orthonormal basis $$|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{d}\rangle$$. Notice that despite it seeming very complex, it uses the same general idea of normalisation by dividing by norm. Also notice that the numerator is a vector because the inner product always yields a number. We will now prove that this process in fact gives us an orthonormal basis. 
 <br>
 <br>
 <b> Theorem </b> (Gram-Schmidt process)
 <br>
 <br>
-\blacksquare
+Let $$V$$ be an inner product space, and let $$S = \{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{d}\rangle \}$$ be a linearly independent subspace of vectors from $$V$$. Define the set $$\overline S = \{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{d}\rangle \}$$. Let $$w_{1}=v_{1}$$ and $$|v_{k+1}\rangle = \frac{|w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle}{\left\Vert |w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle \right\Vert}$$. Then $$\overline S$$ is an orthonormal basis for $$V$$, or $$\text{span}(S)=\text{span}(\overline S)=V$$. 
+
+■
 <br>
 
 
