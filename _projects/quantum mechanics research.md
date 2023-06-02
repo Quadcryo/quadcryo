@@ -118,7 +118,7 @@ $$
 $$
 
 <br>
-Since $$S$$ is a linearly independent set, $$|v_{k}\langle \not\in \text{span}\{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{k}\rangle\}$$. This is obvious because a vector cannot be contained within a span of vectors not containing itself. From this it also follows that $$|v_{k}\langle \not\in \text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k}\rangle\}$$. Although the denominator of equation $$\ref{eq:1}$$ consists of a possible linear combination of vectors that could result in an indeterminate form, the previous fact mitigates that, so we know that the expression is valid. Note also that $$\left\Vert |v_{k}\rangle = 1 \right\Vert $$. To show that $$\overline S$$ is orthonormal, note that 
+Since $$S$$ is a linearly independent set, $$|v_{k}\langle \not\in \text{span}\{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{k}\rangle\}$$. This is obvious because a vector cannot be contained within a span of vectors not containing itself. From this it also follows that $$|v_{k}\langle \not\in \text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k}\rangle\}$$. Although the denominator of equation (1) consists of a possible linear combination of vectors that could result in an indeterminate form, the previous fact mitigates that, so we know that the expression is valid. Note also that $$\left\Vert |v_{k}\rangle = 1 \right\Vert $$. To show that $$\overline S$$ is orthonormal, note that 
 <br>
 
 $$
@@ -130,7 +130,7 @@ $$
 $$
 
 <br>
-for $$i\in [1,k-1]. Since this implies that the two vectors are orthogonal, we know that $$\overline S$$ is an orthonormal basis of $$V$$. To prove the final statement, notice in equation $$\ref{eq:1}$$ that $$|w_{k}\rangle \in \text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k}\rangle \}$$. From this we know that $$\text{span}\{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{k}\rangle \subset \text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k}\rangle \}$$. Since the span of one set is a subset of the other, and both sets are linearly independent, they must span subspaces of $$V$$ with equal dimension. This implies that $$\text{span}(S) = \text{span}(\overline S)$$, and we are done. 
+for $$i\in [1,k-1]. Since this implies that the two vectors are orthogonal, we know that $$\overline S$$ is an orthonormal basis of $$V$$. To prove the final statement, notice in equation (1) that $$|w_{k}\rangle \in \text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k}\rangle \}$$. From this we know that $$\text{span}\{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{k}\rangle \subset \text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k}\rangle \}$$. Since the span of one set is a subset of the other, and both sets are linearly independent, they must span subspaces of $$V$$ with equal dimension. This implies that $$\text{span}(S) = \text{span}(\overline S)$$, and we are done. 
 <br>
 ■
 
