@@ -100,7 +100,7 @@ $$
 $$
 
 <br>
-<i> Proof. </i> We will be using a constructive proof. Since $$S$$ is a linearly independent set, $$|w_{k}\rangle \neq 0 \forall k$$. Let us define $$|v_{1}\rangle=\frac{|w_{1}\rangle}{\left\Vert |w_{1}\rangle \right\Vert}. Clearly, $$|v_{1}\rangle $$ is a normalised vector, and thus $$\text{span}\{|w_{1}\rangle\}=\text{span}\{|v_{1}\rangle\}$$, satisfying the theorem for $$k=1$$. Now let us define
+<i> Proof. </i> We will be using a constructive proof. Since $$S$$ is a linearly independent set, $$|w_{k}\rangle \neq 0 \forall k$$. Let us define $$|v_{1}\rangle=\frac{|w_{1}\rangle}{\left\Vert |w_{1}\rangle \right\Vert}$$. Clearly, $$|v_{1}\rangle $$ is a normalised vector, and thus $$\text{span}\{|w_{1}\rangle\}=\text{span}\{|v_{1}\rangle\}$$, satisfying the theorem for $$k=1$$. Now let us define
 <br>
 
 $$
