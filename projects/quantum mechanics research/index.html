@@ -176,28 +176,44 @@ The Gram-Schmidt process and proof
 </h2>
 
 <p><br>
-There exists a method for constructing an orthonormal basis from an existing basis, known as the Gram-Schmidt process. If we have a basis \(|w_{1} \rangle, |w_{2}\rangle, \ldots, |w_{d}\rangle\) in an inner product space \(V\), then we can construct an orthonormal basis \(|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{d}\rangle\) for \(V\). Let us define 
+There exists a method for constructing an orthonormal basis from an existing basis, known as the Gram-Schmidt process. If we have a basis \(|w_{1} \rangle, |w_{2}\rangle, \ldots, |w_{n}\rangle\) in an inner product space \(V\), then we can construct an orthonormal basis \(|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{n}\rangle\) for \(V\). Let us define 
 <br></p>
 
 \[\begin{equation*} |v_{1}\rangle = \frac{|w_{1}\rangle}{\left\Vert |w_{1}\rangle \right\Vert } \end{equation*}\]
 
 <p><br>
-Then for \(k\) going from \(1\) to \(d-1\), we can define inductively
+Then for \(k\) going from \(1\) to \(n-1\), we can define inductively
 <br></p>
 
 \[\begin{equation*} |v_{k+1}\rangle = \frac{|w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle}{\left\Vert |w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle \right\Vert}. \end{equation*}\]
 
 <p><br>
-Using this technique, we can always generate some orthonormal basis \(|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{d}\rangle\). Notice that despite it seeming very complex, it uses the same general idea of normalisation by dividing by norm. Also notice that the numerator is a vector because the inner product always yields a number. We will now prove that this process in fact gives us an orthonormal basis. 
+Using this technique, we can always generate some orthonormal basis \(|v_{1} \rangle, |v_{2}\rangle, \ldots, |v_{n}\rangle\). Notice that despite it seeming very complex, it uses the same general idea of normalisation by dividing by norm. Also notice that the numerator is a vector because the inner product always yields a number. We will now prove that this process in fact gives us an orthonormal basis. 
 <br>
 <br>
 <b> Theorem </b> (Gram-Schmidt process)
 <br>
 <br>
-Let \(V\) be an inner product space, and let \(S = \{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{d}\rangle \}\) be a linearly independent subspace of vectors from \(V\). Define the set \(\overline S = \{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{d}\rangle \}\). Let \(w_{1}=v_{1}\) and \(|v_{k+1}\rangle = \frac{|w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle}{\left\Vert |w_{k+1}\rangle - \sum_{i=1}^{k}\langle v_{i}|w_{k+1}\rangle |v_{i}\rangle \right\Vert}\). Then \(\overline S\) is an orthonormal basis for \(V\), or \(\text{span}(S)=\text{span}(\overline S)=V\).</p>
-
-<p>■
+Let \(V\) be an inner product space, and let \(S = \{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{n}\rangle \}\) be a linearly independent set of vectors from \(V\). Then the set \(\overline S = \{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{n}\rangle \}\) forms an orthonormal basis for \(V\) such that 
 <br></p>
+
+\[\begin{equation*} \text{span}\{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{k}\rangle \}=\text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k}\rangle \}, \forall k\in \[1,n] \end{equation*}\]
+
+<p><br>
+<i> Proof. </i> We will be using a constructive proof. Since \(S\) is a linearly independent set, \(|w_{k}\rangle \neq 0 \forall k\). Let us define \(|v_{1}\rangle=\frac{|w_{1}\rangle}{\left\Vert |w_{1}\rangle \right\Vert}. Clearly,\)|v_{1}\rangle \(is a normalised vector, and thus\)\text{span}{|w_{1}\rangle}=\text{span}{|v_{1}\rangle}\(, satisfying the theorem for\)k=1$$. Now let us define
+<br></p>
+
+\[\begin{equation*} |v_{2}\rangle = \frac{|w_{2}\rangle - \langle w_{2}|v_{1} \rangle |v_{1}\rangle}{\left\Vert |w_{2}\rangle - \langle w_{2}|v_{1} \rangle |v_{1}\rangle \right\Vert}. \end{equation*}\]
+
+<p><br>
+Note that this is the normalised form of the orthogonal decomposition given by \(|w_{2}\rangle - \langle w_{2}|v_{1} \rangle\). From this we can see that \(\left\Vert |v_{2}\rangle \right\Vert = 1\), and that indeed \(\text{span}\{|w_{1}\rangle,|w_{2}\rangle\}=\text{span}\{|v_{1}\rangle,|v_{2}\rangle\}\). 
+<br>
+<br>
+After continuing like this, suppose that we have constructed the orthonormal basis \(\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k-1}\rangle \}\) with \(\text{span}\{|w_{1}\rangle, |w_{2}\rangle,\ldots,|w_{k-1}\rangle \}=\text{span}\{|v_{1}\rangle, |v_{2}\rangle,\ldots,|v_{k-1}\rangle \}\). We define</p>
+
+\[\begin{equation*} |v_{k}\rangle = \frac{|w_{k}\rangle - \langle w_{k}|v_{1}\rangle|v_{1}\rangle - \langle w_{k}|v_{2}\rangle|v_{2}\rangle - \cdots - \langle w_{k}|v_{k-1}\rangle|v_{k-1}\rangle}{\left\Vert |w_{k}\rangle - \langle w_{k}|v_{1}\rangle|v_{1}\rangle - \langle w_{k}|v_{2}\rangle|v_{2}\rangle - \cdots - \langle w_{k}|v_{k-1}\rangle|v_{k-1}\rangle \right\Vert} \end{equation*}\]
+
+<p>■</p>
 
 
           </article>
