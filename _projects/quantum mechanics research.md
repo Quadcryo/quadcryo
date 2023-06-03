@@ -13,7 +13,7 @@ This has been an ongoing project for many months now. I have worked on it active
 </p>
 
 <br>
-(NOTE: When we refer to a "number", we are more often than not referring to some complex number from $$\mathbb{C}. When we speak of a finite-dimensional vector space, we are largely talking about a finite-dimensional vector space over the field $$\mathbb{C}$$)
+(NOTE: When we refer to a "number", we are more often than not referring to some complex number from $$\mathbb{C}$$. When we speak of a finite-dimensional vector space, we are largely talking about a finite-dimensional vector space over the field $$\mathbb{C}$$)
 <br>
 
 <h1> 
@@ -228,7 +228,7 @@ $$
 If we use the inner product, the Cauchy-Schwarz Inequality is as follows:
 <br>
 <br>
-<b>
+<b>Theorem </b> (Cauchy-Schwarz Inequality)
 <br>
 <br>
 Let $$|v\rangle$$ and $$|w\rangle$$ be vectors. Then
@@ -238,7 +238,7 @@ $$
 $$
 
 <br>
-<i> Proof I. </i> We can prove this in two ways. The first way is more complex, but utilizes the previously developed outer product. Recalling that $$\left\Vert |w\rangle \right\Vert = \sqrt{\langle w|w\rangle}, we can obtain the first member of an orthonormal basis $$|i\rangle$$ to be 
+<i> Proof I. </i> We can prove this in two ways. The first way is more complex, but utilizes the previously developed outer product. Recalling that $$\left\Vert |w\rangle \right\Vert = \sqrt{\langle w|w\rangle}$$, we can obtain the first member of an orthonormal basis $$|i\rangle$$ to be 
 <br>
 
 $$
@@ -277,7 +277,7 @@ $$
 \begin{align*}
 \langle v | v \rangle \langle w | w \rangle & 
 = ( |v\rangle , |v\rangle) ( z|v\rangle | z|v\rangle), \text{and by linearity and conjugate linearity in both arguments} \\ &
-= ( |v\rangle , |v\rangle)zz^{*}( |v\rangle | |v\rangle) \\ &
+= ( |v\rangle , |v\rangle)zz^{*}( |v\rangle|, |v\rangle) \\ &
 = \left\Vert z \right\Vert^{2}(\langle v | v \rangle)^{2}.
 \end{align*}
 $$
@@ -309,7 +309,7 @@ $$
 $$
 
 <br>
-where $$\theta = |\arg{v} - \arg{w}|. Since we know that $$\cos{\theta}\leq 1$$ for all $$\theta$$, we can write this as the inequality
+where $$\theta = |\arg{v} - \arg{w}|$$. Since we know that $$\cos{\theta}\leq 1$$ for all $$\theta$$, we can write this as the inequality
 <br>
 
 $$
