@@ -233,6 +233,7 @@ If we use the inner product, the Cauchy-Schwarz Inequality is as follows:
 <br>
 Let $$|v\rangle$$ and $$|w\rangle$$ be vectors. Then
 <br>
+
 $$
 \begin{equation*} |\langle v | w \rangle|^{2} \leq \langle v | v \rangle \langle w | w \rangle. \end{equation*}
 $$
