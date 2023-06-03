@@ -292,7 +292,7 @@ $$
 |\langle v | w \rangle|^{2} & 
 = |(|v\rangle, z|v\rangle|^{2} \\ &
 = \left\Vert z(|v\rangle, |v\rangle \right\Vert^{2} \\ &
-= \left\Vert z \right\Vert^{2}|(\langle v | |v\rangle)^{2},
+= \left\Vert z \right\Vert^{2}|(\langle v |v\rangle)^{2},
 \end{align*}
 $$
 
