@@ -5,7 +5,7 @@ permalink: /projects/
 description: Projects that are completed and ongoing. 
 nav: true
 nav_order: 2
-display_categories: [ongoing, completed]
+display_categories: [quantum mechanics research project, statistics project]
 horizontal: false
 ---
 
