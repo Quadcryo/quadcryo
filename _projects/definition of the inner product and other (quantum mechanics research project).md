@@ -3,7 +3,7 @@ layout: page
 title: notes II
 description: definition of the inner product and other
 img: assets/img/bra ket.png
-importance: 13
+importance: 3
 category: quantum mechanics research project
 ---
 
