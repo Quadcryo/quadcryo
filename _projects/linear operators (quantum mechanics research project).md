@@ -4,7 +4,7 @@ title: Notes I
 description: Linear operators
 img: assets/img/bra ket.png
 importance: 2
-category: quantum mechanics research project
+category: quantum mechanics research project (P)
 ---
 
 <h2>

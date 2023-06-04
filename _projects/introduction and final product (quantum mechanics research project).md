@@ -4,7 +4,7 @@ title: Introduction to this research project
 description: Linear algebra, quantum mechanics, quantum computation
 img: assets/img/bra ket.png
 importance: 1
-category: quantum mechanics research project
+category: quantum mechanics research project (P)
 ---
 
 <i> Description </i>
