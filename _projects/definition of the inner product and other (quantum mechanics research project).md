@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Notes II
-description: definition of the inner product and other
+description: Definition of the inner product and other
 img: assets/img/bra ket.png
 importance: 3
 category: quantum mechanics research project (P)
