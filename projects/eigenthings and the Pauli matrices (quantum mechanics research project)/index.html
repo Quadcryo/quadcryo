@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>A project that arose from AP Statistics | Matias 贺  彦龙 Relyea</title>
+    <title>Notes VI | Matias 贺  彦龙 Relyea</title>
     <meta name="author" content="Matias 贺  彦龙 Relyea">
-    <meta name="description" content="Is there an association between doing math homework because it is fun and average math confidence in high school students?">
+    <meta name="description" content="Eigenthings and the Pauli matrices">
     <meta name="keywords" content="matias relyea, matias, mathematics, number theory, high school research">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%CE%B4&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/quadcryo/assets/css/main.css">
-    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/statistics%20project/">
+    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/eigenthings%20and%20the%20Pauli%20matrices%20(quantum%20mechanics%20research%20project)/">
 
     <!-- Dark Mode -->
     
@@ -116,18 +116,64 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">A project that arose from AP Statistics</h1>
-            <p class="post-description">Is there an association between doing math homework because it is fun and average math confidence in high school students?</p>
+            <h1 class="post-title">Notes VI</h1>
+            <p class="post-description">Eigenthings and the Pauli matrices</p>
           </header>
 
           <article>
-            <p><i>Abstract </i>
+            <h2>
+Eigenthings and the Pauli matrices
+</h2>
+
+<p><br>
+As indicated by the title, we will be focusing on eigenthings, namely eigenvectors, eigenvalues, and eigendecomposition (aka diagonalisation). We will also be investigating the Pauli matrices a little bit, which we will derive later once I learn more. 
 <br>
 <br>
-In this paper, we use data obtained from a survey of high school students to determine the link between students having fun on math homework and their confidence in solving math problems.</p>
+An eigenvector of a linear operator \(A\) on a vector space is a vector \(|v\rangle \in V\) such that \(A|v\rangle = \lambda |v\rangle\), where \(\lambda\) denotes the eigenvalue, and is a number scalar. An intuitive approach to understanding the eigenvector and eigenvalue is to visualize a vector being transformed. The linear operator \(A\) transforms \(|v\rangle\), and \(\lambda\) does as well. When the resulting transformation of \(|v\rangle\) by \(A\) and \(\lambda\) is equivalent, the \(|v\rangle\) on which the transformation has been acted upon is known as the eigenvector. 
+<br>
+<br>
+Consider some matrix 
+<br></p>
 
-<p> The paper can be found <a href="https://quadcryo.github.io/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf">here</a>.</p>
+\[\begin{equation*}
+A = 
+\begin{bmatrix} 
+a &amp; b \\
+c &amp; d
+\end{bmatrix}.
+\end{equation*}\]
 
+<p><br>
+If we rearrange the eigenthing equation from above, we have
+<br></p>
+
+\[\begin{align*}
+A|v\rangle &amp; = \lambda |v\rangle \\ 
+A|v\rangle - \lambda |v\rangle &amp; = 0 \\
+(A-\lambda I)|v\rangle &amp; = 0 \\
+\text{det}( A-\lambda I ) &amp; = 0.
+\end{align*}\]
+
+<p><br>
+We refer to the \(LHS\) of the above as the “characteristic polynomial”, and if we find the roots of the characteristic equation, then we can determine the eigenvalues. The characteristic equation can be solved for the eigenvalues as follows:
+<br></p>
+
+\[\begin{align*}
+\text{det}( A-\lambda I ) &amp; = 0 \\
+\text{det} \bigg( 
+\begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} \bigg)
+- \begin{bmatrix} \lambda &amp; 0 \\ 0 &amp; \lambda \end{bmatrix} &amp; = 0 \\
+\text{det} \bigg( 
+\begin{bmatrix} a - \lambda &amp; b \\ c &amp; d - \lambda \end{bmatrix} \bigg) &amp; = 0 \\
+bc - (a - \lambda)(d - \lambda) &amp; = 0.
+\end{align*}\]
+
+<p><br>
+<br>
+(4 June, 2023)
+<br></p>
+
+<p>(4 June, 2023)</p>
 
           </article>
 
