@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>projects | Matias 贺  彦龙 Relyea</title>
+    <title>Notes I | Matias 贺  彦龙 Relyea</title>
     <meta name="author" content="Matias 贺  彦龙 Relyea">
-    <meta name="description" content="Projects that are completed and ongoing.">
+    <meta name="description" content="linear operators">
     <meta name="keywords" content="matias relyea, matias, mathematics, number theory, high school research">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%CE%B4&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/quadcryo/assets/css/main.css">
-    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/">
+    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/linear%20operators%20(quantum%20mechanics%20research%20project)/">
 
     <!-- Dark Mode -->
     
@@ -85,8 +85,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/quadcryo/papers/">papers</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="/quadcryo/projects/">projects<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/quadcryo/projects/">projects</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -116,233 +116,29 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">projects</h1>
-            <p class="post-description">Projects that are completed and ongoing.</p>
+            <h1 class="post-title">Notes I</h1>
+            <p class="post-description">linear operators</p>
           </header>
 
           <article>
-            <!-- pages/projects.md -->
-<div class="projects">
-  <!-- Display categorized projects -->
-  <h2 class="category">quantum mechanics research project</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/introduction%20and%20final%20product%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
+            <h2>
+Linear operators
+</h2>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
+<p><br>
+We will assume a knowledge of basic linear algebra, such as vector spaces, eigenvectors, eigenvalues, transpose, trace, and characteristic equations. In order to begin to understand quantum mechanics, one must begin with the absolute basics of linear algebra. A finite-dimensional vector space with \(\text{dim}(V)=n\) is a vector space \(V\) for which there exists some finite set of vectors \(U=\{u_{1},u_{2},\ldots,u_{n}\}\) that spans the vector space, or \(\text{span}(U)=V\). An important notation to understand in quantum mechanics is the braket notation. With this notation, we denote a vector as a so-called “ket”, represented as \(|v_{i}\rangle\in V\), where \(V\) is a vector space. The “bra” portion of the braket notation is represented as \(\langle v_{i}|\), and we will explain its significance later. 
+<br>
+<br>
+In quantum mechanics, we commonly refer to matrices as “linear operators”. A linear operator is a function \(A: V \rightarrow W\) from a vector space \(V\) to a vector space \(W\) that is linear in its inputs, namely 
+<br></p>
 
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+\[\begin{equation*} A\big(\sum_{i}a_{i}|v_{i}\rangle \big) = \sum_{i}a_{i}A(|v_{i}\rangle) \end{equation*},\]
 
-  </picture>
+<p><br>
+where \(A\) is a linear operator. However, to simplify notation, instead of tediously representing an action of some linear operator \(A\) on a vector with \(A(|v_{i}\rangle)\), we can write it as \(A|v_{i}\rangle\). There are two trivial linear operators. For some vector space \(V\), \(I_{V}\) is the identity linear operator, and \(I_{V}|v_{i}\rangle=|v_{i}\rangle\) for all vectors \(|v_{i}\rangle\in V\). Also, \(0\) is the zero vector, and \(0|v_{i}\rangle=0\) for all vectors \(|v_{i}\rangle\in V\). A linear operator \(A\) is equivalent to a matrix representation. To see how this fits into the bigger picture, if we have some vector space \(V_{m}\) and another vector space \(V_{n}\), then the \(m\times n\) linear operator \(A\) with entries \(A_{ij}\) takes a vector from \(V_{m}\) and maps it to a vector in \(V_{n}\). In other words,<br>
+<br></p>
 
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Introduction to this research project</h2>
-          <p class="card-text">linear algebra, quantum mechanics, quantum computation</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/linear%20operators%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Notes I</h2>
-          <p class="card-text">linear operators</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/the%20gram-schmidt%20process%20and%20proof%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">notes III</h2>
-          <p class="card-text">the Gram-Schmidt process and proof</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/intuition%20for%20outer%20products%20and%20their%20uses%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">notes IV</h2>
-          <p class="card-text">intuition for outer products and their uses</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/the%20cauchy-schwarz%20inequality%20and%20proofs%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">notes V</h2>
-          <p class="card-text">the Cauchy-Schwarz inequality and proofs</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/definition%20of%20the%20inner%20product%20and%20other%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">notes II</h2>
-          <p class="card-text">definition of the inner product and other</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-  <h2 class="category">statistics project</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/statistics%20project/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/stats_paper_matias_kyle-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/stats_paper_matias_kyle-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/stats_paper_matias_kyle-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/stats_paper_matias_kyle.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Is there an association between doing math homework because it is fun and average math confidence in high school students?</h2>
-          <p class="card-text"></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-</div>
+\[\begin{equation*} A\sum_{i}a_{i}|v_{i}\rangle  = \sum_{i}a_{i}A|v_{i}\rangle .\end{equation*}\]
 
           </article>
 

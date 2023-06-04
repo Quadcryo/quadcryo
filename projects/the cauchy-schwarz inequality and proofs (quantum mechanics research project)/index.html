@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>projects | Matias 贺  彦龙 Relyea</title>
+    <title>notes V | Matias 贺  彦龙 Relyea</title>
     <meta name="author" content="Matias 贺  彦龙 Relyea">
-    <meta name="description" content="Projects that are completed and ongoing.">
+    <meta name="description" content="the Cauchy-Schwarz inequality and proofs">
     <meta name="keywords" content="matias relyea, matias, mathematics, number theory, high school research">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%CE%B4&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/quadcryo/assets/css/main.css">
-    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/">
+    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/the%20cauchy-schwarz%20inequality%20and%20proofs%20(quantum%20mechanics%20research%20project)/">
 
     <!-- Dark Mode -->
     
@@ -85,8 +85,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/quadcryo/papers/">papers</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="/quadcryo/projects/">projects<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/quadcryo/projects/">projects</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -116,233 +116,106 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">projects</h1>
-            <p class="post-description">Projects that are completed and ongoing.</p>
+            <h1 class="post-title">notes V</h1>
+            <p class="post-description">the Cauchy-Schwarz inequality and proofs</p>
           </header>
 
           <article>
-            <!-- pages/projects.md -->
-<div class="projects">
-  <!-- Display categorized projects -->
-  <h2 class="category">quantum mechanics research project</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/introduction%20and%20final%20product%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
+            <h2>
+The Cauchy-Schwarz Inequality and proofs
+</h2>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
+<p><br>
+The Cauchy-Schwarz Inequality is a very significant result, and takes numerous forms in a number of areas. Over the real numbers and with the dot product (a special case of the inner product), it states that 
+<br></p>
 
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+\[\bigg( \sum_{i=1}^{n}a_{i}b_{i} \bigg)^{2} \leq \bigg( \sum_{i=1}^{n}a_{i}^{2} \bigg)^{2}\bigg( \sum_{i=1}^{n}b_{i}^{2} \bigg)^{2}.\]
 
-  </picture>
+<p><br>
+If we use the inner product, the Cauchy-Schwarz Inequality is as follows:
+<br>
+<br>
+<b>Theorem </b> (Cauchy-Schwarz Inequality)
+<br>
+<br>
+Let \(|v\rangle\) and \(|w\rangle\) be vectors. Then
+<br></p>
 
-</figure>
+\[\begin{equation*} |\langle v | w \rangle|^{2} \leq \langle v | v \rangle \langle w | w \rangle. \end{equation*}\]
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Introduction to this research project</h2>
-          <p class="card-text">linear algebra, quantum mechanics, quantum computation</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/linear%20operators%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
+<p><br>
+<i> Proof I. </i> We can prove this in two ways. The first way is more complex, but utilizes the previously developed outer product. Recalling that \(\left\Vert |w\rangle \right\Vert = \sqrt{\langle w|w\rangle}\), we can obtain the first member of an orthonormal basis \(|i\rangle\) to be 
+<br></p>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
+\[\begin{equation*} \frac{|w\rangle}{\sqrt{\langle w|w\rangle}}. \end{equation*}\]
 
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+<p>Using the definition of the identity \(I\) in terms of the outer product, we have</p>
 
-  </picture>
+\[\begin{align*}
+\langle v | v \rangle \langle w | w \rangle &amp; 
+= \bigg(\sum_{i}|i\rangle \langle i|\bigg)\langle v | v \rangle \langle w | w \rangle \\ &amp; 
+= \sum_{i}\langle v | v \rangle |i\rangle \langle i| \langle w | w \rangle \\ &amp;
+= \sum_{i}\langle v | i \rangle \langle i | v \rangle  \langle w | w \rangle.
+\end{align*}\]
 
-</figure>
+<p><br>
+Notice that \(\sum_{i}\langle v | i \rangle \langle i | v \rangle \geq \frac{\langle v | w \rangle \langle w | v \rangle}{\langle w | w \rangle}\). This is somewhat obvious, because we are taking the sum, running through all \(i\)s, which yields a sum of values, whereas the \(RHS\) is the same but divided by \(\langle w | w \rangle\). There is, however, an exception when either vector is a multiple of the other, in which case we have equality. Then
+<br></p>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Notes I</h2>
-          <p class="card-text">linear operators</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/the%20gram-schmidt%20process%20and%20proof%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
+\[\begin{align*}
+\langle v | v \rangle \langle w | w \rangle &amp; 
+\geq \frac{\langle v | w \rangle \langle w | v \rangle}{\langle w | w \rangle} \langle w | w \rangle \\ &amp;
+= \langle v | w \rangle \langle w | v \rangle \\ &amp;
+= \left\Vert \langle v | w \rangle \right\Vert^{2}.
+\end{align*}\]
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
+<p><br>
+If either vector is a multiple of the other, then we have equality. To show this, let \(|w\rangle = z|v\rangle\) for some number \(z\). Then 
+<br></p>
 
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+\[\begin{align*}
+\langle v | v \rangle \langle w | w \rangle &amp; 
+= ( |v\rangle , |v\rangle) ( z|v\rangle , z|v\rangle), \text{and by linearity and conjugate linearity in both arguments} \\ &amp;
+= ( |v\rangle , |v\rangle)zz^{*}( |v\rangle, |v\rangle) \\ &amp;
+= \left\Vert z \right\Vert^{2}(\langle v | v \rangle)^{2}.
+\end{align*}\]
 
-  </picture>
+<p><br>
+Furthermore, 
+<br></p>
 
-</figure>
+\[\begin{align*}
+|\langle v | w \rangle|^{2} &amp; 
+= |(|v\rangle, z|v\rangle|^{2} \\ &amp;
+= \left\Vert z(|v\rangle, |v\rangle \right\Vert^{2} \\ &amp;
+= \left\Vert z \right\Vert^{2}|(\langle v |v\rangle)^{2},
+\end{align*}\]
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">notes III</h2>
-          <p class="card-text">the Gram-Schmidt process and proof</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/intuition%20for%20outer%20products%20and%20their%20uses%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
+<p><br>
+which is obviously equivalent to what we just derived, so we have shown when equality holds, and we are done. 
+<br>
+■
+<br>
+<br>
+<i> Proof II. </i> The second way to prove this is by far simpler, but we will be using the dot product instead of the inner product. Recall that the dot product of two vectors \(v\) and \(w\) is given as 
+<br></p>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
+\[\begin{equation*} v \cdot w = \left\Vert v \right\Vert \left\Vert w \right\Vert \cos{\theta} \end{equation*},\]
 
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+<p><br>
+where \(\theta = |\arg{v} - \arg{w}|\). Since we know that \(\cos{\theta}\leq 1\) for all \(\theta\), we can write this as the inequality
+<br></p>
 
-  </picture>
+\[\begin{align*}  
+v\cdot w &amp; \leq \left\Vert v \right\Vert \left\Vert w \right\Vert \\ 
+(v\cdot w)^{2} &amp; \leq \left\Vert v \right\Vert^{2} \left\Vert w \right\Vert^{2} \\
+(v\cdot w)^{2} &amp; \leq (v\cdot v)(w\cdot w),
+\end{align*}\]
 
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">notes IV</h2>
-          <p class="card-text">intuition for outer products and their uses</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/the%20cauchy-schwarz%20inequality%20and%20proofs%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">notes V</h2>
-          <p class="card-text">the Cauchy-Schwarz inequality and proofs</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/definition%20of%20the%20inner%20product%20and%20other%20(quantum%20mechanics%20research%20project)/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/bra%20ket-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/bra%20ket-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/bra%20ket-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/bra%20ket.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">notes II</h2>
-          <p class="card-text">definition of the inner product and other</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-  <h2 class="category">statistics project</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/quadcryo/projects/statistics%20project/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/quadcryo/assets/img/stats_paper_matias_kyle-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/quadcryo/assets/img/stats_paper_matias_kyle-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/quadcryo/assets/img/stats_paper_matias_kyle-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/quadcryo/assets/img/stats_paper_matias_kyle.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Is there an association between doing math homework because it is fun and average math confidence in high school students?</h2>
-          <p class="card-text"></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-</div>
+<p><br>
+which is Cauchy-Schwarz. Equality holds if either vector is a scalar multiple of the other because scaling a vector by a scalar does not change its argument. 
+<br>
+■</p>
 
           </article>
 

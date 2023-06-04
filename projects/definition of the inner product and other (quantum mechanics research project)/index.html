@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Is there an association between doing math homework because it is fun and average math confidence in high school students? | Matias 贺  彦龙 Relyea</title>
+    <title>notes II | Matias 贺  彦龙 Relyea</title>
     <meta name="author" content="Matias 贺  彦龙 Relyea">
-    <meta name="description" content="">
+    <meta name="description" content="definition of the inner product and other">
     <meta name="keywords" content="matias relyea, matias, mathematics, number theory, high school research">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%CE%B4&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/quadcryo/assets/css/main.css">
-    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/stats%20project/">
+    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/definition%20of%20the%20inner%20product%20and%20other%20(quantum%20mechanics%20research%20project)/">
 
     <!-- Dark Mode -->
     
@@ -116,17 +116,36 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Is there an association between doing math homework because it is fun and average math confidence in high school students?</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">notes II</h1>
+            <p class="post-description">definition of the inner product and other</p>
           </header>
 
           <article>
-            <p><i>Abstract </i>
+            <h2> 
+Definition of the inner product and other
+</h2>
+
+<p><br>
+Let us define the inner product. An inner product is a number given by \((\cdot,\cdot)\) for objects “\(\cdot\)”. An inner product is linear in the second argument, 
+<br></p>
+
+\[\begin{equation*} \big(|v_{i}\rangle,\sum_{i}\lambda_{i}|w_{i}\rangle\big) = \sum_{i}\lambda_{i}(|v\rangle,|w_{i}\rangle). \end{equation*}\]
+
+<p><br>
+The inner product also satisfies \((|v\rangle,|w\rangle)=(|w\rangle,|v\rangle)^{*}\), where “\(*\)” denotes conjugation. Moreover, \((|v\rangle,|v\rangle)\geq 0\), and is \(0\) iff. \(|v\rangle=0\). Quite beautifully, the inner product is also conjugate linear in the first argument. This follows from
+<br></p>
+
+\[\begin{align*}
+\big(\sum_{i}\lambda_{i}|w_{i}\rangle,|v\rangle\big) &amp; 
+= \big(|v\rangle,\sum_{i}\lambda_{i}|w_{i}\rangle\big)^{*} \\ &amp;
+= \sum_{i}\lambda_{i}^{*}(|v\rangle,|w_{i}\rangle)^{*} \\ &amp;
+= \sum_{i}\lambda_{i}^{*}(|w_{i}\rangle,|v\rangle).
+\end{align*}\]
+
+<p><br>
 <br>
-In this paper, we use data obtained from a survey of high school students to determine the link between students having fun on math homework and their confidence in solving math problems.</p>
-
-<p> The paper can be found <a href="https://quadcryo.github.io/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf">here</a>.</p>
-
+Note that a vector space with an inner product attached to it is known as “inner product space”, and in quantum mechanics is known as “Hilbert space”. We will be referring to this space as an inner product space for now, but will adopt the term “Hilbert space” eventually. Now that we have defined the inner product, we can begin introducing some more notation and techniques. The inner product is commonly notated as \(\langle v|w\rangle\) for two vectors \(\langle v|\) and \(| w\rangle\), and are orthogonal if \(\langle v|w\rangle = 0\). We define the norm of a vector \(v\rangle\) to be its magnitude, and write it as \(\left\Vert v\rangle \right\Vert = \sqrt{\langle v|v\rangle }\). A unit vector is a vector \(| v\rangle\) such that \(\left\Vert| v\rangle \right\Vert = 1\). A vector is normalised if \(\left\Vert v\rangle \right\Vert\). To normalise a vector, we divide by its norm, so the normalised form of a vector \(| v\rangle\) is given as \(|v\rangle /\left\Vert |v\rangle \right\Vert\). A set of vectors \(|i\rangle\) for \(i\) is orthonormal if every vector in the set is a unit vector, and distinct vectors in the set are orthogonal (no vector except for the \(0\) vector is orthogonal to itself) so that \(\langle i|j \rangle = \delta_{ij}\), where \(\delta_{ij}\) denotes the Kronecker delta. 
+<br></p>
 
           </article>
 
