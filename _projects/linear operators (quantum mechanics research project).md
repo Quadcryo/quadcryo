@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Notes I 
-description: linear operators
+description: Linear operators
 img: assets/img/bra ket.png
 importance: 2
 category: quantum mechanics research project
@@ -29,3 +29,6 @@ where $$A$$ is a linear operator. However, to simplify notation, instead of tedi
 $$
 \begin{equation*} A\sum_{i}a_{i}|v_{i}\rangle  = \sum_{i}a_{i}A|v_{i}\rangle .\end{equation*}
 $$
+
+<br>
+(1 June, 2023)

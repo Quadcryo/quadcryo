@@ -1,7 +1,7 @@
 ---
 layout: page
-title: notes IV
-description: intuition for outer products and their uses
+title: Notes IV
+description: Intuition for outer products and their uses
 img: assets/img/bra ket.png
 importance: 5
 category: quantum mechanics research project
@@ -71,3 +71,5 @@ $$
 <br>
 and we are done. 
 <br>
+<br>
+(3 June, 2023)

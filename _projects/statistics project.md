@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Is there an association between doing math homework because it is fun and average math confidence in high school students?
+title: Statistics project
+description: Is there an association between doing math homework because it is fun and average math confidence in high school students?
 img: assets/img/stats_paper_matias_kyle.png
 importance: 7
 category: statistics project

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: notes V
-description: the Cauchy-Schwarz inequality and proofs
+title: Notes V
+description: The Cauchy-Schwarz inequality and proofs
 img: assets/img/bra ket.png
 importance: 6
 category: quantum mechanics research project
@@ -120,3 +120,6 @@ $$
 which is Cauchy-Schwarz. Equality holds if either vector is a scalar multiple of the other because scaling a vector by a scalar does not change its argument. 
 <br>
 ■
+<br>
+<br>
+(3 June, 2023)
