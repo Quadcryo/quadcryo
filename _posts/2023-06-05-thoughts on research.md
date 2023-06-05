@@ -22,5 +22,7 @@ What does making research progress mean? Type I research does more to expand cur
 <br>
 <br>
 And even with all of this said, Type II research remains a mystery to many, especially to college admissions. While scientific communication of Type I research is crucial to nurturing a developing society, the push for Type II research to be placed in the forefront of modern human progress is not only important, but necessary. Now that I look back, I realise what had disturbed me the most about Type I research projects: the melancholy of the fact that the only thing that can resurface in modern society is something that can be generally understood, and not something that can be appreciated to its fullest.
-
+<br>
+<br>
+Maybe this is just a naïve interpretation of something that I don't fully comprehend, but these are some of my thoughts. 
 
