@@ -5,7 +5,6 @@ date:   2023-06-05 22:00:00-0400
 description: An essay that is probably not an essay
 ---
 
-<br>
 Research, ah, research. Research has always been the medium of progress and innovation in human civilization. From the most primitive forms of discovery, to the most complex and groundbreaking forms of advancement, research has always taken multiple forms, be it in a playful and casual sense: twiddling one’s thumbs and airily thinking, or in a deliberate and serious sense: reading books, websites, and computing without distraction. Regardless, all of these forms of thinking and “work” are research. Yet, it seems that research, in the current world, has taken a familiar yet unprecedented turn; whereas before the leap to providing education we had been closed-minded and unaccepting of new progress from people of diverse backgrounds, we know take a similar leap in the alternate direction: becoming closed-minded to the meaning of research, and the meaning of making progress in different fields in such a fast-moving and elitist field of study. 
 <br>
 <br>
