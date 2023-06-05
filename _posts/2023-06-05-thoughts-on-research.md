@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Thoughts on research and the state of research
-date:   2023-06-05 00:00-00
+date:   2023-06-05 03:00-00
 description: An essay that is probably not an essay
 ---
 
