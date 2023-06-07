@@ -14,7 +14,7 @@ Let $$A$$ be a linear operator on $$V$$ a Hilbert space. There exists a unique l
 <br>
 
 $$
-(|v\rangle, A|w\rangle) = (A^{\dagger}|v\rangle, |w\rangle)
+(|v\rangle, A|w\rangle) = (A^{\dagger}|v\rangle, |w\rangle).
 $$
 
 <br>
@@ -30,13 +30,11 @@ $$
 <br>
 
 $$
-\begin{equation*}
 \begin{array}{ll}
     \text{(i)} & (|w\rangle \langle v|)^{\dagger} = |v\rangle \langle w|, \\
-    \text{(ii: Anti-linearity)} & \bigg( \sum_{i}a_{i}A_{i} \bigg)^{\dagger} = \sum_{i}a_{i}^{*}A_{i}^{\dagger}, \\
+    \text{(ii)} & \bigg( \sum_{i}a_{i}A_{i} \bigg)^{\dagger} = \sum_{i}a_{i}^{*}A_{i}^{\dagger} \ \text{anti-linearity}, \\
     \text{(iii)} & (A^{\dagger})^{\dagger} = A.
 \end{array}
-\end{equation*}
 $$
 
 <br>
@@ -48,7 +46,7 @@ $$
 (|w\rangle \langle v|)^{\dagger} & 
 = |w\rangle^{\dagger} \langle v|^{\dagger} \\ & 
 = |w\rangle^{\dagger} (|v\rangle^{\dagger})^{\dagger} \\ & 
-= |v\rangle \langle w|
+= |v\rangle \langle w|.
 \end{align*}
 $$
 
