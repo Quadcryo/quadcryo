@@ -19,8 +19,8 @@ Let $$A$$ be a symmetric linear operator with real entries. Then
 
 $$
 \begin{array}{ll}
-    \text{i} & A \ \text{has real eigenvalues},
-    \text{ii} &  \text{there is a basis of} \ \mathbb{R}^{n} \ \text{such that it has the eigenvectors of} \ A. 
+    \text{(i)} & A \ \text{has real eigenvalues}, \\ 
+    \text{(ii)} &  \text{there is a basis of} \ \mathbb{R}^{n} \ \text{such that it has the eigenvectors of} \ A. 
 \end{array}
 $$
 
