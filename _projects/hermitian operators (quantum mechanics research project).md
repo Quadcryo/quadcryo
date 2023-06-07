@@ -26,7 +26,7 @@ $$
 $$
 
 <br>
-<b> Lemmas </b>  
+<b> Lemma </b>  
 <br>
 
 $$
