@@ -32,7 +32,7 @@ $$
 $$
 \begin{array}{ll}
     \text{(i)} & (|w\rangle \langle v|)^{\dagger} = |v\rangle \langle w|, \\
-    \text{(ii)} & \bigg( \sum_{i}a_{i}A_{i} \bigg)^{\dagger} = \sum_{i}a_{i}^{*}A_{i}^{\dagger} \ \text{anti-linearity}, \\
+    \text{(ii)} & \bigg( \sum_{i}a_{i}A_{i} \bigg)^{\dagger} = \sum_{i}a_{i}^{*}A_{i}^{\dagger} \ \text{(anti-linearity)}, \\
     \text{(iii)} & (A^{\dagger})^{\dagger} = A.
 \end{array}
 $$
