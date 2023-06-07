@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Notes IV | Matias 贺  彦龙 Relyea</title>
+    <title>Notes VIII | Matias 贺  彦龙 Relyea</title>
     <meta name="author" content="Matias 贺  彦龙 Relyea">
-    <meta name="description" content="Intuition for outer products and their uses">
+    <meta name="description" content="Spectral Decomposition">
     <meta name="keywords" content="matias relyea, matias, mathematics, number theory, high school research">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%CE%B4&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/quadcryo/assets/css/main.css">
-    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/intuition%20for%20outer%20products%20and%20their%20uses%20(quantum%20mechanics%20research%20project)/">
+    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/spectral%20decomposition%20(quantum%20mechanics%20research%20project)/">
 
     <!-- Dark Mode -->
     
@@ -116,69 +116,12 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Notes IV</h1>
-            <p class="post-description">Intuition for outer products and their uses</p>
+            <h1 class="post-title">Notes VIII</h1>
+            <p class="post-description">Spectral Decomposition</p>
           </header>
 
           <article>
-            <h2>
-Intuition for outer products and their uses
-</h2>
-
-<p>Now that we have proven that the Gram-Schmidt process is valid, we can use it in proving later statements. While we have defined linear operators to essentially be matrices, we formally state that here. Let there exist vectors \(|v\rangle = \sum_{i}w_{i}|i\rangle\) and \(|w\rangle = \sum_{j}v_{j}|i\rangle\), where \(|i\rangle\) and \(|j\rangle\) are orthonormal bases. We stated earlier that if \(|i\rangle\) and \(|j\rangle\) are orthonormal bases, then \(\langle i|j\rangle = 1\). Then
-<br></p>
-
-\[\begin{align*}
-\langle i|j\rangle &amp; 
-= \bigg(\sum_{i}v_{i}|i\rangle,\sum_{j}w_{j}|i\rangle\bigg), \text{and by linearity} \\ &amp;
-= \sum_{ij}v_{i}^{*}w_{j}\bigg(\sum_{i}|i\rangle,\sum_{j}|i\rangle\bigg) \\ &amp;
-= \sum_{ij}v_{i}^{*}w_{j}\delta_{ij} \\ &amp;
-= \sum_{ii}v_{i}^{*}w_{i}(1) \\ &amp;
-= \begin{bmatrix} 
-    v_{1}^{*} &amp; v_{2}^{*} &amp; \cdots &amp; v_{n}^{*} 
-  \end{bmatrix}
-  \begin{bmatrix}
-    w_{1} \\
-    w_{2} \\
-    \vdots \\
-    w_{n}
-  \end{bmatrix}.
-\end{align*}\]
-
-<p><br>
-In other words, we may view a “bra” as a conjugated row vector, and a “ket” as a column vector. Of course, when we multiply these two vectors, the resulting product is a number, reinforcing the idea that we are in fact computing an inner product. We now proceed to introduce the outer product. Suppose that \(|v\rangle\in V\) and \(|w\rangle\in W\), where \(V\) and \(W\) are inner product spaces, and let \(|u\rangle\) be a vector. We define \(|v\rangle \langle w|\) to be the linear operator from \(V\) to \(W\) defined by \((|v\rangle \langle w|)(|u\rangle) = \langle w|u\rangle |v\rangle\). We can interpret this in two equivalent ways: \(|v\rangle \langle w|\) acting on a vector \(|u\rangle\), or the number \(\langle w|u\rangle\) acting as a scalar on the vector \(|w\rangle\). Either way, it is the same. If we want to express a linear combination of the outer product, we naturally do so as follows:
-<br></p>
-
-\[\begin{equation*} \sum_{i}a_{i}|w_{i}\rangle \langle v_{i}|(|u\rangle) = \sum_{i}a_{i}|w_{i}\rangle \langle v_{i}|u\rangle. \end{equation*}\]
-
-<p><br>
-To ensure that the outer product is a valid linear operator, we must define the identity linear operator. Let \(|i\rangle\) be an orthonormal basis for a vector space \(V\), so that we may express every vector \(|v\rangle \in V\) as \(\sum_{i}v_{i}|i\rangle\), for \(v_{i}\) a set of numbers. Notice that \(\langle i|v \rangle = v_{i}\) because the \(i\)th number is \(1\) in the orthonormal basis, so when taking the inner product we simply have \(v_{i}\). Then
-<br></p>
-
-\[\begin{align*} 
-\bigg(\sum_{i}|i\rangle \langle i|\bigg)|v\rangle &amp;
-= \sum_{i}|i\rangle \langle i|v\rangle \\ &amp;
-= \sum_{i}v_{i}|i\rangle 
-= |v\rangle.
-\end{align*}\]
-
-<p><br>
-Since this statement is true \(\forall |v\rangle\in V\), we must have that \(\sum_{i}|i\rangle \langle i|=I\), or the identity. Now we have established there exists an identity \(I\) for the outer product. With this, we can now express any linear operator in the outer product form. This is a useful form of both notation and has many uses when dealing with inner products. Let \(A: V \rightarrow W\) be a linear operator and let \(v_{i}\in V\) and \(w_{j}\in W\) be orthonormal bases. Let’s find the outer product representation of \(A\):
-<br></p>
-
-\[\begin{align*}
-A &amp; 
-= I_{V}AI_{W} \\ &amp;
-= \sum_{j}|w_{j}\rangle \langle w_{j}| A \sum_{i}|v_{i}\rangle \langle v_{i}| \\ &amp;
-= \sum_{ij}|w_{j}\rangle \langle w_{j}| A |v_{i}\rangle \langle v_{i}| \\ &amp;
-= \sum_{ij} \langle w_{j}| A |v_{i}\rangle |w_{j}\rangle \langle v_{i}|, 
-\end{align*}\]
-
-<p><br>
-and we are done. 
-<br>
-<br>
-(3 June, 2023)</p>
+            
 
           </article>
 

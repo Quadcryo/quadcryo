@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Notes IV | Matias 贺  彦龙 Relyea</title>
+    <title>Notes VII | Matias 贺  彦龙 Relyea</title>
     <meta name="author" content="Matias 贺  彦龙 Relyea">
-    <meta name="description" content="Intuition for outer products and their uses">
+    <meta name="description" content="Hermitian operators (pt. 1)">
     <meta name="keywords" content="matias relyea, matias, mathematics, number theory, high school research">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%CE%B4&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/quadcryo/assets/css/main.css">
-    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/intuition%20for%20outer%20products%20and%20their%20uses%20(quantum%20mechanics%20research%20project)/">
+    <link rel="canonical" href="https://quadcryo.github.io/quadcryo/projects/hermitian%20operators%20(quantum%20mechanics%20research%20project)/">
 
     <!-- Dark Mode -->
     
@@ -116,69 +116,130 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Notes IV</h1>
-            <p class="post-description">Intuition for outer products and their uses</p>
+            <h1 class="post-title">Notes VII</h1>
+            <p class="post-description">Hermitian operators (pt. 1)</p>
           </header>
 
           <article>
-            <h2>
-Intuition for outer products and their uses
-</h2>
+            <p>In these next several notes, we will be going over one of the most important topics in linear algebra and begin our approach toward understanding quantum mechanics. We will first be talking about Hermitian operators, and will describe and prove several properties. We will then introduce the spectral decomposition theorem, alongside the spectral theorem, which is slightly less related, but is still incredibly important for verifying the existence of diagonalisable matrices under certain conditions. Furthermore, we will begin using “Hilbert space” and “inner product space” interchangeably from now on. 
+<br>
+<br>
+Let \(A\) be a linear operator on \(V\) a Hilbert space. There exists a unique linear operator \(A^{\dagger}\) on \(V\) such that for \(|v\rangle, |w\rangle \in V\), 
+<br></p>
 
-<p>Now that we have proven that the Gram-Schmidt process is valid, we can use it in proving later statements. While we have defined linear operators to essentially be matrices, we formally state that here. Let there exist vectors \(|v\rangle = \sum_{i}w_{i}|i\rangle\) and \(|w\rangle = \sum_{j}v_{j}|i\rangle\), where \(|i\rangle\) and \(|j\rangle\) are orthonormal bases. We stated earlier that if \(|i\rangle\) and \(|j\rangle\) are orthonormal bases, then \(\langle i|j\rangle = 1\). Then
+\[(|v\rangle, A|w\rangle) = (A^{\dagger}|v\rangle, |w\rangle)\]
+
+<p><br>
+We define \(A^{\dagger}=(A^{*})^{T}\). Some properties that can quickly be proven from this definition are that for two linear operators \(A\) and \(B\), \((AB)^{\dagger} = A^{\dagger}B^{\dagger}\). If \(|v\rangle\) is a vector, then \(|v\rangle^{\dagger} = \langle v|\). We then have
+<br></p>
+
+\[(A|v\rangle)^{\dagger} = A^{\dagger}|v\rangle^{\dagger} = \langle v| A^{\dagger}.\]
+
+<p><br>
+<b> Lemmas </b><br>
+<br></p>
+
+\[\begin{equation*}
+\begin{array}{ll}
+    \text{(i)} &amp; \text{Let} \hspace |v\rangle \hspace \text{and} \hspace |w\rangle \hspace \text{be vectors. Then} \hspace (|w\rangle \langle v|)^{\dagger} = |v\rangle \langle w|. \\
+    \text{(ii: Anti-linearity)} &amp; \bigg( \sum_{i}a_{i}A_{i} \bigg)^{\dagger} = \sum_{i}a_{i}^{*}A_{i}^{\dagger}, \\
+    \text{(iii)} &amp; (A^{\dagger})^{\dagger} = A.
+\end{array}
+\end{equation*}\]
+
+<p><br>
+<i> Proofs. </i> To prove (i), we have
 <br></p>
 
 \[\begin{align*}
-\langle i|j\rangle &amp; 
-= \bigg(\sum_{i}v_{i}|i\rangle,\sum_{j}w_{j}|i\rangle\bigg), \text{and by linearity} \\ &amp;
-= \sum_{ij}v_{i}^{*}w_{j}\bigg(\sum_{i}|i\rangle,\sum_{j}|i\rangle\bigg) \\ &amp;
-= \sum_{ij}v_{i}^{*}w_{j}\delta_{ij} \\ &amp;
-= \sum_{ii}v_{i}^{*}w_{i}(1) \\ &amp;
-= \begin{bmatrix} 
-    v_{1}^{*} &amp; v_{2}^{*} &amp; \cdots &amp; v_{n}^{*} 
-  \end{bmatrix}
-  \begin{bmatrix}
-    w_{1} \\
-    w_{2} \\
-    \vdots \\
-    w_{n}
-  \end{bmatrix}.
+(|w\rangle \langle v|)^{\dagger} &amp; 
+= |w\rangle^{\dagger} \langle v|^{\dagger} \\ &amp; 
+= |w\rangle^{\dagger} (|v\rangle^{\dagger})^{\dagger} \\ &amp; 
+= |v\rangle^ \rangle w|
 \end{align*}\]
 
 <p><br>
-In other words, we may view a “bra” as a conjugated row vector, and a “ket” as a column vector. Of course, when we multiply these two vectors, the resulting product is a number, reinforcing the idea that we are in fact computing an inner product. We now proceed to introduce the outer product. Suppose that \(|v\rangle\in V\) and \(|w\rangle\in W\), where \(V\) and \(W\) are inner product spaces, and let \(|u\rangle\) be a vector. We define \(|v\rangle \langle w|\) to be the linear operator from \(V\) to \(W\) defined by \((|v\rangle \langle w|)(|u\rangle) = \langle w|u\rangle |v\rangle\). We can interpret this in two equivalent ways: \(|v\rangle \langle w|\) acting on a vector \(|u\rangle\), or the number \(\langle w|u\rangle\) acting as a scalar on the vector \(|w\rangle\). Either way, it is the same. If we want to express a linear combination of the outer product, we naturally do so as follows:
-<br></p>
-
-\[\begin{equation*} \sum_{i}a_{i}|w_{i}\rangle \langle v_{i}|(|u\rangle) = \sum_{i}a_{i}|w_{i}\rangle \langle v_{i}|u\rangle. \end{equation*}\]
-
-<p><br>
-To ensure that the outer product is a valid linear operator, we must define the identity linear operator. Let \(|i\rangle\) be an orthonormal basis for a vector space \(V\), so that we may express every vector \(|v\rangle \in V\) as \(\sum_{i}v_{i}|i\rangle\), for \(v_{i}\) a set of numbers. Notice that \(\langle i|v \rangle = v_{i}\) because the \(i\)th number is \(1\) in the orthonormal basis, so when taking the inner product we simply have \(v_{i}\). Then
-<br></p>
-
-\[\begin{align*} 
-\bigg(\sum_{i}|i\rangle \langle i|\bigg)|v\rangle &amp;
-= \sum_{i}|i\rangle \langle i|v\rangle \\ &amp;
-= \sum_{i}v_{i}|i\rangle 
-= |v\rangle.
-\end{align*}\]
-
-<p><br>
-Since this statement is true \(\forall |v\rangle\in V\), we must have that \(\sum_{i}|i\rangle \langle i|=I\), or the identity. Now we have established there exists an identity \(I\) for the outer product. With this, we can now express any linear operator in the outer product form. This is a useful form of both notation and has many uses when dealing with inner products. Let \(A: V \rightarrow W\) be a linear operator and let \(v_{i}\in V\) and \(w_{j}\in W\) be orthonormal bases. Let’s find the outer product representation of \(A\):
+To prove (ii), we have
 <br></p>
 
 \[\begin{align*}
-A &amp; 
-= I_{V}AI_{W} \\ &amp;
-= \sum_{j}|w_{j}\rangle \langle w_{j}| A \sum_{i}|v_{i}\rangle \langle v_{i}| \\ &amp;
-= \sum_{ij}|w_{j}\rangle \langle w_{j}| A |v_{i}\rangle \langle v_{i}| \\ &amp;
-= \sum_{ij} \langle w_{j}| A |v_{i}\rangle |w_{j}\rangle \langle v_{i}|, 
+\bigg( \sum_{i}a_{i}A_{i} \bigg)^{\dagger} &amp; 
+= \bigg(\bigg( \sum_{i}a_{i}A_{i} \bigg)^{*}\bigg)^{T} \\ &amp;
+= \bigg( \sum_{i}a_{i}^{*}A_{i}^{*} \bigg)^{T} \\ &amp;
+= \sum_{i}a_{i}^{*}A_{i}^{\dagger}. 
 \end{align*}\]
 
 <p><br>
-and we are done. 
+And finally, to prove (iii), we have
+<br></p>
+
+\[\begin{align*}
+(A^{\dagger})^{\dagger} &amp;
+= (((A^{*})^{T})^{*})^{T} \\ &amp; 
+= (((A^{*})^{*})^{T})^{T} \\ &amp; 
+= (A^{T})^{T} = A. 
+\end{align*}\]
+
+<p>■</p>
+
+<p><br>
+A linear operator \(A\) such that \(A^{\dagger}=A\) is known as a <b> self-adjoint </b>, or a <b> Hermitian operator </b>. This will be incredibly useful later. We will now introduce a certain class of Hermitian operators known as <b> projectors </b>. Notice that the term “projector” seems familiar, as in elementary linear algebra it means to find the projection of one vector onto another vector. The projector operators perform a similar task, and we can determine a scalar (expressed in terms of the inner product however) that scales the vector. Let \(W\) be a \(k\)-dimensional vector subspace of the \(d\)-dimensional vector space \(V\). It is possible to construct the orthonormal basis \(|1\rangle,|2\rangle,\ldots,|d\rangle\) for \(V\) by the Gram-Schmidt process, and it follows that we can construct an orthonormal basis \(|1\rangle,|2\rangle,\ldots,|k\rangle\) for \(W\). We thus define the projector
+<br></p>
+
+\[P = \sum_{i=1}^{k}|i\rangle \langle i|\]
+
+<p><br>
+to be the projector onto the subspace \(W\). The projector is a linear operator, and its dimensions are confined by the dimensions of the subspace on which it acts. It can be verified that the operator \(|v\rangle \langle v|\) is Hermitian for any \(|v\rangle\) using a lemma above, so this means that the projector operator is indeed Hermitian, so \(P^{\dagger}=P\). To see how this relates to the projector in elementary linear algebra, let \(|u\rangle\) be a vector. Then the \(v\)th projector \(P_{v} = |v\rangle \langle v|\). As \(P_{v}\) acts on the vector \(|u\rangle\), we have
+<br></p>
+
+\[\begin{align*}
+P_{v}|u\rangle &amp; 
+= |v\rangle \langle v|(|u\rangle) \\ &amp;
+= |v\rangle \langle v|u \rangle.
+\end{align*}\]
+
+<p><br>
+Let \(\langle v|u \rangle\) be some number \(c\). Then \(P_{v}|v\rangle = c|v\rangle\). Thus the projector has the effect of scaling the vector by a certain scalar, which is where it derives its name “projector”. By convention, instead of saying the vector space onto which \(P\) is a projector, we will simply say the vector space \(P\). 
 <br>
 <br>
-(3 June, 2023)</p>
+We define the <b> orthogonal complement </b> of \(P\) to be the operator \(Q = I - P\). We can see that \(Q\) is a projector onto the vector space spanned by the set of vectors \(|k+1\rangle, |k+2\rangle,\ldots,|d\rangle\) because
+<br></p>
+
+\[\begin{align*}
+Q &amp;
+= I - P \\ &amp; 
+= \sum_{i=1}^{d}|i\rangle \langle i| - \sum_{i=1}^{k}|i\rangle \langle i| \\ &amp; 
+= \sum_{i=k+1}^{d}|i\rangle \langle i|,
+\end{align*}\]
+
+<p><br>
+which is the projector that spans that list. We will refer to the orthogonal complement of \(P\) as \(Q\). 
+<br>
+<br>
+<b> Lemma </b> (Idempotence of the projector operator)
+<br></p>
+
+\[P^{2} = P.\]
+
+<p><br>
+<i> Proof. </i> Let us have some projector \(|v\rangle \langle v|\) that is orthonormal \(\forall |v\rangle\) so that \(\langle v|v\rangle = 1\). Then we have
+<br></p>
+
+\[\begin{align*}
+(|v\rangle \langle v|)^{2} &amp;
+= (|v\rangle \langle v|)(|v\rangle \langle v|) \\ &amp;
+= |v\rangle \langle v|v\rangle \langle v| \\ &amp;
+= |v\rangle \langle v|. 
+\end{align*}\]
+
+<p>■</p>
+
+<p><br>
+We will conclude with a definition that will be useful later in our proof of spectral decomposition later. An operator \(A\) is <b> normal </b> if \(AA^{\dagger}=A^{\dagger}A\). In other words, \(A\) is normal if it commutes with its self-adjoint. 
+<br>
+<br>
+(7 June, 2023)</p>
+
 
           </article>
 
