@@ -52,8 +52,8 @@ $$
 \begin{align*}
 \text{det}( A-\lambda I ) & = 0 \\
 \text{det} \bigg( 
-\begin{bmatrix} a & b \\ c & d \end{bmatrix} \bigg)
-- \begin{bmatrix} \lambda & 0 \\ 0 & \lambda \end{bmatrix} & = 0 \\
+\begin{bmatrix} a & b \\ c & d \end{bmatrix} 
+- \begin{bmatrix} \lambda & 0 \\ 0 & \lambda \end{bmatrix} \bigg) & = 0 \\
 \text{det} \bigg( 
 \begin{bmatrix} a - \lambda & b \\ c & d - \lambda \end{bmatrix} \bigg) & = 0 \\
 bc - (a - \lambda)(d - \lambda) & = 0.

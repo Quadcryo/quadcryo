@@ -11,7 +11,7 @@ category: quantum mechanics research project (P)
 Intuition for outer products and their uses
 </h2>
 
-Now that we have proven that the Gram-Schmidt process is valid, we can use it in proving later statements. While we have defined linear operators to essentially matrices, we formally state that here. Let there exist vectors $$|v\rangle = \sum_{i}w_{i}|i\rangle$$ and $$|w\rangle = \sum_{j}v_{j}|i\rangle$$, where $$|i\rangle$$ and $$|j\rangle$$ are orthonormal bases. We stated earlier that if $$|i\rangle$$ and $$|j\rangle$$ are orthonormal bases, then $$\langle i|j\rangle = 1$$. Then
+Now that we have proven that the Gram-Schmidt process is valid, we can use it in proving later statements. While we have defined linear operators to essentially be matrices, we formally state that here. Let there exist vectors $$|v\rangle = \sum_{i}w_{i}|i\rangle$$ and $$|w\rangle = \sum_{j}v_{j}|i\rangle$$, where $$|i\rangle$$ and $$|j\rangle$$ are orthonormal bases. We stated earlier that if $$|i\rangle$$ and $$|j\rangle$$ are orthonormal bases, then $$\langle i|j\rangle = 1$$. Then
 <br>
 
 $$

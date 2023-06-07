@@ -3,7 +3,7 @@ layout: page
 title: A project that arose from AP Statistics
 description: Is there an association between doing math homework because it is fun and average math confidence in high school students?
 img: assets/img/stats_paper_matias_kyle.png
-importance: 8
+importance: 10
 category: statistics project (C)
 
 ---
