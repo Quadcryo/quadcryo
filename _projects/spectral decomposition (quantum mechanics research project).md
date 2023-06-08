@@ -57,7 +57,11 @@ $$
 These evaluations are equivalent, so $$\lambda|v\rangle^{T}|v\rangle^{*} = |v\rangle^{T}\lambda^{*}|v\rangle^{*}$$. Since the eigenvectors are not the zero vector $$|0\rangle$$, we can divide both sides by $$|v\rangle^{T}|v\rangle$$ to obtain $$\lambda = \lambda^{*}$$, and we are done. 
 <br>
 <br>
+
+
 [insert proof for (ii)]
+
+
 <br>
 
 <br>
@@ -94,7 +98,7 @@ Now we will prove the forward direction. Note that since $$M$$ is normal, $$M^{\
 
 $$
 \begin{align*}
-M & = (P + Q)M(P + Q) \\ & = PMP + QMQ + PMQ + QMQ.
+M & = (P + Q)M(P + Q) \\ & = PMP + QMP + PMQ + QMQ.
 \end{align*}
 $$
 
