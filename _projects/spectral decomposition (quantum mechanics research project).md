@@ -107,24 +107,67 @@ M^{\dagger}M|v\rangle = MM^{\dagger}|v\rangle = \lambda M^{\dagger}|v\rangle.
 $$
 
 <br>
-This implies that $$M^{\dagger}|v\rangle$$ has the eigenvalue $$\lambda$$, so $$M^{\dagger}|v\rangle$$ is an element of the eigenspace for $$\lambda$$ for which $$P$$ is a projector. Thus we have that $$QM^{\dagger}P=0$$. Then we have that 
+This implies that $$M^{\dagger}|v\rangle$$ has the eigenvalue $$\lambda$$, so $$M^{\dagger}|v\rangle$$ is an element of the eigenspace for $$\lambda$$ for which $$P$$ is a projector. Thus we have that $$QM^{\dagger}P=0$$. Taking the adjoint of both sides, and since $$P$$ and $$Q$$ are both Hermitian, we have
 <br>
 
+$$
+\begin{align*}
+(QM^{\dagger}P)^{\dagger} & = 0^{\dagger} \\
+Q^{\dagger}(M^{\dagger})^{\dagger}P^{\dagger} & = 0 \\
+PMQ & = 0.
+\end{align*}
+$$
 
+<br>
+Since we have proven these two products are in fact equal to the zero operator, we now have that $$M = PMP + QMQ$$. We have to show that $$QMQ$$ is normal in order for us to show that $$M$$ is diagonalisable. Notice that $$QM = QMI = QM(P+Q) = QMP + QMQ = QMQ$$. Also notice that $$QM^{\dagger} = QM^{\dagger}I = QM^{\dagger}(P+Q) = QM^{\dagger}P + QM^{\dagger}Q = QM^{\dagger}Q$$. Then, since we have assumed normality of $$M$$, and due to the idempotence of the projector $$Q$$, we have
+<br>
 
+$$
+\begin{align*}
+QMQQM^{\dagger}Q & 
+= QMQ^{2}M^{\dagger}Q \\ &
+= QMQM^{\dagger}Q \\ & 
+= QMM^{\dagger}Q \\ &
+= QM^{\dagger}MQ \\ &
+= QM^{\dagger}QQMQ,
+\end{align*}
+$$
 
+<br>
+so $$QMQ$$ is normal. By induction on $$d$$ from our inductive hypothesis, we have that $$QMQ$$ is diagonal with respect to some orthonormal basis for the subspace with the orthogonal complement $$Q$$, and we know that $$PMP$$ is diagonal since it is part of the eigenspace for which $$\lambda$$ is an eigenvalue. Thus it follows that $$QMQ + PMP = M$$ is diagonal with respect to some orthonormal basis for the original vector space $$V$$, and we are done. 
+<br>
+■
+<br>
+<br>
+To understand the significance of this decomposition in terms of outer products, the spectral decomposition theorem guarantees that we can express some linear operator acting on Hilbert space as 
+<br>
 
+$$
+M = \sum_{i}\lambda_{i}|i\rangle \langle i|,
+$$
 
+<br>
+where the $$\lambda_{i}$$s are the eigenvalues of $$M$$, and $$|i\rangle$$ is an orthonormal basis for $$V$$ as well as an eigenvector of $$M$$ with eigenvalue $$\lambda_{i}$$. If we express this in terms of projectors, we have that 
+<br>
 
+$$
+M = \sum_{i}\lambda_{i}P_{i},
+$$
 
+<br>
+where $$P_{i}$$ is the projector onto the eigenspace for which $$\lambda_{i}$$ is an eigenvalue with $$M$$ of $$M$$. The projectors $$P_{i}$$ satisfy the completeness relation (existence of an identity operator) so that 
+<br>
 
+$$
+\sum_{i}P_{i} = I,
+$$
 
-
-
-
-
-
-
+<br>
+and satisfies the orthonormality relation so that for $$i$$ and $$j$$ not necessarily unique, $$P_{i}P_{j} = \delta_{ij}P_{i}$$, where $$\delta_{ij}$$ is the Kronecker delta. 
+<br>
+<br>
+The reason that these two theorems are so important is that they allow us to easily determine the eigenvalues of a matrix. Since the eigenvalues of a diagonal matrix lie on the diagonal as can be shown through the characteristic equation, the spectral decomposition provides a diagonal representation of some linear operator and allows us to quickly determine the eigenvalues with respect to an orthonormal basis without having to repeat many different steps. 
+<br>
 
 
 
