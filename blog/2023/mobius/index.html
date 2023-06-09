@@ -128,7 +128,58 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      
+      <p>One concept that I have been incredibly interested in but haven’t been able to properly understand or apply is Möbius inversion. So, today, we will develop the notion of it in a series of notes with comprehensive descriptions. 
+<br>
+<br>
+To begin, let’s define what a multiplicative function, otherwise known as number-theoretic function, is. A number-theoretic function is a function that satisfies the property \(f(mn) = f(m)f(n)\) for \(\text{gcd}(m,n)=1\), or \(m,n\) coprime. If this property holds for all such \(m\) and \(n\), then the function is completely multiplicative. We now introduce the Möbius function \(\mu(n)\). 
+<br></p>
+
+\[\mu(n) = 
+\begin{array}{ll}
+1 &amp; \text{if} \ n=1 \\
+0 &amp; \text{if} \ p^{2}|n, p \ \text{prime} \\ 
+(-1)^{l} &amp; \text{if} \ n=p_{1}p_{2}\cdots p_{l}, \text{where} \ p_{i}\text{s are distinct}. 
+\end{array}\]
+
+<p><br>
+The second property that \(\mu(n)=0\) if \(p^{2}|n\) can be restated as \(\mu(n)=0\) is \(n\) is not prime square-free, or it is divisible by the square of some prime. When we talk about number-theoretic functions, we will be using a funky looking sum. This sum is written as
+<br></p>
+
+\[\sum_{d|n}f(d).\]
+
+<p><br>
+Essentially, it takes the sum of the function \(f(d)\) for \(d\) that divides some pre-defined number \(n\). For example, If \(f(d)=d\) and \(n\) is prime, then the only divisors of a prime number are \(1\) and itself, so that \(\sum_{d|n}f(d) = n + 1\). We now proceed to prove some important properties of multiplicative functions that will be useful when we confront Möbius Inversion. 
+<br>
+<br>
+<b> Lemma </b>
+<br>
+<br>
+Let \(f(n)\) be a multiplicative function, and define a function 
+<br></p>
+
+\[F(n) = \sum_{d|n}f(d).\]
+
+<p><br>
+Then \(F(n)\) is also a multiplicative function.
+<br>
+<br>
+<i> Proof. </i> Let there exist \(m\) and \(n\) such that \(\text{gcd}(m,n)=1\). Also, introduce two numbers \(r\) and \(s\). Then we can evaluate
+<br></p>
+
+\[\begin{align*}
+F(mn) &amp;
+= \sum_{d|mn}f(d) \\ &amp; 
+= \sum_{r|m, s|m}f(rs) \\ &amp;
+= \sum_{r|m, s|m}f(r)f(s) \\ &amp;
+= \sum_{r|m}f(r)\sum_{s|m}f(s) \\ &amp;
+= F(m)F(n),
+\end{align*}\]
+
+<p><br>
+which is the definition of multiplicativity for \(F\). This third row follows because the fact that \(r|m\) and \(s|n\) implies that \(\text{gcd}(r,s)=1\). This is not difficult to show. 
+<br>
+■</p>
+
 
     </div>
   </article>
