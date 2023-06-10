@@ -7,7 +7,7 @@ importance: 9
 category: quantum mechanics research project (P)
 ---
 
-In the previous set of notes, we briefly introduced the notion of normality. In quantum mechanics, determining the eigendecomposition of a matrix and determining the diagonal matrix are extremely important, as they allow us to represent certain operators in terms of their eigenvalues and eigenvectors. The act of writing a diagonisable matrix in terms of its eigenvalues and eigenvectors with respect to an orthonormal basis is known as spectral decomposition. The spectral theorem, which we will introduce and prove here, proves several facts about certain types of operators, and guarantees the existence of the spectral decomposition. 
+In the previous set of notes, we briefly introduced the notion of normality. In quantum mechanics, determining the eigendecomposition of a matrix and determining the diagonal matrix are extremely important, as they allow us to represent certain operators in terms of their eigenvalues and eigenvectors. The act of writing a diagonisable matrix in terms of its eigenvalues and eigenvectors with respect to an orthonormal basis is known as spectral decomposition. The spectral theorem, which we will introduce and prove here, proves several facts about certain types of operators, and guarantees the existence of the spectral decomposition. The proof of the spectral theorem uses many more ideas from linear algebra. 
 <br>
 
 <br>
@@ -20,7 +20,7 @@ Let $$A$$ be a symmetric linear operator with real entries. Then
 $$
 \begin{array}{ll}
     \text{(i)} & A \ \text{has real eigenvalues}, \\ 
-    \text{(ii)} &  \text{there is a basis of} \ \mathbb{R}^{n} \ \text{such that it has the eigenvectors of} \ A. 
+    \text{(ii)} &  \text{there is an orthonormal basis of} \ \mathbb{R}^{n} \ \text{such that it has the eigenvectors of} \ A. 
 \end{array}
 $$
 
@@ -57,13 +57,150 @@ $$
 These evaluations are equivalent, so $$\lambda|v\rangle^{T}|v\rangle^{*} = |v\rangle^{T}\lambda^{*}|v\rangle^{*}$$. Since the eigenvectors are not the zero vector $$|0\rangle$$, we can divide both sides by $$|v\rangle^{T}|v\rangle$$ to obtain $$\lambda = \lambda^{*}$$, and we are done. 
 <br>
 <br>
-
-
-[insert proof for (ii)]
-
-
+We now proceed to prove (ii). It is in fact true that (ii) is equivalent to the statement: for a symmetric matrix $$A$$, there exists an orthogonal matrix $$R^{-1}AR$$ that is diagonal. 
+<br>
+<br>
+To begin, let $$\lambda_{1}$$ be an eigenvalue of $$A$$. Since $$A$$ is symmetric, by (i), $$\lambda_{1}$$ and all other eigenvalues of $$A$$ must be real. Thus, $$A$$ will also have a corresponding eigenvector $$|v_{1}\rangle$$. Let us normalise $$|v_{1}\rangle$$ so that $$\left\Vert |v_{1}\rangle \right\Vert = 1$$. We now can extend $$|v_{1}\rangle$$ to a basis such that we have the spanning list $$|v_{1}\rangle, |u_{1}\rangle, \ldots, |u_{n}\rangle$$ for our original inner product space. The Gram-Schmidt process guarantees that it is possible to transform this basis into an orthonormal basis, so we rewrite this list as the orthomormal basis $$|v_{1}\rangle, |v_{2}\rangle, \ldots, |v_{n}\rangle$$. 
+<br>
+<br>
+Define the matrix $$P = \begin{bmatrix} |v_{1}\rangle & |v_{2}\rangle & \cdots & |v_{n}\rangle \end{bmatrix}$$. We can see that $$P$$ is orthogonal because its entries are orthonormal. Let us define some matrix $$B=$$P^{-1}AP$$. We want to show that $$B$$ is diagonal. To do this, we first need to show that is is symmetric. Recall that an orthogonal matrix satisfies the property that its inverse and transpose are equivalent. Then
 <br>
 
+$$
+\begin{align*}
+B & 
+= P^{-1}AP \\ &
+P^{T}AP \\ 
+B^{T} & 
+= (P^{T}AP)^T \\ & 
+= (AP)^{T}(P^{T})^{T} \\ &
+= P^{T}A^{T}P = P^{T}AP,
+\end{align*}
+$$
+
+<br>
+so $$B$$ is symmetric. We now consider the product $$B|e_{1}\rangle$$, where $$|e_{1}\rangle$$ denotes the unit vector of our $$n-$$dimensional vector space with $$1$$ as its first entry. If we compute this, we then have a column vector, which is also the first column of our matrix. We can also write $$P^{T}AP|e_{1}\rangle$$. Since we defined the eigenvalue of our vector $$|v_{1}\rangle$$ to be $$\lambda_{1}$$, we can compute the part $$P|e_{1}\rangle = |v_{1}\rangle$$. Thus we can write
+<br>
+
+$$
+P^{T}AP|e_{1}\rangle = P^{T}A|v_{1}\rangle,
+$$
+
+<br>
+but $$A|v_{1}\rangle$$ is equivalent to the $$\lambda_{1}$$ eigenvalue expression, so we have
+<br>
+
+$$
+\begin{align*}
+P^{T}A|v_{1}\rangle & 
+= P^{T}\lambda_{1}|v_{1}\rangle \\ &
+= \lambda_{1}P^{T}|v_{1}\rangle \\ &
+= \lambda_{1} \begin{bmatrix} |v_{1}\rangle \\ |v_{2}\rangle \\ \vdots \\ |v_{n}\rangle \end{bmatrix}|v_{1}\rangle \\ &
+= \lambda_{1} \begin{bmatrix} |v_{1}\rangle \cdot |v_{1}\rangle \\ |v_{2}\rangle \cdot |v_{1}\rangle \\ \vdots \\ |v_{n}\rangle 
+  \cdot |v_{1}\rangle \end{bmatrix} \\ &
+= \lambda_{1} \begin{bmatrix} \lambda_{1} \\ 0 \\ \vdots \\ 0 \end{bmatrix},
+\end{align*}
+$$
+
+<br>
+since $$|v_{i}\rangle \cdot |v_{j}\rangle = \delta_{ij}$$, or any two nonequivalent vectors in an orthonormal basis must be orthogonal, hence their dot product must be $$0$$. This is the first column of $$B$$. Since $$B$$ is symmetric, we can take the transpose of this expression to obtain the first row of $$B$$, which is $$\begin{bmatrix} \lambda_{1} & 0 & \cdots & 0 \end{bmatrix}$$. Then, using the matrix $$C$$ nested within $$B$$ to represent a continuation of the matrix $$B$$, we can write
+<br>
+
+$$
+B = 
+\begin{bmatrix} 
+\lambda_{1} & \cdots & 0 \\
+\vdots &   &  \\
+0 &   &   C \\
+\end{bmatrix}.
+$$
+
+<br>
+We want to show that $$C$$ is diagonal. If we can do that, then $$B$$ must be diagonal, completing the proof. To prove this, we use induction on the dimension of the matrix $$B$$. In the base case, assume - as can be seen by the above matrix - that the matrix is diagonal up to the dimensions $$n-1 \times n-1$$. Then there must exist some orthogonal matrix $$Q$$ such that $$D = Q^{-1}CQ$$ is diagonal. Define another matrix 
+<br>
+
+$$
+R = P \begin{bmatrix} 1 & 0 \\ 0 & Q \end{bmatrix}.
+$$
+
+<br>
+We need to show that $$R$$ is orthogonal and that the expression for $$D = Q^{-1}CQ$$ is diagonal. Note that $$Q$$ is orthogonal, so $$Q^{T}=Q^{-1}$$. To prove orthogonality, compute 
+<br>
+
+$$
+\begin{align*}
+R^{-1} & 
+= \bigg(P \begin{bmatrix} 1 & 0 \\ 0 & Q \end{bmatrix}\bigg)^{-1} \\ &
+= \begin{bmatrix} 1 & 0 \\ 0 & Q \end{bmatrix}^{-1}P^{-1} \\ &
+= \begin{bmatrix} 1 & 0 \\ 0 & Q^{T} \end{bmatrix} P^{T}
+\end{align*}
+$$
+
+<br>
+and
+<br>
+
+$$
+\begin{align*}
+R^{T} &
+= \bigg(P \begin{bmatrix} 1 & 0 \\ 0 & Q \end{bmatrix}\bigg)^{T} \\ &
+= \begin{bmatrix} 1 & 0 \\ 0 & Q^{T} \end{bmatrix} P^{T}, 
+\end{align*}
+$$
+
+<br>
+so $$R$$ is orthogonal. To show that $$R^{-1}AR$$ is diagonal, we have 
+<br>
+
+$$
+\begin{align*}
+R^{-1}AR & 
+= R^{T}AR \\ &
+= \begin{bmatrix} 1 & 0 \\ 0 & Q^{T} \end{bmatrix} A \begin{bmatrix} 1 & 0 \\ 0 & Q \end{bmatrix}. 
+\end{align*}
+$$
+
+<br>
+However, 
+<br>
+
+$$
+B = P^{-1}AP = P^{T}AP = \begin{bmatrix} 
+\lambda_{1} & \cdots & 0 \\
+\vdots &   &  \\
+0 &   &   C \\
+\end{bmatrix}, 
+$$
+
+<br>
+so ultimately we have 
+<br>
+
+$$
+\begin{align*}
+R^{-1}AR & 
+= \begin{bmatrix} 1 & 0 \\ 0 & Q^{T} \end{bmatrix} \begin{bmatrix} \lambda_{1} & \cdots & 0 \\\vdots &   &  \\0 &   &   C \\ \end 
+  {bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & Q \end{bmatrix} \\ &
+= \begin{bmatrix} \lambda_{1} & 0 \\ 0 & Q^{T}C \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & Q \end{bmatrix} \\ &
+= \begin{bmatrix} \lambda_{1} & 0 \\ 0 & Q^{T}CQ \end{bmatrix}. 
+\end{align*}
+$$
+
+<br>
+However - this is where it's really cool - we defined earlier that $$Q^{T}CQ$$ was the diagonal matrix $$D$$, so we simply have 
+<br>
+
+$$
+\begin{align*}
+R^{-1}AR = \begin{bmatrix} \lambda_{1} & 0 \\ 0 & Q^{T}CQ \end{bmatrix},
+\end{align*}
+$$
+
+<br>
+which is obviously a diagonal matrix. Thus, by induction on the dimension of the matrix $$B$$, we have shown that $$R^{-1}AR$$ is a diagonal matrix, and we are done. 
+<br>
+■
+<br>
 <br>
 Now that we have proven the spectral theorem, we can proceed to prove the spectral decomposition theorem. 
 <br>
@@ -172,7 +309,9 @@ and satisfies the orthonormality relation so that for $$i$$ and $$j$$ not necess
 <br>
 The reason that these two theorems are so important is that they allow us to easily determine the eigenvalues of a matrix. Since the eigenvalues of a diagonal matrix lie on the diagonal as can be shown through the characteristic equation, the spectral decomposition provides a diagonal representation of some linear operator and allows us to quickly determine the eigenvalues with respect to an orthonormal basis without having to repeat many different steps. 
 <br>
-
+<br>
+(10 June, 2023)
+<br>
 
 
 

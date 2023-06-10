@@ -141,7 +141,7 @@ $$
 ■
 
 <br>
-We will conclude with a definition that will be useful later in our proof of spectral decomposition later. An operator $$A$$ is <b> normal </b> if $$AA^{\dagger}=A^{\dagger}A$$. In other words, $$A$$ is normal if it commutes with its self-adjoint. 
+We will conclude with several definitions that will be useful later in our proof of spectral decomposition later. An operator $$A$$ is <b> normal </b> if $$AA^{\dagger}=A^{\dagger}A$$. In other words, $$A$$ is normal if it commutes with its self-adjoint. Also, we define a matrix $$U$$ - and thus operator $$U$$ - to be <b> unitary </b> if it satisfies the equation $$UU^{\dagger}=1$$. Similarly, an <b> orthogonal matrix </b> is essentially unitary if it is symmetric. In this way, we say that a matrix $$A$$ is orthogonal if $$A^{-1}=A^{T}$$, and that, by multiplying both sides by $$A$$, $$AA^{T}=I$$. All orthogonal matrices are invertible. 
 <br>
 <br>
 (7 June, 2023)
