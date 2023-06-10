@@ -70,7 +70,7 @@ $$
 \begin{align*}
 B & 
 = P^{-1}AP \\ &
-P^{T}AP \\ 
+= P^{T}AP \\ 
 B^{T} & 
 = (P^{T}AP)^T \\ & 
 = (AP)^{T}(P^{T})^{T} \\ &
