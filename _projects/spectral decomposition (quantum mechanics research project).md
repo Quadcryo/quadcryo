@@ -63,7 +63,7 @@ We now proceed to prove (ii). It is in fact true that (ii) is equivalent to the 
 To begin, let $$\lambda_{1}$$ be an eigenvalue of $$A$$. Since $$A$$ is symmetric, by (i), $$\lambda_{1}$$ and all other eigenvalues of $$A$$ must be real. Thus, $$A$$ will also have a corresponding eigenvector $$|v_{1}\rangle$$. Let us normalise $$|v_{1}\rangle$$ so that $$\left\Vert |v_{1}\rangle \right\Vert = 1$$. We now can extend $$|v_{1}\rangle$$ to a basis such that we have the spanning list $$|v_{1}\rangle, |u_{1}\rangle, \ldots, |u_{n}\rangle$$ for our original inner product space. The Gram-Schmidt process guarantees that it is possible to transform this basis into an orthonormal basis, so we rewrite this list as the orthomormal basis $$|v_{1}\rangle, |v_{2}\rangle, \ldots, |v_{n}\rangle$$. 
 <br>
 <br>
-Define the matrix $$P = \begin{bmatrix} |v_{1}\rangle & |v_{2}\rangle & \cdots & |v_{n}\rangle \end{bmatrix}$$. We can see that $$P$$ is orthogonal because its entries are orthonormal. Let us define some matrix $$B=$$P^{-1}AP$$. We want to show that $$B$$ is diagonal. To do this, we first need to show that is is symmetric. Recall that an orthogonal matrix satisfies the property that its inverse and transpose are equivalent. Then
+Define the matrix $$P = \begin{bmatrix} |v_{1}\rangle & |v_{2}\rangle & \cdots & |v_{n}\rangle \end{bmatrix}$$. We can see that $$P$$ is orthogonal because its entries are orthonormal. Let us define some matrix $$B=P^{-1}AP$$. We want to show that $$B$$ is diagonal. To do this, we first need to show that is is symmetric. Recall that an orthogonal matrix satisfies the property that its inverse and transpose are equivalent. Then
 <br>
 
 $$
@@ -98,7 +98,7 @@ P^{T}A|v_{1}\rangle &
 = \lambda_{1} \begin{bmatrix} |v_{1}\rangle \\ |v_{2}\rangle \\ \vdots \\ |v_{n}\rangle \end{bmatrix}|v_{1}\rangle \\ &
 = \lambda_{1} \begin{bmatrix} |v_{1}\rangle \cdot |v_{1}\rangle \\ |v_{2}\rangle \cdot |v_{1}\rangle \\ \vdots \\ |v_{n}\rangle 
   \cdot |v_{1}\rangle \end{bmatrix} \\ &
-= \lambda_{1} \begin{bmatrix} \lambda_{1} \\ 0 \\ \vdots \\ 0 \end{bmatrix},
+= \begin{bmatrix} \lambda_{1} \\ 0 \\ \vdots \\ 0 \end{bmatrix},
 \end{align*}
 $$
 
