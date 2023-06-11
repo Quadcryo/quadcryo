@@ -29,7 +29,7 @@ The second property is what allows us to determine the spectral decomposition. I
 <br>
 <br>
 <br>
-<i> Proof of the Spectral Theorem. </i> We will begin by proving (i). Suppose that $$\lambda\in \mathbb{C}$$ is an eigenvalue. Note that $$\mathbb{R}\subseteq\mathbb{C}$$. If the eigenvalues are real, then we must have that $$\lambda = \lambda^{*}$$, so we will prove this. Let $$|v\rangle$$ be a vector. Recall the eigenvalue-eigenvector equation $$A|v\rangle = \lambda|v\rangle$$. If we take the conjugate of both sides, we have $$A^{*}|v\rangle^{*} = \lambda^{*}|v\rangle^{*}$$. However, since $$A\in M_{\mathbb{R}}$$, $$A^{*}=A$$, so $$A|v\rangle^{*} = \lambda^{*}|v\rangle^{*}$$. We will take the tranpose of the expression in two different ways. First, if we take the transpose but substitute $$\lambda|v\rangle$$ for $$A|v\rangle$$, we have
+<i> Proof of the Spectral Theorem. </i> We will begin by proving (i). Suppose that $$\lambda\in \mathbb{C}$$ is an eigenvalue. Note that $$\mathbb{R}\subseteq\mathbb{C}$$. If the eigenvalues are real, then we must have that $$\lambda = \lambda^{*}$$, so we will prove this. Let $$|v\rangle$$ be a vector. Recall the eigenvalue-eigenvector equation $$A|v\rangle = \lambda|v\rangle$$. If we take the conjugate of both sides, we have $$A^{*}|v\rangle^{*} = \lambda^{*}|v\rangle^{*}$$. However, since $$A\in M_{n\times n}(\mathbb{R})$$, $$A^{*}=A$$, so $$A|v\rangle^{*} = \lambda^{*}|v\rangle^{*}$$. We will take the tranpose of the expression in two different ways. First, if we take the transpose but substitute $$\lambda|v\rangle$$ for $$A|v\rangle$$, we have
 <br> 
 
 $$
