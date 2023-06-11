@@ -192,7 +192,7 @@ However - this is where it's really cool - we defined earlier that $$Q^{T}CQ$$ w
 
 $$
 \begin{align*}
-R^{-1}AR = \begin{bmatrix} \lambda_{1} & 0 \\ 0 & Q^{T}CQ \end{bmatrix},
+R^{-1}AR = \begin{bmatrix} \lambda_{1} & 0 \\ 0 & D \end{bmatrix},
 \end{align*}
 $$
 
