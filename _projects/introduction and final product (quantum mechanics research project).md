@@ -26,7 +26,7 @@ As I cannot construct a table in $$\LaTeX$$ (I am very sad) in this website due 
 
 $$
 \begin{bmatrix} a_{11} & \cdots & a_{n1} \\ \vdots &   &  \\ a_{1n} &   &   B \end{bmatrix} 
-= \begin{bmatrix} a_{11} & \cdots & a_{n1} \\ \vdots &   &  \\ a_{1n} &   &  \begin{bmatrix} b_{11} & \cdots & b_{n1} \\ \vdots & \ddots &  \\ b_{1n} &   & b_{nn} \end{bmatrix}  \end{bmatrix}.
+= \begin{bmatrix} a_{11} & \cdots & a_{n1} \\ \vdots &   &  \\ a_{1n} &   &  \begin{bmatrix} b_{11} & \cdots & b_{n1} \\ \vdots & \ddots & \vdots \\ b_{1n} & \cdots & b_{nn} \end{bmatrix}  \end{bmatrix}.
 $$
 
 <br>
