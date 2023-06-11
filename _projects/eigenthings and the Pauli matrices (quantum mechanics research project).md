@@ -124,4 +124,3 @@ This process can be repeated for all other Pauli matrices. Thus the diagonal rep
 <br>
 <br>
 (4 June, 2023)
-<br>

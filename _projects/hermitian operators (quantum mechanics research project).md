@@ -145,5 +145,3 @@ We will conclude with several definitions and facts that will be useful later in
 <br>
 <br>
 (7 June, 2023)
-
-
