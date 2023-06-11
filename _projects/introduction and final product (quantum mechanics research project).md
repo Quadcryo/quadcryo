@@ -32,9 +32,6 @@ $$
 <br>
 Finally, when we refer to a "number" in these notes, we are more often than not referring to some complex number from $$\mathbb{C}$$. When we speak of a finite-dimensional vector space, we are largely talking about a finite-dimensional vector space over the field $$\mathbb{C}$$. 
 <br>
-<br>
-(8 June, 2023)
-<br>
 
 
 
