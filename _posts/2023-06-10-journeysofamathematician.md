@@ -3,6 +3,7 @@ layout: post
 title:  Journeys 
 date:   2023-06-10 00:00-00
 description: What does it mean to pursue mathematics?
+tags: literature
 ---
 
 I am definitely not a mathematician yet, but I find the act and philosophy of doing mathematics and being mathematics to be utterly fascinating. What does it mean to be a mathematician? In his essay <i> A Mathematician's Apology </i>, G.H. Hardy recounted his journey as a mathematician, and how he felt that he was becoming increasingly disconnected from the world around him, and how he wished that he could have been more present. I will not outline it here, but I highly encourage whoever is reading this to read its contents. (a pdf copy of this illuminating read can be found <a href="https://quadcryo.github.io/quadcryo/assets/pdf/A Mathematician's Apology - G.H. Hardy.pdf"> here </a>)
