@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Journeys 
+title:  Journeys I
 date:   2023-06-10 00:00-00
 description: What does it mean to pursue mathematics?
 tags: literature
