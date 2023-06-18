@@ -11,3 +11,5 @@ While looking around for new mathematics to learn, I encountered the notion of t
 <br>
 THIS IS A WORK IN PROGRESS
 <br>
+<br>
+Once complete, this work can be found in "papers". 
