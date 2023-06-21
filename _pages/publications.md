@@ -3,7 +3,7 @@ layout: page
 permalink: /papers/
 title: papers
 description: These are my finished papers in chronological order. (These are expository research so far, but original research comes with time.)
-years: [2022, 2023]
+years: [2023, 2022]
 nav: true
 nav_order: 1
 ---
