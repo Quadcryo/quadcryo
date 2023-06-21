@@ -2,7 +2,7 @@
 layout: post
 title:  q-analogues
 date:   2023-06-13 00:00-00
-description: Some brief notions of q-analogues for later interest
+description: Some brief notions of q-analogues for later interest and a paper
 tags: mathematics
 ---
 
