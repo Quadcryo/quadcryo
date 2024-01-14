@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Surreal numbers omnific integers
-date:   2023-01-13 00:00-00
+date:   2024-01-13 00:00-00
 description: A fun exploration into game theory and a new number system
 tags: mathematics
 ---
