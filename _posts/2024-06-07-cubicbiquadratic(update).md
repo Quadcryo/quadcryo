@@ -12,7 +12,7 @@ Hello! It has been a while since I have last posted, but here I am now! A few mo
 Even while this paper is not fully complete, I will provide the abstract for any who are interested in reading about what is covered in the paper. 
 <br>
 <br>
-<i> Abstract <i>  
+<i> Abstract </i>  
 <br>
 <br> 
 In this exposition of finite fields and higher reciprocity, we will begin by introducing concepts in abstract algebra and elementary number theory. This will motivate our approach toward understanding the structure and then existence of finite fields, especially with a focus on understanding the multiplicative group $$\mathbb{F}^{*}$$. While surveying finite fields we will provide another proof of quadratic reciprocity. We will proceed to investigate properties of the general multiplicative character, covering the concept of a general Gauss sum as well as basic notions of the Jacobi sum. From there we will begin laying the foundations for the cubic reciprocity law, beginning with a classification of the primes and units of the Eisenstein integers, denoted $$\mathbb{Z}[\omega]$$, and further investigations into the residue class ring $$\mathbb{Z}[\omega]/\pi\mathbb{Z}[\omega]$$ for $$\pi$$ prime, which is predominantly the world in which cubic reciprocity lies. 
