@@ -21,7 +21,10 @@ We will then use multiplicative characters to define the cubic residue character
 We conclude with the statement of biquadratic reciprocity and provide a brief discussion on how it relates to cubic reciprocity in both its proof and usage of Gauss and Jacobi sums.  
 <br>
 <br>
-When the completed paper appears, I will reference it here. 
+When the completed paper appears, I will reference it here. I will likely put it on the arXiv.
 <br>
 <br>
-(Updated 7 June, 2024)
+UPDATE: I have decided that I will submit a section of this paper to either the <i> Mathematics Magazine </i> or the <i> College Mathematics Journal </i>. To prepare for submission I will need to edit one particular section to be in a more expository form with plenty of examples, and I might even need to shorten it since it is currently 15 pages, and the alleged limit for either magazine is approximately 14 pages. 
+<br>
+<br>
+(Updated 14 June, 2024)
