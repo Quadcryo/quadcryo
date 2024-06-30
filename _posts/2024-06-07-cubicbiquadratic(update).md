@@ -18,7 +18,7 @@ Cubic and biquadratic reciprocity have long since been referred to as ``the forg
 
 We will then use multiplicative characters to define the cubic residue character and state cubic reciprocity in its entirety. Following this, we provide a proof of the cubic reciprocity law as well as its supplementary theorems using cubic Gauss sums. We will finish the section on cubic reciprocity with a brief survey of the cubic residue character of the even prime $$2$$ and state a significant result due to Gauss that summarizes the conditions for $$2$$ to be a cubic residue. 
 
-We conclude with the statement of biquadratic reciprocity and provide a brief discussion on how it relates to cubic reciprocity in both its proof and usage of Gauss and Jacobi sums.  
+We conclude with the statement of biquadratic reciprocity and provide a brief discussion on how it relates to cubic reciprocity in both its proof and usage of the analogy between the Eisenstein integers, $$\mathbb{Z}[\omega]$, and the Gaussian integers, $$\mathbb{Z}[i]$$. 
 <br>
 <br>
 When the completed paper appears, I will reference it here. I will likely put it on the arXiv.
