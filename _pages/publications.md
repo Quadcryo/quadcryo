@@ -2,8 +2,8 @@
 layout: page
 permalink: /papers/
 title: papers
-description: These are my completed expository research papers in reverse chronological order. 
-years: [2023, 2022]
+description: These are my completed expository research papers.
+years: [2024, 2023, 2022]
 nav: true
 nav_order: 1
 ---
