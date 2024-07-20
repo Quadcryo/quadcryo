@@ -68,7 +68,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: Quadcryo
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -129,7 +129,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: false
+  enabled: true
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
