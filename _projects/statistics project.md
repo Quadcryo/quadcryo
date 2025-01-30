@@ -5,7 +5,6 @@ description: Is there an association between doing math homework because it is f
 img: assets/img/stats_paper_matias_kyle.png
 importance: 10
 category: statistics project (C)
-
 ---
 
 <i>Abstract </i>

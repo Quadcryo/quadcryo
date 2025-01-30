@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Can you even"? An Exploration of Polyominos
+title: "Can you even?" An Exploration of Polyominos
 description: A project from J-Term
 img: assets/img/polyominos.png
 importance: 11
