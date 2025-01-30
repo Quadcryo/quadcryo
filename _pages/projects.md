@@ -5,7 +5,7 @@ permalink: /projects/
 description: Projects that I have either completed or am still working on. Those marked with "C" are completed, and those marked with "P" are still in progress. 
 nav: true
 nav_order: 2
-display_categories: [polyominos project (C), quantum mechanics research project (P), statistics project (C)]
+display_categories: [polyominos research project (C), quantum mechanics research project (P), statistics project (C)]
 horizontal: false
 ---
 
