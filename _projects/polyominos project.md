@@ -2,8 +2,8 @@
 layout: page
 title: "Can you even"? An Exploration of Polyominos
 description: A project from J-Term
-img: assets/img/bra ket.png
-importance: 3
+img: assets/img/polyominos.png
+importance: 11
 category: polyominos research project (C)
 ---
 
