@@ -3,7 +3,7 @@ layout: page
 title: An introduction to this research project 
 description: Description of notation, interests, and resource(s)
 img: assets/img/bra ket.png
-importance: 11
+importance: 1
 category: quantum mechanics research project (P)
 ---
 
