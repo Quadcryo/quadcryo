@@ -6,7 +6,7 @@ description: Projects that I have either completed or am still working on. Those
 nav: true
 nav_order: 2
 display_categories: [polyominos research project (C), quantum mechanics research project (P), statistics project (C)]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->

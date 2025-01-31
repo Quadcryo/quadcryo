@@ -13,3 +13,6 @@ category: statistics project (C)
 In this paper, we use data obtained from a survey of high school students to determine the link between students having fun on math homework and their confidence in solving math problems.
 
 <p> The paper can be found <a href="https://quadcryo.github.io/quadcryo/projectpdf/matias-relyea-kyle-hollars-math-fun-confidence-stats.pdf">here</a>.</p>
+<br>
+<br>
+(sometime in May of 2023)
