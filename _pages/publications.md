@@ -3,7 +3,7 @@ layout: page
 permalink: /papers/
 title: papers
 description: These are my completed expository research papers.
-years: [2024, 2023, 2022]
+years: [2025, 2024, 2023, 2022]
 nav: true
 nav_order: 2
 ---
