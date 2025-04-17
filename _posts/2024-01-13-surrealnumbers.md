@@ -10,3 +10,12 @@ I had the pleasure of spending a couple weeks learning the basics of the surreal
 <br>
 <br>
 During this short exploration, I made use of Knuth's <i> Surreal Numbers </i>, which is a sort of novelette that explores the construction and discovery of surreal numbers through the lens of two individuals on a desolate island. It's perhaps not the most rigorous "math text", but it certainly has value and can be read like a storybook. I also looked into Conway's (RIP) <i> On Numbers and Games </i>, which studies surreal numbers in its numerous aspects, from algebra to analysis to number theory, and eventually to the reason for its initial creation: games. It certainly is a rigorous text, but it is very self-contained, and if I had more time I would have been able to explore its nuances in much more detail than I have. At the end of my exploration, I gave a very brief presentation on omnific integers, and here are the <a href="https://quadcryo.github.io/quadcryo/projectpdf/omnific_slides.pdf">slides</a>.
+<br>
+<br>
+(13 January, 2024)
+<br>
+<br>
+In looking over some old stuff, I realized that I keep on referencing and returning to the idea of surreal numbers, either as a joke or as sort of false nostalgia that I have no right to feel. I realize now that I forgot to share one really cool video on the topic, so here it is: <a href="https://youtu.be/ZYj4NkeGPdM?si=Nd1gx6qzyD9VkASn">HACKENBUSH: a window to a new world of math</a>. Enjoy!
+<br>
+<br>
+(17 April, 2025)
