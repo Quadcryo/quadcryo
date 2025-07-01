@@ -1,6 +1,6 @@
 ---
 layout: about 
-title: about me
+title: About Me
 permalink: /
 profile:
   align: right

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Projects that I have either completed or am still working on. Those marked with "C" are completed, and those marked with "P" are still in progress. 
 nav: true
