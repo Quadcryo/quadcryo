@@ -2,7 +2,7 @@
 layout: page
 permalink: /articles/
 title: Articles
-description: These are my completed expository research papers.
+description: Original research papers. (E) indicates that a paper is expository.
 years: [2025, 2024, 2023, 2022]
 nav: true
 nav_order: 2
