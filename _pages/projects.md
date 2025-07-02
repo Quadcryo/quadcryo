@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Projects that I have either completed or am still working on. Those marked with "C" are completed, and those marked with "P" are still in progress. 
+description: (C) indicates that a project is complete. (P) indicates that a project is in progress.
 nav: true
 nav_order: 2
-display_categories: [polyominos research project (C), quantum mechanics research project (P), statistics project (C)]
+display_categories: [Linear Algebra of Quantum Mechanics (P), AP Statistics Project (C)]
 horizontal: false
 ---
 
