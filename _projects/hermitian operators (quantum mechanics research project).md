@@ -4,7 +4,7 @@ title: Notes VII
 description: Hermitian operators (pt. 1) 
 img: assets/img/bra ket.png
 importance: 8
-category: quantum mechanics research project (P)
+category: Linear Algebra of Quantum Mechanics (P)
 ---
 
 In these next several notes, we will be going over one of the most important topics in linear algebra and begin our approach toward understanding quantum mechanics. We will first be talking about Hermitian operators, and will describe and prove several properties. We will then introduce the spectral decomposition theorem, alongside the spectral theorem, which is slightly less related, but is still incredibly important for verifying the existence of diagonalisable matrices under certain conditions. Furthermore, we will begin using "Hilbert space" and "inner product space" interchangeably from now on. 

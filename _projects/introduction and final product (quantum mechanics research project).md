@@ -4,7 +4,7 @@ title: An introduction to this research project
 description: Description of notation, interests, and resource(s)
 img: assets/img/bra ket.png
 importance: 1
-category: quantum mechanics research project (P)
+category: Linear Algebra of Quantum Mechanics (P)
 ---
 
 <i> Description </i>

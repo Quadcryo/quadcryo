@@ -4,7 +4,7 @@ title: Notes III
 description: The Gram-Schmidt process and proof
 img: assets/img/bra ket.png
 importance: 4
-category: quantum mechanics research project (P)
+category: Linear Algebra of Quantum Mechanics (P)
 ---
 
 <h2>

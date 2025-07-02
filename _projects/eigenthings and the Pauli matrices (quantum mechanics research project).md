@@ -4,7 +4,7 @@ title: Notes VI
 description: Eigenthings and the Pauli matrices
 img: assets/img/bra ket.png
 importance: 7
-category: quantum mechanics research project (P)
+category: Linear Algebra of Quantum Mechanics (P)
 ---
 
 <h2>

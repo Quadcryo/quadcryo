@@ -4,7 +4,7 @@ title: Notes V
 description: The Cauchy-Schwarz inequality and proofs
 img: assets/img/bra ket.png
 importance: 6
-category: quantum mechanics research project (P)
+category: Linear Algebra of Quantum Mechanics (P)
 ---
 
 <h2>

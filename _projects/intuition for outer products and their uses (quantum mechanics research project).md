@@ -4,7 +4,7 @@ title: Notes IV
 description: Intuition for outer products and their uses
 img: assets/img/bra ket.png
 importance: 5
-category: quantum mechanics research project (P)
+category: Linear Algebra of Quantum Mechanics (P)
 ---
 
 <h2>

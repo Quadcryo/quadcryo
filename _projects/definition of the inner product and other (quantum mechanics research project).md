@@ -4,7 +4,7 @@ title: Notes II
 description: Definition of the inner product and other
 img: assets/img/bra ket.png
 importance: 3
-category: quantum mechanics research project (P)
+category: Linear Algebra of Quantum Mechanics (P)
 ---
 
 <h2> 
