@@ -6,7 +6,7 @@ profile:
   align: right
   image: frog tower pfp.jpg
   image_circular: true
-  address: <a href="quadcryo.github.io/quadcryo/assets/pdf/CV.pdf"> CV </a>
+  address: <a href="https://quadcryo.github.io/quadcryo/assets/pdf/CV.pdf"> CV (Updated 18 July, 2025) </a>
 ---
 
 My name is Matias, and I am a first year student at the University of North Carolina at Chapel Hill. 
