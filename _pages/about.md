@@ -6,7 +6,7 @@ profile:
   align: right
   image: frog tower pfp.jpg
   image_circular: true
-  address: <p>not me</p>
+  address: <a href="quadcryo.github.io/quadcryo/assets/pdf/CV.pdf"> CV </a>
 ---
 
 My name is Matias, and I am a first year student at the University of North Carolina at Chapel Hill. 
@@ -16,3 +16,6 @@ My main academic interest is in mathematics. This site is a place where I can in
 <br>
 <br>
 Oh, and a little <a href="https://texnique.xyz">TeXnique</a> can't hurt right?
+<br>
+<br>
+
