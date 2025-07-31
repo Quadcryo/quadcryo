@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Cubic and Biquadratic reciprocity FINAL VERSION
+title:  On Finite Fields and Higher Reciprocity
 date:   2024-06-07 00:00-00
 description: Abstract for a new finished paper
 tags: mathematics
