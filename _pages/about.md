@@ -4,7 +4,7 @@ title: About
 permalink: /
 profile:
   align: right
-  image: frog tower pfp.jpg
+  image: goober cycle 2.jpg
   image_circular: true
   address: <a href="https://quadcryo.github.io/quadcryo/assets/pdf/CV.pdf">CV</a> (4 September, 2025)
 ---
