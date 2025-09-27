@@ -6,7 +6,7 @@ profile:
   align: right
   image: goober cycle 3.jpeg
   image_circular: true
-  address: <a href="https://quadcryo.github.io/quadcryo/assets/pdf/CV.pdf">CV</a> (4 September, 2025)
+  address: <a href="https://quadcryo.github.io/quadcryo/assets/pdf/CV.pdf">CV</a> (27 September, 2025)
 ---
 
 My name is Matias, and I am a first year student at the University of North Carolina at Chapel Hill studying (pure) mathematics.
