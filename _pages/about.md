@@ -5,7 +5,7 @@ permalink: /
 profile:
   align: right
   image: pfp_medoingmath.jpg
-  image_circular: true
+  image_circular: false
   address: <a href="https://quadcryo.github.io/quadcryo/assets/pdf/CV.pdf">Curriculum Vitae (CV)</a>
 ---
 
