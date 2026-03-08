@@ -18,7 +18,7 @@ icon: δ # the emoji used as the favicon (alternatively, provide image name in /
 url: https://quadcryo.github.io
 baseurl: /quadcryo/
 last_updated: true # set to true if you want to display last updated in the footer
-impressum_path: true # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Theme
