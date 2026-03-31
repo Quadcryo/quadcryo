@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://quadcryo.github.io/quadcryo/feed.xml" rel="self" type="application/atom+xml" /><link href="https://quadcryo.github.io/quadcryo/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-22T17:26:24+00:00</updated><id>https://quadcryo.github.io/quadcryo/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">Mathematics REUs</title><link href="https://quadcryo.github.io/quadcryo/memoirs/2026/mathreus/" rel="alternate" type="text/html" title="Mathematics REUs" /><published>2026-03-22T00:00:00+00:00</published><updated>2026-03-22T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/memoirs/2026/mathreus</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/memoirs/2026/mathreus/"><![CDATA[<p>Like far too many other optimistic math majors, I applied to a large number of math REUs for the summer 2026 cycle, hoping to get into something. Luckily, I did get into something, and I will likely commit. In this post, I’m going to talk about my experiences applying to REUs (including things like how many I applied to, when I started writing applications), as well as some resources I used and advice I’ve gathered. However, much of what is said here should be taken with a grain of salt, since, as a freshman, there is and likely was a significant bias against me in REU selection. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://quadcryo.github.io/quadcryo/feed.xml" rel="self" type="application/atom+xml" /><link href="https://quadcryo.github.io/quadcryo/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-31T06:07:58+00:00</updated><id>https://quadcryo.github.io/quadcryo/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">Mathematics REUs as a Freshman</title><link href="https://quadcryo.github.io/quadcryo/memoirs/2026/mathreus/" rel="alternate" type="text/html" title="Mathematics REUs as a Freshman" /><published>2026-03-31T00:00:00+00:00</published><updated>2026-03-31T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/memoirs/2026/mathreus</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/memoirs/2026/mathreus/"><![CDATA[<p>Like far too many other optimistic math majors, I applied to a large number of math REUs for the summer 2026 cycle, hoping to get into something. Luckily, I did get into something, and I will likely commit. In this post, I’m going to talk about my experiences applying to REUs (including things like how many I applied to, when I started writing applications), as well as some resources I used and advice I’ve gathered. However, much of what is said here should be taken with a grain of salt, since, as a freshman, there is and likely was a significant bias against me in REU selection. Of course, I am also not an expert on this subject, and I will include many of the excellent resources that I utilized during this application season. It is very likely that the advice I give this year will change in subsequent years.
 <br />
 <br /></p>
 <figure>
@@ -6,11 +6,57 @@
   <figcaption>math REU application results for the summer 2026 cycle.</figcaption>
 </figure>
 <p><br />
-This cycle, I applied to a total of 29 math REUs. The vast majority were pure math REUs, though I applied to a small number of “applied” math REUs as well. I began writing my application materials (including personal statements, cover letters, statements of interest, etc.) back in December during my winter break. Beginning this early was ultimately what allowed me to submit so many applications, and it is probably the first piece of advice that is objectively true: start early. When applying, it is beneficial to organize the REUs you’re applying to in a spreadsheet so you can keep track of references, application deadlines, other dates, and eventually status; I essentially copied the spreadsheet from [website]
+This cycle, I applied to a total of 29 math REUs. The vast majority were pure math REUs, though I applied to a small number of “applied” math REUs as well. I began writing my application materials (including personal statements, cover letters, statements of interest, etc.) back in December during my winter break. Beginning this early was ultimately what allowed me to submit so many applications, and it is probably the first piece of advice that is objectively true: start early. When applying, it is beneficial to organize the REUs you’re applying to in a spreadsheet so you can keep track of references, application deadlines, other dates, and eventually status.
+<br />
+<br />
+Now I will attempt to describe the components of an REU application and approaches/resources I used.
 <br />
 <br /></p>
+<h3>How do I find REUs?</h3>
+<p><br />
+<br />
+I finish my first semester at UNC, and now I’m wondering: what even is an REU application like? When I searched online at the beginning of winter break, I was immediately overwhelmed by the number of seemingly important things. First, REUs aren’t only in math, and nearly every field has them, from neuroscience to engineering to nuclear physics to even organization-specific programs like NASA, JPL, LIGO, SETI, and even more. The social sciences also have some representation, though this wasn’t the focus of my applications so I am less informed in that area. It can be overwhelming how much there is, but luckily, math REUs are well-documented. 
+<br />
+<br />
+The first “resource” I found was the subreddit <a href="https://www.reddit.com/r/REU/">r/REU</a>. Like many other subreddits and forums relating to academia, r/REU contains a lot of misinformation and irrelevant generalization. For some reason, I thought r/REU was only for math programs, but I quickly learned that I was wrong when I wrote a comment and received advice that was completely useless. Fortunately, math REUs do have significant representation in the subreddit, and there are some threads from past application years. I interpreted the subreddit as more of a gauge of similar applicants, but I took most advice with a grain of salt. It’s great to see a lot of motivated people in one place desperate for research experience and something cool-looking on a CV (me included). The subreddit is essentially a combination of people complaining about the NSF ETAP application portal to a very high degree, a place for skeptics with impostor syndrome to be consoled, and a daily barrage of people asking “what’s the difference between a cover letter and a statement of interest?” I’ll give some advice on that last point in the next section, but overall, the subreddit was a great companion throughout the application process (though it occasionally caused self-doubt), and you might meet some cool people there too!</p>
 
-<p>(22 March, 2026)</p>]]></content><author><name></name></author><category term="mathematics" /><summary type="html"><![CDATA[my experience applying for the 2026 cycle, advice, results]]></summary></entry><entry><title type="html">The Quadratic and Cubic Characters of 2</title><link href="https://quadcryo.github.io/quadcryo/memoirs/2026/quadcub2/" rel="alternate" type="text/html" title="The Quadratic and Cubic Characters of 2" /><published>2026-01-31T00:00:00+00:00</published><updated>2026-01-31T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/memoirs/2026/quadcub2</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/memoirs/2026/quadcub2/"><![CDATA[<p>(scroll to the bottom)
+<p> The beautiful thing about REUs is that anyone from any institution will be applying. Students from Yale, Columbia, Harvard, MIT, Stanford, UC Berkeley, UNC (me!), and many other prestigious schools, are competing for few positions at highly competitive math REUs at seemingly "no-name" universities like California State University Chico or University of Minnesota Duluth (which, as we'll talk about later, is <i>probably</i> not worth applying to if you attend a non T10 university). </p>
+
+<p> The first place to find math REUs is Steve Butler's (Iowa State University) <a href="https://sites.google.com/view/mathreu">Math REU Programs</a> website. For the past few years, Steve Butler and some other people (not sure who) have maintainted a nearly exhaustive list of math REUs that are running each summer. This includes applied and pure math REUs, as well as some institutional and/or industrial internships at places such as JPL or the NSA. For 2026, just under 200 REUs were listed (note that when I say "REU," I'm including many SURFS and non-NSF funded programs—which are institution-specific and may be funded alternatively—as in math REUs, most programs will be REUs anyway). I encourage checking out the rest of this website as it contains helpful advice (albeit a little outdated) about REU applications. 
+
+<h3>What is the culture of math REUs?</h3>
+<br />
+<br />
+In the realm of math REUs, the institution at which an REU takes place is essentially irrelevant to the supposed "prestige" of a program. There aren't many exceptions, though there are certainly "tiers" of math REUs. Personally I see there being 3 tiers: the first consists of the long-standing REUs (such as Duluth, Williams SMALL, UChicago, Baruch, Twin Cities, Rutgers DIMACS etc.), the second consists of not-as-long-standing yet very well-known REUs (such as FUSRP, UMich, IU Bloomington, Yale SUMRY, MIT MSRP, Clemson, ICERM etc.), and the third consists of newer and perhaps more underclassmen-friendly REUs (such as Haverford, Ohio State OSUIM, California State San Bernardino, Tufts VERSEIM, Michigan State SUREIM, USC Palmetto, etc.). However, getting into any REU at all is already a signifier of significant success, as there are just so many applicants. 
+<br />
+<br />
+Here are some (not so fun) facts. 
+<br />
+<br />
+<h3>What should I do as a freshman to prepare for REU applications and when writing them?</h3>
+<br />
+<br />
+
+<h3>What distinguishes REU writing materials?</h3>
+<br />
+<br />
+
+
+<br />
+<br />
+<h3>What to do if I don't get into an REU?</h3>
+<br />
+<br />
+
+
+<br />
+<br />
+<h3>What distinguishes REU writing materials?</h3>
+<br />
+<br />
+
+(22 March, 2026)
+</p>]]></content><author><name></name></author><category term="mathematics" /><summary type="html"><![CDATA[a guide to REUs from the freshman perspective (with my experiences)]]></summary></entry><entry><title type="html">The Quadratic and Cubic Characters of 2</title><link href="https://quadcryo.github.io/quadcryo/memoirs/2026/quadcub2/" rel="alternate" type="text/html" title="The Quadratic and Cubic Characters of 2" /><published>2026-01-31T00:00:00+00:00</published><updated>2026-01-31T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/memoirs/2026/quadcub2</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/memoirs/2026/quadcub2/"><![CDATA[<p>(scroll to the bottom)
 <br />
 <br />
 The submission process is everything but familiar to me. While I did submit to the arXiv, the arXiv is not a peer-reviewed journal, unlike many other mathematical journals. Over the past two months I have been working carefully on a paper that relates closely to the topic in <i> On Finite Fields and Higher Reciprocity </i>, and I was debating whether to submit it to the American Mathematical Monthly (AMM) - a prestigious journal for expository articles that is well-respected in the math community - or another journal such as the Mathematics Magazine (MM). After much thought and revision (as well as some much-needed guidance), I decided that my article was not novel enough to warrant a place in AMM, but that it would perhaps be suitable for MM. So, today (or rather yesterday), I submitted my article to MM. 
