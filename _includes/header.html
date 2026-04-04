@@ -1,5 +1,4 @@
-
-    <header>
+<header>
 
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
@@ -53,9 +52,9 @@
               </li>
               {% if site.blog_nav_title %}
               <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+              <li class="nav-item {% if page.url contains 'memoirs' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/memoirs/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
+                  {%- if page.url contains 'memoirs' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -94,9 +93,14 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              {%- if site.enable_darkmode %}
 
-              <!-- Toogle theme mode -->
+              <!-- Language toggle -->
+              <li class="nav-item">
+                <a href="#" id="translate-toggle" onclick="toggleTranslate(); return false;" class="notranslate nav-link" translate="no" style="font-size: 0.8rem; padding-top: 0.6rem;">中文</a>
+              </li>
+
+              {%- if site.enable_darkmode %}
+              <!-- Toggle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
                   <i class="fas fa-moon"></i>
