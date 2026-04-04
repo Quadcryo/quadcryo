@@ -59,74 +59,60 @@
   <!-- Body -->
   <body class="fixed-top-nav ">
 
-    <!-- Header -->
-<footer class="fixed-bottom">
-  <div class="container mt-0">
-    © Copyright 2026 Matias 賀  彥龍 Relyea.Last updated: April 04, 2026.
-  </div>
-</footer>
+    <!-- Header --><header>
 
-<!-- Google Translate -->
-<div id="google_translate_element" style="display:none;"></div>
-<script>
-var translated = false;
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/quadcryo//"><span class="font-weight-bold">Matias 賀 </span>彥龍 Relyea</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
 
-function getCookie(name) {
-  var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
-  return match ? match[2] : null;
-}
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
 
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement(
-    { pageLanguage: 'en', includedLanguages: 'zh-CN', autoDisplay: false },
-    'google_translate_element'
-  );
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/quadcryo/">About</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/quadcryo/memoirs/">Memoirs</a>
+              </li>
 
-  // after widget loads, check cookie and apply translation if needed
-  setTimeout(function() {
-    var toggle = document.getElementById('translate-toggle');
-    var cookie = getCookie('googtrans');
-    if (cookie && cookie.indexOf('zh-CN') !== -1) {
-      translated = true;
-      if (toggle) toggle.textContent = 'EN';
-      var select = document.querySelector('.goog-te-combo');
-      if (select && select.value !== 'zh-CN') {
-        select.value = 'zh-CN';
-        select.dispatchEvent(new Event('change'));
-      }
-    } else {
-      translated = false;
-      if (toggle) toggle.textContent = '中文';
-    }
-  }, 500);
-}
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/quadcryo/articles/">Articles</a>
+              </li>
+<!-- Language toggle -->
+              <li class="nav-item">
+                <a href="#" id="translate-toggle" onclick="toggleTranslate(); return false;" class="notranslate nav-link" translate="no" style="font-size: 0.8rem; padding-top: 0.6rem;">中文</a>
+              </li>
+              <!-- Toggle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-function toggleTranslate() {
-  var toggle = document.getElementById('translate-toggle');
-  if (!translated) {
-    var select = document.querySelector('.goog-te-combo');
-    if (select) {
-      select.value = 'zh-CN';
-      select.dispatchEvent(new Event('change'));
-      translated = true;
-      toggle.textContent = 'EN';
-    }
-  } else {
-    var cookie = 'googtrans';
-    document.cookie = cookie + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-    document.cookie = cookie + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + location.hostname + ';';
-    location.reload();
-  }
-}
-</script>
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<style>
-.goog-te-banner-frame, .goog-te-balloon-frame { display: none !important; }
-.skiptranslate { display: none !important; }
-body { top: 0 !important; }
-#translate-toggle { font-family: inherit; }
-</style>
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
 
     <!-- Content -->
     <div class="container mt-5">
