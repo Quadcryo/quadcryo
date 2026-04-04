@@ -85,8 +85,8 @@ pagination:
 
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
-            {% for tag in post.tags %}<a href="{{ tag | slugify | prepend: '/memoirs/tag/' | relative_url }}"></a>
-            
+            {% for tag in post.tags %}
+            <a href="{{ tag | slugify | prepend: '/memoirs/tag/' | relative_url }}">
               <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
               {% endfor %}
           {% endif %}
