@@ -123,13 +123,14 @@ blog_name: Memoirs # blog_name will be displayed in your blog page
 blog_nav_title: Memoirs # your blog must have a title for it to be displayed in the nav bar
 blog_description: A sort of blog
 permalink: /:year/:title/
+display_tags: ['mathematics', 'journeys', 'literature']
 
 # Pagination
 pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: false
+  enabled: true
   max_related: 1
 
 # Giscus comments (RECOMMENDED)

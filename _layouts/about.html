@@ -1,5 +1,7 @@
 ---
 layout: default
+latest_posts: true
+selected_papers: true
 ---
 
 <!-- about.html -->
@@ -48,13 +50,13 @@ layout: default
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            <h2><a href="{{ '/memoirs/' | relative_url }}" style="color: inherit;">Latest</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ '/articles/' | relative_url }}" style="color: inherit;">Selected Articles</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
