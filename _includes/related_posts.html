@@ -10,8 +10,7 @@
 
     <!-- Adds related posts to the end of an article -->
     <h2 class="text-3xl font-semibold mb-4 mt-12">related stuff</h2>
-
   <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </li>
-{% endfor %}
+{% endunless %}
