@@ -173,41 +173,40 @@ What does it mean to pursue mathematics? I’m not talking about the literal sen
   <div class="container mt-0">
     © Copyright 2026 Matias 賀  彥龍 Relyea.Last updated: April 04, 2026.
       
-    <span style="font-size: 0.8rem;">
-      <a href="#" onclick="doTranslate('zh-CN'); return false;" style="color: var(--global-theme-color); text-decoration: none;">中文</a>
-       | 
-      <a href="#" onclick="restoreOriginal(); return false;" style="color: var(--global-theme-color); text-decoration: none;">EN</a>
-    </span>
+    <a href="#" id="translate-toggle" onclick="toggleTranslate(); return false;" style="font-size: 0.8rem; color: var(--global-theme-color); text-decoration: none;">中文</a>
   </div>
 </footer>
 
 <!-- Google Translate -->
 <div id="google_translate_element" style="display:none;"></div>
 <script>
+var translated = false;
+
 function googleTranslateElementInit() {
   new google.translate.TranslateElement(
-    { pageLanguage: 'en', includedLanguages: 'zh-CN,zh-TW', autoDisplay: false },
+    { pageLanguage: 'en', includedLanguages: 'zh-CN', autoDisplay: false },
     'google_translate_element'
   );
 }
-function doTranslate(lang) {
-  var select = document.querySelector('.goog-te-combo');
-  if (select) {
-    select.value = lang;
-    select.dispatchEvent(new Event('change'));
+
+function toggleTranslate() {
+  var toggle = document.getElementById('translate-toggle');
+  if (!translated) {
+    // translate to chinese
+    var select = document.querySelector('.goog-te-combo');
+    if (select) {
+      select.value = 'zh-CN';
+      select.dispatchEvent(new Event('change'));
+      translated = true;
+      toggle.textContent = 'EN';
+    }
+  } else {
+    // restore english
+    var cookie = 'googtrans';
+    document.cookie = cookie + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+    document.cookie = cookie + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + location.hostname + ';';
+    location.reload();
   }
-}
-function restoreOriginal() {
-  var frame = document.querySelector('.goog-te-banner-frame');
-  if (frame) {
-    var restore = frame.contentDocument.querySelector('.goog-te-banner-frame-restore');
-    if (restore) restore.click();
-  }
-  // fallback: reload the page with no translation cookie
-  var cookie = 'googtrans';
-  document.cookie = cookie + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-  document.cookie = cookie + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + location.hostname + ';';
-  location.reload();
 }
 </script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
