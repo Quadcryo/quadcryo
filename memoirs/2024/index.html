@@ -174,7 +174,7 @@
   <div class="container mt-0">
     © Copyright 2026 Matias 賀  彥龍 Relyea.Last updated: April 04, 2026.
       
-    <a href="#" id="translate-toggle" onclick="toggleTranslate(); return false;" style="font-size: 0.8rem; color: var(--global-theme-color); text-decoration: none;">中文</a>
+    <a href="#" id="translate-toggle" onclick="toggleTranslate(); return false;" class="notranslate" translate="no" style="font-size: 0.8rem; color: var(--global-theme-color); text-decoration: none;">中文</a>
   </div>
 </footer>
 
@@ -193,7 +193,6 @@ function googleTranslateElementInit() {
 function toggleTranslate() {
   var toggle = document.getElementById('translate-toggle');
   if (!translated) {
-    // translate to chinese
     var select = document.querySelector('.goog-te-combo');
     if (select) {
       select.value = 'zh-CN';
@@ -202,13 +201,25 @@ function toggleTranslate() {
       toggle.textContent = 'EN';
     }
   } else {
-    // restore english
     var cookie = 'googtrans';
     document.cookie = cookie + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
     document.cookie = cookie + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + location.hostname + ';';
     location.reload();
   }
 }
+
+// on page load, check if already translated and update button accordingly
+window.addEventListener('load', function() {
+  var toggle = document.getElementById('translate-toggle');
+  var cookie = document.cookie;
+  if (cookie.indexOf('googtrans') !== -1 && cookie.indexOf('zh-CN') !== -1) {
+    translated = true;
+    toggle.textContent = 'EN';
+  } else {
+    translated = false;
+    toggle.textContent = '中文';
+  }
+});
 </script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
@@ -216,6 +227,7 @@ function toggleTranslate() {
 .goog-te-banner-frame, .goog-te-balloon-frame { display: none !important; }
 .skiptranslate { display: none !important; }
 body { top: 0 !important; }
+#translate-toggle { font-family: inherit; }
 </style>
 
     <!-- JavaScripts -->
