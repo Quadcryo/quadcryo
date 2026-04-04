@@ -1,47 +1,62 @@
 {% if site.footer_fixed %}
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
     {%- if site.impressum_path -%}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
     {%- endif -%}
     {%- if site.last_updated -%}
     Last updated: {{ "now" | date: '%B %d, %Y' }}.
     {%- endif %}
+    &nbsp;&nbsp;
+    <span style="font-size: 0.75rem; opacity: 0.6;">
+      <a href="#" onclick="doTranslate('zh-CN'); return false;" style="color: inherit; text-decoration: none;">中文</a>
+      &nbsp;|&nbsp;
+      <a href="#" onclick="doTranslate('en'); return false;" style="color: inherit; text-decoration: none;">EN</a>
+    </span>
   </div>
-  <!-- Google Translate -->
-  <div id="google_translate_element" style="text-align:center; padding: 10px 0;"></div>
-  <script>
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement(
-      { pageLanguage: 'en', includedLanguages: 'zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
-      'google_translate_element'
-    );
-  }
-  </script>
-  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </footer>
 {%- else -%}
 <footer class="sticky-bottom mt-5">
   <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
     {%- if site.impressum_path -%}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
     {%- endif -%}
     {%- if site.last_updated -%}
     Last updated: {{ "now" | date: '%B %d, %Y' }}.
     {%- endif %}
+    &nbsp;&nbsp;
+    <span style="font-size: 0.75rem; opacity: 0.6;">
+      <a href="#" onclick="doTranslate('zh-CN'); return false;" style="color: inherit; text-decoration: none;">中文</a>
+      &nbsp;|&nbsp;
+      <a href="#" onclick="doTranslate('en'); return false;" style="color: inherit; text-decoration: none;">EN</a>
+    </span>
   </div>
-  <!-- Google Translate -->
-  <div id="google_translate_element" style="text-align:center; padding: 10px 0;"></div>
-  <script>
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement(
-      { pageLanguage: 'en', includedLanguages: 'zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
-      'google_translate_element'
-    );
-  }
-  </script>
-  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </footer>
 {%- endif %}
+
+<!-- Google Translate -->
+<div id="google_translate_element" style="display:none;"></div>
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    { pageLanguage: 'en', includedLanguages: 'zh-CN,zh-TW', autoDisplay: false },
+    'google_translate_element'
+  );
+}
+function doTranslate(lang) {
+  var select = document.querySelector('.goog-te-combo');
+  if (select) {
+    select.value = lang;
+    select.dispatchEvent(new Event('change'));
+  }
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<style>
+.goog-te-banner-frame, .goog-te-balloon-frame { display: none !important; }
+.skiptranslate { display: none !important; }
+body { top: 0 !important; }
+</style>
