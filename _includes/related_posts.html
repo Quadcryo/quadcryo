@@ -6,11 +6,16 @@
     <br>
     <hr>
     <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
+    <ul class="list-disc pl-8">
     <h2 class="text-3xl font-semibold mb-4 mt-12">related stuff</h2>
+  {% endunless %}
+
   <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </li>
-{% endunless %}
+
+{% endfor %}
+
+{% if have_related_posts %}
+  </ul>
+{% endif %}
