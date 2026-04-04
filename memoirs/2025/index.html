@@ -59,8 +59,7 @@
   <!-- Body -->
   <body class="fixed-top-nav ">
 
-    <!-- Header -->
-    <header>
+    <!-- Header --><header>
 
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
@@ -83,16 +82,19 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/quadcryo/memoirs/">Memoirs</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/quadcryo/memoirs/">Memoirs<span class="sr-only">(current)</span></a>
               </li>
 
               <!-- Other pages -->
               <li class="nav-item ">
                 <a class="nav-link" href="/quadcryo/articles/">Articles</a>
               </li>
-
-              <!-- Toogle theme mode -->
+<!-- Language toggle -->
+              <li class="nav-item">
+                <a href="#" id="translate-toggle" onclick="toggleTranslate(); return false;" class="notranslate nav-link" translate="no" style="font-size: 0.8rem; padding-top: 0.6rem;">中文</a>
+              </li>
+              <!-- Toggle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
                   <i class="fas fa-moon"></i>
@@ -111,7 +113,6 @@
         </div>
       </progress>
     </header>
-
 
     <!-- Content -->
     <div class="container mt-5">
