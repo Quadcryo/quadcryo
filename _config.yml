@@ -9,8 +9,8 @@ last_name: 彥龍 Relyea
 email: hyanlong@unc.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
-footer_text: true
-keywords: matias relyea, matias, mathematics, number theory, high school research
+footer_text: 
+keywords: 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: δ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
