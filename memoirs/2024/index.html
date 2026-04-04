@@ -174,8 +174,6 @@
 <footer class="fixed-bottom">
   <div class="container mt-0">
     © Copyright 2026 Matias 賀  彥龍 Relyea.Last updated: April 04, 2026.
-      
-    <a href="#" id="translate-toggle" onclick="toggleTranslate(); return false;" class="notranslate" translate="no" style="font-size: 0.8rem; color: var(--global-theme-color); text-decoration: none;">中文</a>
   </div>
 </footer>
 
@@ -184,11 +182,33 @@
 <script>
 var translated = false;
 
+function getCookie(name) {
+  var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+  return match ? match[2] : null;
+}
+
 function googleTranslateElementInit() {
   new google.translate.TranslateElement(
     { pageLanguage: 'en', includedLanguages: 'zh-CN', autoDisplay: false },
     'google_translate_element'
   );
+
+  setTimeout(function() {
+    var toggle = document.getElementById('translate-toggle');
+    var cookie = getCookie('googtrans');
+    if (cookie && cookie.indexOf('zh-CN') !== -1) {
+      translated = true;
+      if (toggle) toggle.textContent = 'EN';
+      var select = document.querySelector('.goog-te-combo');
+      if (select && select.value !== 'zh-CN') {
+        select.value = 'zh-CN';
+        select.dispatchEvent(new Event('change'));
+      }
+    } else {
+      translated = false;
+      if (toggle) toggle.textContent = '中文';
+    }
+  }, 300);
 }
 
 function toggleTranslate() {
@@ -199,7 +219,7 @@ function toggleTranslate() {
       select.value = 'zh-CN';
       select.dispatchEvent(new Event('change'));
       translated = true;
-      toggle.textContent = 'EN';
+      if (toggle) toggle.textContent = 'EN';
     }
   } else {
     var cookie = 'googtrans';
@@ -208,19 +228,6 @@ function toggleTranslate() {
     location.reload();
   }
 }
-
-// on page load, check if already translated and update button accordingly
-window.addEventListener('load', function() {
-  var toggle = document.getElementById('translate-toggle');
-  var cookie = document.cookie;
-  if (cookie.indexOf('googtrans') !== -1 && cookie.indexOf('zh-CN') !== -1) {
-    translated = true;
-    toggle.textContent = 'EN';
-  } else {
-    translated = false;
-    toggle.textContent = '中文';
-  }
-});
 </script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
