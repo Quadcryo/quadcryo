@@ -2,6 +2,8 @@
 layout: about 
 title: About
 permalink: /
+latest_posts: true
+selected_papers: true
 profile:
   align: right
   image: pfp_medoingmath.jpg
