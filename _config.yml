@@ -13,7 +13,7 @@ footer_text:
 keywords: 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: δ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ζ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://quadcryo.github.io
 baseurl: /quadcryo/
