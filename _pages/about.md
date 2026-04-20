@@ -2,7 +2,7 @@
 layout: about 
 title: About
 permalink: /
-latest_posts: true
+latest_posts: false
 profile:
   align: right
   image: pfp_medoingmath.jpg
