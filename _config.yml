@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:  blank
+title: Matias Relyea 賀彥龍
 first_name: Matias 賀
 middle_name: 
 last_name: 彥龍 Relyea
@@ -13,7 +13,7 @@ footer_text:
 keywords: 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: δ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon_aquamarine.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://quadcryo.github.io
 baseurl: /quadcryo/
