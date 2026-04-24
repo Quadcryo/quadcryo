@@ -19,6 +19,3 @@ tags:
 <p>There is so much more good to say about Dr. Avineri that it is impossible to contain all of it within this short piece - I wish I would have been able to learn more about her and her past, as well as her future. Dr. Avineri will be missed by many, and I will never forget how she has impacted me. </p>
 
 <p>May she rest in peace.</p>
-
-<br>
-<p>(2 May, 2025)</p>
