@@ -40,6 +40,6 @@ tags: literature
 
 > Many people hate math, and they tend to put AI in the same bag. They view anything with mathematics or computers in it as a threat to their humanity and subjectivity, their raw experience of being alive, immersed in this world, trying to make intuitive sense of it. 
 >
->They might be surprised—and thankful—to find out that mathematicians are actually on their side, fighting the good fight. As Carl Jacobi once put it, “the object of mathematics is the honor of the human spirit.” — David Bessis
+>They might be surprised—and thankful—to find out that mathematicians are actually on their side, fighting the good fight. As Carl Jacobi once put it, <i>“the object of mathematics is the honor of the human spirit.”</i> — David Bessis
 
 <p> I think it is the responsibility of this generation of young mathematicians to make this reform.  </p>
