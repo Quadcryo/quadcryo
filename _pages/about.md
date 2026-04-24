@@ -7,7 +7,7 @@ profile:
   align: right
   image: pfp_medoingmath.jpg
   image_circular: false
-  address: <a href="https://quadcryo.github.io/quadcryo/assets/pdf/CV.pdf">Curriculum Vitae (CV)</a>
+  address: <a href="https://quadcryo.github.io/quadcryo/assets/pdf/cv2.pdf">Curriculum Vitae (CV)</a>
 ---
 
 <p> My name is Matias, and I am a first year student in the <a href="https://math.unc.edu/">Department of Mathematics</a> at the <a href="https://www.unc.edu/">University of North Carolina at Chapel Hill</a>.</p>
