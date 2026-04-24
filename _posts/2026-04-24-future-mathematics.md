@@ -2,7 +2,7 @@
 layout: post
 title:  The Future of Mathematics
 date:   2026-04-24 00:00-00
-description: thoughts about mathematics of the future
+description: thoughts on an article by David Bessis
 tags: literature
 ---
 
