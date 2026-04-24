@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  <q> Can You Even? </q> An Exploration of Polyominos
+title:  <q>Can You Even?</q> An Exploration of Polyominos
 date:   2025-01-30 00:00-00
-description: A project from J-term
+description: a project from J-term
 tags: mathematics
 ---
 

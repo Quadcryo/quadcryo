@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Is mathematics a language?
+title:  Is Mathematics a Language?
 date:   2024-07-01 00:00-00
-description: Some thoughts about whether mathematics should or should not be a language
+description: some thoughts about whether mathematics should or should not be a language
 tags: literature
 ---
 

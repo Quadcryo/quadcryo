@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Elementary algebra of hyperreals
+title:  Elementary Algebra of Hyperreals
 date:   2025-01-30 00:00-00
-description: A presentation I gave on the algebra of hyperreal numbers systems, monads, galaxies
+description: a presentation I gave on the algebra of hyperreal numbers systems, monads, galaxies
 tags: mathematics
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A word
+title:  A Word
 date:   2025-05-02 00:00-00
 description: 
 tags: 
