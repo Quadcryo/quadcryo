@@ -12,11 +12,11 @@ profile:
 
 <p> My name is Matias, and I am a first year student in the <a href="https://math.unc.edu/">Department of Mathematics</a> at the <a href="https://www.unc.edu/">University of North Carolina at Chapel Hill</a>.</p>
 
+<p> I am a Visiting Research Fellow at the <a href = "https://mathematics.huji.ac.il/">Einstein Institute of Mathematics</a> REU for Summer 2026. </p>
+
 <p> This website serves the dual purpose of presenting both expository and original work pertaining to areas that I am interested in (papers and publications, under "Articles"), as well as acting as a semi-serious pseudo-blog ("Memoirs") that documents some of my mathematical experiences, opinions, and sometimes existential pieces that make no sense. Currently I am interested in number theory and algebra—specifically reciprocity laws—but new mathematical territory will cause my interests to expand and change. I currently have developing interests in algebraic geometry. Thank you for visiting this site. </p>
 
 <p> I wrote a <a href="https://quadcryo.github.io/quadcryo/2026/mathreus/">math REU application guide</a> for the 2026 cycle from a first year perspective, check it out. </p>
-
-<p> I am a Visiting Research Fellow at the <a href = "https://mathematics.huji.ac.il/">Einstein Institute of Mathematics</a> REU for Summer 2026.</p>
 
 <p> Oh, and a little <a href="https://texnique.xyz">TeXnique</a> can't hurt right? </p>
 
