@@ -10,7 +10,7 @@ profile:
   address: <a href="https://quadcryo.github.io/quadcryo/assets/pdf/cv.pdf">Curriculum Vitae (CV)</a>
 ---
 
-<p> My name is Matias, and I am a first year student in the <a href="https://math.unc.edu/">Department of Mathematics</a> at the <a href="https://www.unc.edu/">University of North Carolina at Chapel Hill</a>.</p>
+<p> My name is Matias, and I am a first-year student in the <a href="https://math.unc.edu/">Department of Mathematics</a> at the <a href="https://www.unc.edu/">University of North Carolina at Chapel Hill</a>.</p>
 
 <p> I am a Visiting Research Fellow at the <a href = "https://mathematics.huji.ac.il/">Einstein Institute of Mathematics</a> REU for Summer 2026. </p>
 
