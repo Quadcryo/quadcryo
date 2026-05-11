@@ -26,6 +26,17 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+// Override container width for publications page
+.publications .container,
+.page-content .publications {
+  max-width: 100%;
+}
+
+.publications ol.bibliography li {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 // Profile
 .profile {
   img {
