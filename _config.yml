@@ -128,7 +128,6 @@ display_tags: ['mathematics', 'research', 'journeys', 'literature']
 # Pagination
 pagination: 
   enabled: true
-  per_page: 100
 
 related_blog_posts:
   enabled: false
