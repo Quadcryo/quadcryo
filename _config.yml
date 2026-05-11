@@ -126,8 +126,9 @@ permalink: /:year/:title/
 display_tags: ['mathematics', 'research', 'journeys', 'literature']
 
 # Pagination
-pagination: 100
-enabled: true
+pagination: 
+  enabled: true
+  per_page: 100
 
 related_blog_posts:
   enabled: false
