@@ -110,7 +110,17 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px;
+}
+
+.publications .container,
+.page-content .publications {
+  max-width: 100%;
+}
+
+.publications ol.bibliography li {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .profile img {
