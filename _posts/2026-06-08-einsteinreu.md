@@ -28,9 +28,9 @@ tags: research
     box-sizing: border-box;
   }
 
-  /* Figure wrappers - set to relative to contain absolute captions */
+  /* Figure wrappers */
   .grid-card {
-    margin: 0; /* Clear default figure margins */
+    margin: 0;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -51,32 +51,27 @@ tags: research
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 35px 15px 12px 15px; /* Added extra top padding for the gradient blend */
+    padding: 35px 15px 12px 15px;
     color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 14px;
     font-weight: 500;
-    /* Soft dark gradient ensures white text is readable over any image light/dark spots */
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
     
-    /* FIX: Enabled user interaction so links are fully clickable */
+    /* Enabled interaction for links */
     pointer-events: auto; 
+    z-index: 2;
   }
 
-  /* Specific styles for clickable links inside captions */
+  /* Inherit website default link colors */
   .grid-card figcaption a {
-    color: #ffd700; /* Subtle gold color for visibility against the dark gradient */
+    color: inherit; 
     text-decoration: underline;
-    cursor: pointer;
-    transition: color 0.2s ease;
+    pointer-events: auto;
   }
 
-  .grid-card figcaption a:hover {
-    color: #ffffff; /* Turns white on hover */
-  }
-
-  /* Specific heights for desktop layout balance */
+  /* Desktop heights */
   @media (min-width: 769px) {
     .mobile-friendly-grid {
       grid-template-columns: repeat(2, 1fr);
@@ -89,24 +84,20 @@ tags: research
     }
   }
 
-  /* Mobile-specific optimizations */
+  /* Mobile optimizations */
   @media (max-width: 768px) {
     .mobile-friendly-grid {
       grid-template-columns: 1fr;
       gap: 16px;
     }
-    
     .landscape-img img {
       height: 240px;
     }
-    
     .portrait-img img {
       height: 420px;
     }
-
     .grid-card figcaption {
       font-size: 13px;
-      padding: 25px 12px 10px 12px;
     }
   }
 </style>
