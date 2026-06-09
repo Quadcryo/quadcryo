@@ -6,7 +6,7 @@ description: happenings this summer
 tags: research
 ---
 
-<p> This summer I am attending the Einstein Institute of Mathematics REU in Jerusalem, Israel. The program just began as of 9 June, so I will add many experiences and some pictures to this post as more things happen, but I'd like to start here by sort of describing the beginning of the program and some things I've experienced so far. </p>
+<p> This summer I am attending the Einstein Institute of Mathematics REU in Jerusalem, Israel. The program just began as of 8 June, so I will add many experiences and some pictures to this post as more things happen, but I'd like to start here by sort of describing the beginning of the program and some things I've experienced so far. </p>
 
 <p> The elephant in the room at this current moment is the reality of long-standing geopolitical conflict in the region. I won't talk about details or politics as my goal here is to document my experiences, but the program began rather explosively with sirens, missile alerts, and a video of a missile being intercepted. More details <a href="https://www.aljazeera.com/video/newsfeed/2026/6/8/missiles-intercepted-over-occupied-east-jerusalem-and-west-bank-2">here</a>. This didn't really hinder much. </p>
 
