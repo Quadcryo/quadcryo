@@ -51,15 +51,29 @@ tags: research
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 25px 15px 12px 15px;
+    padding: 35px 15px 12px 15px; /* Added extra top padding for the gradient blend */
     color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 14px;
     font-weight: 500;
     /* Soft dark gradient ensures white text is readable over any image light/dark spots */
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    pointer-events: none; /* Allows clicks to pass through to the image */
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    
+    /* FIX: Enabled user interaction so links are fully clickable */
+    pointer-events: auto; 
+  }
+
+  /* Specific styles for clickable links inside captions */
+  .grid-card figcaption a {
+    color: #ffd700; /* Subtle gold color for visibility against the dark gradient */
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+
+  .grid-card figcaption a:hover {
+    color: #ffffff; /* Turns white on hover */
   }
 
   /* Specific heights for desktop layout balance */
@@ -92,7 +106,7 @@ tags: research
 
     .grid-card figcaption {
       font-size: 13px;
-      padding: 20px 12px 10px 12px;
+      padding: 25px 12px 10px 12px;
     }
   }
 </style>
@@ -105,7 +119,7 @@ tags: research
   
   <figure class="grid-card landscape-img">
     <img src="/quadcryo/assets/img/sabiche.jpg" alt="Group eating sabich">
-    <figcaption><a href="https://en.wikipedia.org/wiki/Sabich">Sabich</a>!</figcaption>
+    <figcaption><a href="https://en.wikipedia.org/wiki/Sabich" target="_blank">Sabich</a>!</figcaption>
   </figure>
 
   <figure class="grid-card portrait-img">
