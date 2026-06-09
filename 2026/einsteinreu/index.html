@@ -150,67 +150,76 @@
 <p> Anyway, some of us visited the campus today, and I have to say: the Hebrew University has a rather nice campus, and I really appreciate the combination of traditional and brutalist architecture. Here are some random pictures. </p>
 
 <style>
-  .photo-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  /* Container setup */
+  .mobile-friendly-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 12px;
     max-width: 1000px;
     margin: 0 auto;
-    font-family: sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
   }
 
-  .grid-row {
-    display: flex;
-    width: 100%;
-    gap: 10px;
-  }
-
-  .grid-item {
-    flex: 1;
+  /* Individual item wrappers */
+  .grid-card {
+    position: relative;
     overflow: hidden;
-    border-radius: 4px;
-    background-color: #f0f0f0;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   }
 
-  .grid-item img {
+  /* Base image rules */
+  .grid-card img {
     width: 100%;
-    height: 400px; /* Uniform height for a clean row line */
-    object-fit: cover; /* Prevents stretching */
     display: block;
+    object-fit: cover;
   }
 
-  /* Optional: Adjust height for the vertical row if you want them taller */
-  .tall-row img {
-    height: 600px;
-  }
-
-  @media (max-width: 600px) {
-    .grid-row {
-      flex-direction: column;
+  /* Specific heights for desktop layout balance */
+  @media (min-width: 769px) {
+    .mobile-friendly-grid {
+      grid-template-columns: repeat(2, 1fr);
     }
-    .grid-item img {
-      height: auto;
+    .landscape-img img {
+      height: 380px;
+    }
+    .portrait-img img {
+      height: 550px;
+    }
+  }
+
+  /* Mobile-specific optimizations */
+  @media (max-width: 768px) {
+    .mobile-friendly-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    
+    .landscape-img img {
+      height: 240px;
+    }
+    
+    .portrait-img img {
+      height: 420px;
     }
   }
 </style>
 
-<div class="photo-grid">
-  <div class="grid-row">
-    <div class="grid-item">
-      <img src="/quadcryo/assets/img/solovaykitaev.jpg" alt="Solovay-Kitaev whiteboard notes">
-    </div>
-    <div class="grid-item">
-      <img src="/quadcryo/assets/img/sabiche.jpg" alt="Group eating sabich">
-    </div>
+<div class="mobile-friendly-grid">
+  <div class="grid-card landscape-img">
+    <img src="/quadcryo/assets/img/solovaykitaev.jpg" alt="Solovay-Kitaev whiteboard notes">
+  </div>
+  <div class="grid-card landscape-img">
+    <img src="/quadcryo/assets/img/sabiche.jpg" alt="Group eating sabich">
   </div>
 
-  <div class="grid-row tall-row">
-    <div class="grid-item">
-      <img src="/quadcryo/assets/img/einsteinstatue.jpg" alt="Group at Einstein statue">
-    </div>
-    <div class="grid-item">
-      <img src="/quadcryo/assets/img/einsteinpic.jpg" alt="Einstein Institute of Mathematics entrance">
-    </div>
+  <div class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/einsteinstatue.jpg" alt="Group at Einstein statue">
+  </div>
+  <div class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/einsteinpic.jpg" alt="Einstein Institute of Mathematics entrance">
   </div>
 </div>
 
