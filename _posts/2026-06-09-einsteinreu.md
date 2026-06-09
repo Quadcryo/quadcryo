@@ -28,8 +28,9 @@ tags: research
     box-sizing: border-box;
   }
 
-  /* Individual item wrappers */
+  /* Figure wrappers - set to relative to contain absolute captions */
   .grid-card {
+    margin: 0; /* Clear default figure margins */
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -42,6 +43,23 @@ tags: research
     width: 100%;
     display: block;
     object-fit: cover;
+  }
+
+  /* Caption overlay styling */
+  .grid-card figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 15px 12px 15px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    /* Soft dark gradient ensures white text is readable over any image light/dark spots */
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    pointer-events: none; /* Allows clicks to pass through to the image */
   }
 
   /* Specific heights for desktop layout balance */
@@ -71,23 +89,34 @@ tags: research
     .portrait-img img {
       height: 420px;
     }
+
+    .grid-card figcaption {
+      font-size: 13px;
+      padding: 20px 12px 10px 12px;
+    }
   }
 </style>
 
 <div class="mobile-friendly-grid">
-  <div class="grid-card landscape-img">
+  <figure class="grid-card landscape-img">
     <img src="/quadcryo/assets/img/solovaykitaev.jpg" alt="Solovay-Kitaev whiteboard notes">
-  </div>
-  <div class="grid-card landscape-img">
+    <figcaption>Flash talk about the project</figcaption>
+  </figure>
+  
+  <figure class="grid-card landscape-img">
     <img src="/quadcryo/assets/img/sabiche.jpg" alt="Group eating sabich">
-  </div>
+    <figcaption><a href="https://en.wikipedia.org/wiki/Sabich">Sabich</a>!</figcaption>
+  </figure>
 
-  <div class="grid-card portrait-img">
+  <figure class="grid-card portrait-img">
     <img src="/quadcryo/assets/img/einsteinstatue.jpg" alt="Group at Einstein statue">
-  </div>
-  <div class="grid-card portrait-img">
+    <figcaption>Albert Einstein statue</figcaption>
+  </figure>
+  
+  <figure class="grid-card portrait-img">
     <img src="/quadcryo/assets/img/einsteinpic.jpg" alt="Einstein Institute of Mathematics entrance">
-  </div>
+    <figcaption>The Einstein Institute of Mathematics at the Hebrew University of Jerusalem (HUJI)</figcaption>
+  </figure>
 </div>
 
 <br>
