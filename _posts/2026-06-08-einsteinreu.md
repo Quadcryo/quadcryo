@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Einstein Institute of Mathematics REU
-date:   2026-06-09 00:00-00
+date:   2026-06-08 00:00-00
 description: happenings this summer
 tags: research
 ---
@@ -135,4 +135,4 @@ tags: research
 
 <br>
 
-<p> (9 June, 2026) </p>
+<p> (8 June, 2026) </p>
