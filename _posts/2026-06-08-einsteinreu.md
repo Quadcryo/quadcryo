@@ -64,10 +64,8 @@ tags: research
     z-index: 2;
   }
 
-  /* Inherit website default link colors */
+  /* Let the website's native hyperlink styling rule here */
   .grid-card figcaption a {
-    color: inherit; 
-    text-decoration: underline;
     pointer-events: auto;
   }
 
