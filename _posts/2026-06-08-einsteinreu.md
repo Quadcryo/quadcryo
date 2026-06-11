@@ -10,7 +10,7 @@ tags: research
 
 <p> The elephant in the room at this current moment is the reality of long-standing geopolitical conflict in the region. I won't talk about details or politics as my goal here is to document my experiences, but the program began rather explosively with sirens, missile alerts, and a video of a missile being intercepted. More details <a href="https://www.aljazeera.com/video/newsfeed/2026/6/8/missiles-intercepted-over-occupied-east-jerusalem-and-west-bank-2">here</a>. This didn't really hinder much. </p>
 
-<p> I was able to meet with my advisor, and the project was broadly introduced to us. From what I currently understand, a large fragment of the REU is dedicated to understanding the <a href = "https://en.wikipedia.org/wiki/Solovay%E2%80%93Kitaev_theorem">Solovay-Kitaev theorem</a> for compact Lie groups, and potentially attempting to extend the algorithm to general groups. Depending on the direction, we might also attempt to work on an open problem in group theory, or possibly go in some other directions relating to quantum algorithms and algebraic number theory. I imagine objectives and interests will shift, but this is the basic skeleton of the program. </p>
+<p> I was able to meet with my advisor, Dr. Shai Evra, and the project was broadly introduced to us. From what I currently understand, a large fragment of the REU is dedicated to understanding the <a href = "https://en.wikipedia.org/wiki/Solovay%E2%80%93Kitaev_theorem">Solovay-Kitaev theorem</a> for compact Lie groups, and potentially attempting to extend the algorithm to general groups. Depending on the direction, we might also attempt to work on an open problem in group theory, or possibly go in some other directions relating to quantum algorithms and algebraic number theory. I imagine objectives and interests will shift, but this is the basic skeleton of the program. </p>
 
 <p> I've also had a lot of fun meeting the other people in the program, and it's nice to see how international our group is! We have people from China, South Korea, Greece, and the United States. </p>
 
@@ -102,22 +102,22 @@ tags: research
 
 <div class="mobile-friendly-grid">
   <figure class="grid-card landscape-img">
-    <img src="/quadcryo/assets/img/solovaykitaev.jpg" alt="Solovay-Kitaev whiteboard notes">
-    <figcaption>Flash talk about the project</figcaption>
+    <img src="/quadcryo/assets/img/solovaykitaev.jpg" alt="Flash presentation about the project">
+    <figcaption>Flash presentation about the project</figcaption>
   </figure>
   
   <figure class="grid-card landscape-img">
-    <img src="/quadcryo/assets/img/sabiche.jpg" alt="Group eating sabich">
+    <img src="/quadcryo/assets/img/sabiche.jpg" alt="Sabich">
     <figcaption><a href="https://en.wikipedia.org/wiki/Sabich" target="_blank">Sabich</a>!</figcaption>
   </figure>
 
   <figure class="grid-card portrait-img">
-    <img src="/quadcryo/assets/img/einsteinstatue.jpg" alt="Group at Einstein statue">
-    <figcaption>Albert Einstein statue</figcaption>
+    <img src="/quadcryo/assets/img/einsteinstatue.jpg" alt="Albert Einstein statue in front of the Ross Building">
+    <figcaption>Albert Einstein statue in front of the Ross Building</figcaption>
   </figure>
   
   <figure class="grid-card portrait-img">
-    <img src="/quadcryo/assets/img/einsteinpic.jpg" alt="Einstein Institute of Mathematics entrance">
+    <img src="/quadcryo/assets/img/einsteinpic.jpg" alt="The Einstein Institute of Mathematics at the Hebrew University of Jerusalem (HUJI)">
     <figcaption>The Einstein Institute of Mathematics at the Hebrew University of Jerusalem (HUJI)</figcaption>
   </figure>
 </div>
@@ -125,3 +125,19 @@ tags: research
 <br>
 
 <p> (8 June, 2026) </p>
+
+<br>
+
+<div class="image-grid-1">
+    <div class="image-container">
+        <img src="/assets/img/einsteinlibrary.jpg" alt="Mathematics library at the Institute">
+        <p class="caption">Mathematics library at the Institute</p>
+    </div>
+</div>
+
+<p> Another few days later, and I've returned to campus one more time. The REU acquired a computer lab room for work in the future, though it does not have a chalkboard/whiteboard (the temperature may also be controlled and set to frighteningly low temperatures, much to one person's dismay). Above is a picture of the mathematics library–lots and lots of textbooks. If this collection were aggregated and sold online, I can only imagine how valuable it would be–potentially millions, considering 90% of the books appeared to be Springer. </p>
+
+<p>  </p>
+
+
+<p> (11 June, 2026) </p>
