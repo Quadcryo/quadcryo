@@ -7,15 +7,7 @@ tags: research
 ---
 
 <style>
-  /* Standalone image wrapper to keep everything perfectly aligned with your text margins */
-  .standalone-image-container {
-    max-width: 1000px;
-    margin: 25px auto; /* Gives nice breathing room between your paragraphs and images */
-    padding: 0 10px;
-    box-sizing: border-box;
-  }
-
-  /* Figure wrappers */
+  /* ====== SHARED BASE IMAGE STYLES ====== */
   .grid-card {
     margin: 0;
     position: relative;
@@ -26,14 +18,12 @@ tags: research
     width: 100%;
   }
 
-  /* Base image rules */
   .grid-card img {
     width: 100%;
     display: block;
     object-fit: cover;
   }
 
-  /* Caption overlay styling */
   .grid-card figcaption {
     position: absolute;
     bottom: 0;
@@ -50,32 +40,50 @@ tags: research
     z-index: 2;
   }
 
-  /* Let the website's native hyperlink styling rule here */
   .grid-card figcaption a {
     pointer-events: auto;
   }
 
-  /* Desktop heights for individual standalone images */
-  @media (min-width: 769px) {
-    .landscape-img img {
-      height: 480px; /* Slightly taller for striking full-width landscape viewing */
-    }
-    .portrait-img img {
-      height: 600px; /* Gives the vertical images proper space */
-    }
+  /* ====== CONTAINER 1: THE 2x2 GRID LAYER ====== */
+  .mobile-friendly-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
   }
 
-  /* Mobile optimizations */
+  /* ====== CONTAINER 2: STANDALONE IMAGE LAYER ====== */
+  .standalone-image-container {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  /* ====== RESPONSIVE HEIGHT CONTROLS ====== */
+  @media (min-width: 769px) {
+    /* Grid-specific row balances */
+    .mobile-friendly-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .mobile-friendly-grid .landscape-img img { height: 380px; }
+    .mobile-friendly-grid .portrait-img img { height: 550px; }
+    
+    /* Standalone-specific sizing */
+    .standalone-image-container .landscape-img img { height: 480px; } 
+  }
+
   @media (max-width: 768px) {
-    .landscape-img img {
-      height: 240px;
+    .mobile-friendly-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
     }
-    .portrait-img img {
-      height: 420px;
-    }
-    .grid-card figcaption {
-      font-size: 13px;
-    }
+    .landscape-img img { height: 240px; }
+    .portrait-img img { height: 420px; }
+    .grid-card figcaption { font-size: 13px; }
   }
 </style>
 
@@ -89,28 +97,22 @@ tags: research
 
 <p> Anyway, some of us visited the campus today, and I have to say: the Hebrew University has a rather nice campus, and I really appreciate the combination of traditional and brutalist architecture. Here are some random pictures. </p>
 
-<div class="standalone-image-container">
+<div class="mobile-friendly-grid">
   <figure class="grid-card landscape-img">
     <img src="/quadcryo/assets/img/solovaykitaev.jpg" alt="Flash presentation about the project">
     <figcaption>Flash presentation about the project</figcaption>
   </figure>
-</div>
-
-<div class="standalone-image-container">
+  
   <figure class="grid-card landscape-img">
     <img src="/quadcryo/assets/img/sabiche.jpg" alt="Sabich">
     <figcaption><a href="https://en.wikipedia.org/wiki/Sabich" target="_blank">Sabich</a>!</figcaption>
   </figure>
-</div>
 
-<div class="standalone-image-container">
   <figure class="grid-card portrait-img">
     <img src="/quadcryo/assets/img/einsteinstatue.jpg" alt="Albert Einstein statue in front of the Ross Building">
     <figcaption>Albert Einstein statue in front of the Ross Building</figcaption>
   </figure>
-</div>
-
-<div class="standalone-image-container">
+  
   <figure class="grid-card portrait-img">
     <img src="/quadcryo/assets/img/einsteinpic.jpg" alt="The Einstein Institute of Mathematics at the Hebrew University of Jerusalem (HUJI)">
     <figcaption>The Einstein Institute of Mathematics at the Hebrew University of Jerusalem (HUJI)</figcaption>
