@@ -140,7 +140,9 @@
     
     <div id="markdown-content">
       <style>
-  /* ====== SHARED BASE IMAGE STYLES ====== */
+  /* ==========================================================================
+     1. SHARED CARD & CAPTION BASE STYLES
+     ========================================================================== */
   .grid-card {
     margin: 0;
     position: relative;
@@ -173,11 +175,16 @@
     z-index: 2;
   }
 
+  /* Keeps website native hyperlink styling intact and clickable */
   .grid-card figcaption a {
     pointer-events: auto;
   }
 
-  /* ====== CONTAINER 1: THE 2x2 GRID LAYER ====== */
+  /* ==========================================================================
+     2. CONTAINER LAYOUT TYPES
+     ========================================================================== */
+  
+  /* Layout A: The 2x2 Image Grid Container */
   .mobile-friendly-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -188,7 +195,23 @@
     box-sizing: border-box;
   }
 
-  /* ====== CONTAINER 2: STANDALONE IMAGE LAYER ====== */
+  /* Layout B: The 3-Image Grid Container (2 Top, 1 Full Bottom) */
+  .triple-image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Makes an image break columns and stretch wide */
+  .full-width-row {
+    grid-column: span 2;
+  }
+
+  /* Layout C: Standalone Single Image Container */
   .standalone-image-container {
     max-width: 1000px;
     margin: 25px auto;
@@ -196,27 +219,53 @@
     box-sizing: border-box;
   }
 
-  /* ====== RESPONSIVE HEIGHT CONTROLS ====== */
+  /* ==========================================================================
+     3. DESKTOP RESPONSIVE CONTROL (Screeen width > 768px)
+     ========================================================================== */
   @media (min-width: 769px) {
-    /* Grid-specific row balances */
+    /* 2x2 Grid Desktop Parameters */
     .mobile-friendly-grid {
       grid-template-columns: repeat(2, 1fr);
     }
     .mobile-friendly-grid .landscape-img img { height: 380px; }
     .mobile-friendly-grid .portrait-img img { height: 550px; }
     
-    /* Standalone-specific sizing */
+    /* 3-Image Grid Desktop Parameters */
+    .triple-image-grid .landscape-img img { height: 380px; }
+    .triple-image-grid .portrait-img img { height: 450px; } 
+    .triple-image-grid .full-width-row img { height: 440px; }
+
+    /* Standalone Desktop Parameters */
     .standalone-image-container .landscape-img img { height: 480px; } 
   }
 
+  /* ==========================================================================
+     4. MOBILE RESPONSIVE CONTROL (Screen width <= 768px)
+     ========================================================================== */
   @media (max-width: 768px) {
-    .mobile-friendly-grid {
+    .mobile-friendly-grid, 
+    .triple-image-grid {
       grid-template-columns: 1fr;
       gap: 16px;
     }
-    .landscape-img img { height: 240px; }
-    .portrait-img img { height: 420px; }
-    .grid-card figcaption { font-size: 13px; }
+    
+    .full-width-row {
+      grid-column: span 1; /* Drop column-spanning on mobile */
+    }
+    
+    /* Global image overrides for cleaner portrait/landscape balance on phones */
+    .landscape-img img, 
+    .full-width-row img { 
+      height: 240px; 
+    }
+    
+    .portrait-img img { 
+      height: 420px; 
+    }
+    
+    .grid-card figcaption { 
+      font-size: 13px; 
+    }
   }
 </style>
 
@@ -278,6 +327,29 @@
 <p> As part of REUs, I think there is a tradition of bringing students to conferences taking place locally. My mentor suggested we attend the <a href="https://iias.huji.ac.il/event/25th-midrasha-mathematicae-groups-expanders-and-codes" rel="external nofollow noopener" target="_blank">Midrasha Mathematicae on Groups, Expanders, and Codes</a> next week, a conference at the Einstein Institute for researchers in the field of quantum computation and the exact area that my REU project is on (without surprise, my mentor is one of the organizers). I expect to understand less than 1% of the material from the talks, but I hope to be able to appreciate the atmosphere and get a taste of what a conference should feel like. Maybe I can ask some good questions if I read more diligently this week!</p>
 
 <p> (11 June, 2026) </p>
+
+<p> I don't expect to update this page as frequently after this as fewer new things will be happening. I attended the first day of the conference, and I must say that doing so was <i> illuminating </i> rather than <i> useful </i>. While I have listened to some small seminars or lectures before, I've never attended a conference that contains a large number of such lectures that contain incredibly dense and cutting-edge mathematics. I went into the conference expecting to understand a very small amount, and even I was surprised. After surveying Breuillard and Lubtozky's paper for some time, I believe I developed a conceptual intution for <i> what was going on </i>, i.e. that the talks (primarily the talks given by Breuillard) were concerned with expander graphs, and that an ultimate goal was to develop notions of expansion and questions of spectral gap in the context of finite simple groups. Most of the details flew over my head, but I enjoyed listening to how various speakers spoke about this research area, and I especially appreciated how I was able to understand a some fundamental terms like <a href="https://en.wikipedia.org/wiki/Zariski_topology" rel="external nofollow noopener" target="_blank">Zariski-dense</a>, <a href="https://en.wikipedia.org/wiki/Irreducible_representation" rel="external nofollow noopener" target="_blank">irreducible representation</a>, and more. Below are some photos from the conference. </p>
+
+<div class="triple-image-grid">
+  <figure class="grid-card landscape-img">
+    <img src="/quadcryo/assets/img/iiasboard1.jpg" alt="Whiteboard notes from Oxford University speaker Emmanuel Breuillard; Uniform expansion for finite simple groups ">
+    <figcaption>Whiteboard notes from Oxford University speaker Emmanuel Breuillard; <i> Uniform expansion for finite simple groups </i></figcaption>
+  </figure>
+
+  <figure class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/conferenceid.jpg" alt="IIAS conference badge">
+    <figcaption>IIAS conference badge</figcaption>
+  </figure>
+
+  <figure class="grid-card full-width-row">
+    <img src="/quadcryo/assets/img/campuspic.jpg" alt="In the shade outside the IIAS on the Givat Ram campus">
+    <figcaption>In the shade outside the IIAS on the Givat Ram campus</figcaption>
+  </figure>
+</div>
+
+<p> I think this talk was sort of eye-opening for me in a few ways. It excites me that there is so much math on the frontier, but it's a little intimidating. But it was somehow... relatable that some lecturers said "I don't know" when asked some particularly good questions. There was some shared humor that I didn't understand, but some things were also a bit down to earth, like when the person sitting beside me asked "what are the applications of these results?" I think these aspects of the conference will be among my greatest takeways, mostly because it showcases how mathematics is less of an all-absorbing gel full of pretensious people, and more of a collaborative construction—everyone is putting in their own effort, and developing a vast literature isn't done alone. I hope there is no place for elitism. Perhaps an open question: is it rude to ask something like "how much should I understand?" at a conference like this? </p>
+
+<p> (14 June, 2026) </p>
 
     </div>
   </article>
