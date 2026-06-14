@@ -42,7 +42,6 @@ tags: research
     z-index: 2;
   }
 
-  /* Keeps website native hyperlink styling intact and clickable */
   .grid-card figcaption a {
     pointer-events: auto;
   }
@@ -62,18 +61,19 @@ tags: research
     box-sizing: border-box;
   }
 
-  /* Layout B: The 3-Image Grid Container (2 Top, 1 Full Bottom) */
+  /* Layout B: The 3-Image Grid Container (Asymmetrical Top Row) */
   .triple-image-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1.3fr 0.7fr;
     gap: 12px;
     max-width: 1000px;
     margin: 20px auto;
     padding: 10px;
     box-sizing: border-box;
+    align-items: stretch; /* Forces both top items to have identical height dynamically */
   }
 
-  /* Makes an image break columns and stretch wide */
+  /* Makes the campus image break columns and stretch wide */
   .full-width-row {
     grid-column: span 2;
   }
@@ -87,7 +87,7 @@ tags: research
   }
 
   /* ==========================================================================
-     3. DESKTOP RESPONSIVE CONTROL (Screeen width > 768px)
+     3. DESKTOP RESPONSIVE CONTROL (Screen width > 768px)
      ========================================================================== */
   @media (min-width: 769px) {
     /* 2x2 Grid Desktop Parameters */
@@ -98,8 +98,17 @@ tags: research
     .mobile-friendly-grid .portrait-img img { height: 550px; }
     
     /* 3-Image Grid Desktop Parameters */
-    .triple-image-grid .landscape-img img { height: 380px; }
-    .triple-image-grid .portrait-img img { height: 450px; } 
+    /* By using auto, the left image sets its height naturally and completely deletes the whitespace */
+    .triple-image-grid .landscape-img img { 
+      height: auto; 
+    }
+    /* Forces the ID badge container to match the height of the left image perfectly */
+    .triple-image-grid .portrait-img {
+      display: flex;
+    }
+    .triple-image-grid .portrait-img img { 
+      height: 100%; 
+    } 
     .triple-image-grid .full-width-row img { height: 440px; }
 
     /* Standalone Desktop Parameters */
@@ -117,10 +126,9 @@ tags: research
     }
     
     .full-width-row {
-      grid-column: span 1; /* Drop column-spanning on mobile */
+      grid-column: span 1; 
     }
     
-    /* Global image overrides for cleaner portrait/landscape balance on phones */
     .landscape-img img, 
     .full-width-row img { 
       height: 240px; 
@@ -135,7 +143,6 @@ tags: research
     }
   }
 </style>
-
 
 <p> This summer I am attending the Einstein Institute of Mathematics REU in Jerusalem, Israel. The program just began as of 8 June, so I will add many experiences and some pictures to this post as more things happen, but I'd like to start here by sort of describing the beginning of the program and some things I've experienced so far. </p>
 
