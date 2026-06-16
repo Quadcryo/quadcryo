@@ -145,11 +145,11 @@ tags: research
 </style>
 
 <nav>
-  <ol>
+  <ul>
     <li><a href="#0">8 June, 2026</a></li>
     <li><a href="#1">11 June,  2026</a></li>
     <li><a href="#2">14 June, 2026</a></li>
-  </ol>
+  </ul>
 </nav>
 
 <h5 id="0">(8 June, 2026)</h5>
