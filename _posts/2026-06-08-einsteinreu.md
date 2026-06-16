@@ -208,7 +208,7 @@ tags: research
 <div class="triple-image-grid">
   <figure class="grid-card landscape-img">
     <img src="/quadcryo/assets/img/iiasboard1.jpg" alt="Whiteboard notes from Oxford University speaker Emmanuel Breuillard; Uniform expansion for finite simple groups ">
-    <figcaption>Whiteboard notes from Oxford University speaker Emmanuel Breuillard; <i> Uniform expansion for finite simple groups </i></figcaption>
+    <figcaption>Whiteboard notes from Oxford University speaker Emmanuel Breuillard ("assuming <a href="https://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis">GRH</a>" on the right); <i> Uniform expansion for finite simple groups </i></figcaption>
   </figure>
 
   <figure class="grid-card portrait-img">
@@ -222,6 +222,8 @@ tags: research
   </figure>
 </div>
 
-<p> I think this talk was sort of eye-opening for me in a few ways. It excites me that there is so much math on the frontier, but it's a little intimidating. But it was somehow... relatable that some lecturers said "I don't know" when asked some particularly good questions. There was some shared humor that I didn't understand, but some things were also a bit down to earth, like when the person sitting beside me asked "what are the applications of these results?" I think these aspects of the conference will be among my greatest takeways, mostly because it showcases how mathematics is less of an all-absorbing gel full of pretensious people, and more of a collaborative construction—everyone is putting in their own effort, and developing a vast literature isn't done alone. I hope there is no place for elitism. Perhaps an open question: is it rude to ask something like "how much should I understand?" at a conference like this? </p>
+<p> Something that I keep thinking back about is that in research mathematics, people tend to use words like "usually," "almost all," "some," "effective," "sometimes," etc. in reference to results or methods, which just seems so <i> crude</i> from the lack of a better description. I thought mathematics was an indestructible pillar founded on hundreds of year of mathematical formalism—and it is—but it is its crudeness that makes it interesting. I would never have thought mathematics could be similar to applied sciences. But it is. Somehow, trying out different methods and trying to get better and better bounds or isolating particular sets to work in a certain way is akin to watching bacteria multiply or carrying out PCR. </p>
+
+<p> I think this conference was sort of eye-opening for me in a few ways. It excites me that there is so much math on the frontier, but it's a little intimidating. But it was somehow ... relatable that some lecturers said "I don't know" when asked some particularly good questions. There was some shared humor that I didn't understand, but some things were also a bit down to earth, like when the person sitting beside me asked "what are the applications of these results?" I think these aspects of the conference will be among my greatest takeways, mostly because it showcases how mathematics is less of an all-absorbing gel full of pretensious people, and more of a collaborative construction—everyone is putting in their own effort, and developing a vast literature isn't done alone. I hope there is no place for elitism. Perhaps an open question: is it rude to ask something like "how much should I understand?" at a conference like this? </p>
 
 <p> (14 June, 2026) </p>
