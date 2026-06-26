@@ -1,4 +1,270 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://quadcryo.github.io/quadcryo/feed.xml" rel="self" type="application/atom+xml" /><link href="https://quadcryo.github.io/quadcryo/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-06-26T23:57:31+00:00</updated><id>https://quadcryo.github.io/quadcryo/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">The Future of Mathematics</title><link href="https://quadcryo.github.io/quadcryo/2026/future-mathematics/" rel="alternate" type="text/html" title="The Future of Mathematics" /><published>2026-04-24T00:00:00+00:00</published><updated>2026-04-24T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/2026/future-mathematics</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/2026/future-mathematics/"><![CDATA[<p> A friend of mine recently shared <a href="https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy">an article</a> about AI and mathematics that led me to think a little bit about the future of mathematics, particularly in regard to<i> my own </i>pursuits and interests in the field. The article itself is long, but incredibly interesting and shares many sentiments about the concerns of AI in a rapidly changing "mathematics economy." </p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://quadcryo.github.io/quadcryo/feed.xml" rel="self" type="application/atom+xml" /><link href="https://quadcryo.github.io/quadcryo/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-06-26T23:58:58+00:00</updated><id>https://quadcryo.github.io/quadcryo/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">Einstein Institute of Mathematics REU</title><link href="https://quadcryo.github.io/quadcryo/2026/einsteinreu/" rel="alternate" type="text/html" title="Einstein Institute of Mathematics REU" /><published>2026-06-26T00:00:00+00:00</published><updated>2026-06-26T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/2026/einsteinreu</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/2026/einsteinreu/"><![CDATA[<style>
+  /* ==========================================================================
+     1. SHARED CARD & CAPTION BASE STYLES
+     ========================================================================== */
+  .grid-card {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    width: 100%;
+  }
+
+  .grid-card img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .grid-card figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 35px 15px 12px 15px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    pointer-events: auto; 
+    z-index: 2;
+  }
+
+  .grid-card figcaption a {
+    pointer-events: auto;
+  }
+
+  /* ==========================================================================
+     2. CONTAINER LAYOUT TYPES
+     ========================================================================== */
+  
+  /* Layout A: The 2x2 Image Grid Container */
+  .mobile-friendly-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Layout B: Asymmetrical Grid (Wider Left, Narrower Right, Full Bottom) */
+  .triple-image-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+  /* Layout C: Standalone Single Image Container */
+  .standalone-image-container {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  /* Layout D: The 2-Image Portrait Grid Container */
+  .dual-portrait-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Layout E: New 3-Image Grid (Full Width Top, 2 Equal Columns Bottom) */
+  .top-heavy-triple-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Spanning helper for grid cells */
+  .full-width-row {
+    grid-column: span 2;
+  }
+
+  /* ==========================================================================
+     3. DESKTOP RESPONSIVE CONTROL (Screen width > 768px)
+     ========================================================================== */
+  @media (min-width: 769px) {
+    .mobile-friendly-grid { grid-template-columns: repeat(2, 1fr); }
+    .mobile-friendly-grid .landscape-img img { height: 380px; }
+    .mobile-friendly-grid .portrait-img img { height: 550px; }
+    
+    .triple-image-grid .landscape-img img { height: auto; }
+    .triple-image-grid .portrait-img { display: flex; }
+    .triple-image-grid .portrait-img img { height: 100%; } 
+    .triple-image-grid .full-width-row img { height: 440px; }
+
+    .standalone-image-container .landscape-img img { height: 480px; } 
+    
+    .dual-portrait-grid .portrait-img img { height: 600px; }
+
+    /* New Layout Desktop heights */
+    .top-heavy-triple-grid .full-width-row img { height: 450px; }
+    .top-heavy-triple-grid .portrait-img img { height: 580px; }
+  }
+
+  /* ==========================================================================
+     4. MOBILE RESPONSIVE CONTROL (Screen width <= 768px)
+     ========================================================================== */
+  @media (max-width: 768px) {
+    .mobile-friendly-grid, 
+    .triple-image-grid,
+    .dual-portrait-grid,
+    .top-heavy-triple-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    
+    .full-width-row {
+      grid-column: span 1; 
+    }
+    
+    .landscape-img img, 
+    .full-width-row img { 
+      height: 240px; 
+    }
+    
+    .portrait-img img { 
+      height: 420px; 
+    }
+    
+    .grid-card figcaption { 
+      font-size: 13px; 
+    }
+  }
+</style>
+
+<nav>
+  <ul>
+    <li><a href="#0">8 June, 2026</a></li>
+    <li><a href="#1">11 June,  2026</a></li>
+    <li><a href="#2">14 June, 2026</a></li>
+    <li><a href="#3">26 June, 2026</a></li>
+  </ul>
+</nav>
+
+<h5 id="0">(8 June, 2026)</h5>
+<p> This summer I am attending the Einstein Institute of Mathematics REU in Jerusalem, Israel. The program just began as of 8 June, so I will add many experiences and some pictures to this post as more things happen, but I'd like to start here by sort of describing the beginning of the program and some things I've experienced so far. </p>
+
+<p> The elephant in the room at this current moment is the reality of long-standing geopolitical conflict in the region. I won't talk about details or politics as my goal here is to document my experiences, but the program began rather explosively with sirens, missile alerts, and a video of a missile being intercepted. More details <a href="https://www.aljazeera.com/video/newsfeed/2026/6/8/missiles-intercepted-over-occupied-east-jerusalem-and-west-bank-2">here</a>. This didn't really hinder much. </p>
+
+<p> I was able to meet with my advisor, Dr. Shai Evra, and the project was broadly introduced to us. From what I currently understand, a large fragment of the REU is dedicated to understanding the <a href="https://en.wikipedia.org/wiki/Solovay%E2%80%93Kitaev_theorem">Solovay-Kitaev theorem</a> for compact Lie groups, and potentially attempting to extend the algorithm to general groups. Depending on the direction, we might also attempt to work on an open problem in group theory, or possibly go in some other directions relating to quantum algorithms and algebraic number theory. I imagine objectives and interests will shift, but this is the basic skeleton of the program. </p>
+
+<p> I've also had a lot of fun meeting the other people in the program, and it's nice to see how international our group is! We have people from China, South Korea, Greece, and the United States. </p>
+
+<p> Anyway, some of us visited the campus today, and I have to say: the Hebrew University has a rather nice campus, and I really appreciate the combination of traditional and brutalist architecture. Here are some random pictures. </p>
+
+<div class="mobile-friendly-grid">
+  <figure class="grid-card landscape-img">
+    <img src="/quadcryo/assets/img/solovaykitaev.jpg" alt="Flash presentation about the project" />
+    <figcaption>Flash presentation about the project</figcaption>
+  </figure>
+  
+  <figure class="grid-card landscape-img">
+    <img src="/quadcryo/assets/img/sabiche.jpg" alt="Sabich" />
+    <figcaption><a href="https://en.wikipedia.org/wiki/Sabich" target="_blank">Sabich</a>!</figcaption>
+  </figure>
+
+  <figure class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/einsteinstatue.jpg" alt="Albert Einstein statue in front of the Ross Building" />
+    <figcaption>Albert Einstein statue in front of the Ross Building</figcaption>
+  </figure>
+  
+  <figure class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/einsteinpic.jpg" alt="The Einstein Institute of Mathematics at the Hebrew University of Jerusalem (HUJI)" />
+    <figcaption>The Einstein Institute of Mathematics at the Hebrew University of Jerusalem (HUJI)</figcaption>
+  </figure>
+</div>
+
+<h5 id="1">(11 June, 2026)</h5>
+<p> I suppose now that I have been here for a few more days, I should talk a bit more about the project. I mentioned before that the aim of the REU was to generalize the Solovay-Kitaev theorem to more general groups. The SK Theorem was particularly revolutionary for quantum computing as it established a method for approximating <i> any </i> quantum gate to a very high accuracy and in polylogarithmic time and length. </p>
+
+<p> A paper from Dawson and Nielsen established the main results and provided an algorithmic proof, introducing, loosely, the concept of a <i> balanced group commutator </i> for \(\textrm{SU}(2)\) and \(\textrm{SU}(d)\). It turns out that the existence of the balanced group commutator is a useful tool that comes from compact Lie groups, notably in the inverse mapping from the Lie group to the Lie algebra of \(\textrm{SU}(d)\). Dawson and Nielsen mention an error that is exactly the balanced group commutator, and I learned that it is possible to derive from the <a href="https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula">BCH formula</a>.  </p>
+
+<p> To think in the minds of people attempting to expand the field of quantum computation, it would seem reasonable to attempt to extend the SK Theorem beyond just compact Lie groups, or perhaps to theoretically suggest an algorithm with a shorter quantum gate sequence and shorter computational time. My mentor suggested a 2002 paper that covered this, and the SK Theorem was improved slightly for specific non-general groups.  </p>
+
+<p> I am still in the early stages of learning the tools, but it turns out that a conceptual approach to generalizing the SK Theorem (but first and foremost, something more theoretical at the intersection of representation theory, Lie theory, and analysis that I cannot grasp quite yet) involves something known as an <a href="https://en.wikipedia.org/wiki/Expander_graphs">expander graph</a>, particularly a <a href="https://en.wikipedia.org/wiki/Cayley_graph">Cayley graph</a>. While I am still sorting out the details of expander graphs, I understand them currently as a graph that has nice connectivity properties—this means that the <a href="https://en.wikipedia.org/wiki/Diameter_(graph_theory)">diameter</a> of the graph is bounded favorably and possesses a value known as the <a href="https://en.wikipedia.org/wiki/Spectral_gap">spectral gap</a>, which measures connectivity—the larger the spectral gap, the more connected a graph is. I've seen \(k\)-regular graphs used largely in this context. Cayley graphs, on the other hand, coming from Cayley's Theorem in group theory, represent group structure in a graph nicely, generating an entire finite group from a generating set; we can denote such graphs as \(\textrm{Cay}(G,S)\) for some group \(G\) and a generating set \(S\). The idea is that the vertices in a Cayley graph represent elements of a quantum gate set, and the edges represent a finite generating set—the choice of this generating set is important, and there are many collections. One that I have seen notably is the Clifford\(+T\) set, containing the \(H\) and \(T\) gates, or the Hadamard and \(\pi/8\) gates respectively. Since Cayley graphs are well connected (this is a non-rigorous way to say it), we might ask how we can formulate a short <a href="https://en.wikipedia.org/wiki/Word_(group_theory)">word</a> from the generating set so as to approximate an arbitrary quantum gate. </p>
+
+<p> Groups in general are discrete objects. This means that there is going to be a feasible word that can be applied to a given quantum gate to reach a target quantum gate. However, in the case of \(\textrm{SU}(2)\), which is also a smooth manifold, such a generating set can be difficult and intensive to obtain.  A 2018 survey paper from Lubotzky and Breuillard that I was instructed to read (and still need to read more of) mentions a new operator, known as a <a href="https://en.wikipedia.org/wiki/Hecke_operator">Hecke operator</a> or "averaging operator" that is needed for a curved space such as \(\textrm{SU}(2)\). I still have to figure out what exactly this operator is in the context of expander graphs, but I'll treat it (and about 80% of the rest of the paper) as a black box for now. One tool, mentioned also in Lubotzky and Breuillard's survey paper, is the idea of golden gates. Golden gates were introduced by Ross and Selinger in a 2014 paper, and, as the name suggests, they are the "golden" approach for generating a group like \(\textrm{SU}(2)\). I still need to read the paper, but surprisingly, there is a decent amount of algebraic number theory at play and I'm excited to see where that goes. I think my mentor has worked closely with golden gates in his recent research. Lots more to read. </p>
+
+<p> Before anything, I think I should mention that I've never read a math research paper at the frontier of math before. Even these papers are a few years old (though constantly re-referenced and cited), but they contain so many ideas that I could not possibly fit into 2 years of undergraduate study, much less 2 months of an REU. I guess I had an idea that math research should be cumulative, as in I should understand all of the vast literature before and have learned every single idea and term mentioned. I think reading through some of these papers, I've learned that I do not understand a million things. And I felt uncomfortable. So many rabbit holes to go down on Wikipedia... and then I see another textbook that I should download. I think ultimately, the main takeaway that I should apply to my work in this REU and future research is the importance of the black box: it shouldn't be used for everything, but "<a href="https://math.stackexchange.com/questions/2016185/is-it-normal-to-treat-math-theorems-as-black-boxes">[n]o new research would ever get done if the researcher tried to intimately understand the entire path from Pythagoras to the state of the art.</a>" I'm an undergraduate, after all. </p>
+
+<div class="standalone-image-container">
+  <figure class="grid-card landscape-img">
+    <img src="/quadcryo/assets/img/einsteinlibrary.jpg" alt="Mathematics library at the Manchester Building" />
+    <figcaption>Mathematics library at the Manchester Building</figcaption>
+  </figure>
+</div>
+
+<p> In these few days, I've returned to campus one more time. The REU acquired a computer lab room for work in the future, though it does not have a chalkboard/whiteboard (the temperature may also be controlled and set to frighteningly low temperatures, much to one person's dismay). Above is a picture of the mathematics library—lots and lots of textbooks. If this collection were aggregated and sold online, I can only imagine how valuable it would be—potentially millions, considering 90% of the books appeared to be Springer. </p>
+
+<p> As part of REUs, I think there is a tradition of bringing students to conferences taking place locally. My mentor suggested we attend the <a href="https://iias.huji.ac.il/event/25th-midrasha-mathematicae-groups-expanders-and-codes">Midrasha Mathematicae on Groups, Expanders, and Codes</a> next week, a conference at the Einstein Institute for researchers in the field of quantum computation and the exact area that my REU project is on (without surprise, my mentor is one of the organizers). I expect to understand less than 1% of the material from the talks, but I hope to be able to appreciate the atmosphere and get a taste of what a conference should feel like. Maybe I can ask some good questions if I read more diligently this week!</p>
+
+<h5 id="2">(14 June, 2026)</h5>
+<p> I don't expect to update this page as frequently after this as fewer new things will be happening. I attended the first day of the conference, and I must say that doing so was <i> illuminating </i> rather than <i> useful</i>. While I have listened to some small seminars or lectures before, I've never attended a conference that contains a large number of such lectures that contain incredibly dense and cutting-edge mathematics. I went into the conference expecting to understand a very small amount, and even I was surprised. After surveying Breuillard and Lubtozky's paper for some time, I believe I developed a conceptual intution for <i> what was going on</i>, i.e. that the talks (primarily the talks given by Breuillard) were concerned with expander graphs, and that an ultimate goal was to develop notions of expansion and questions of spectral gap in the context of finite simple groups. Most of the details flew over my head, but I enjoyed listening to how various speakers spoke about this research area, and I especially appreciated how I was able to understand some fundamental terms like <a href="https://en.wikipedia.org/wiki/Zariski_topology">Zariski-dense</a>, <a href="https://en.wikipedia.org/wiki/Irreducible_representation">irreducible representation</a>, and more. Below are some photos from the conference. </p>
+
+<div class="triple-image-grid">
+  <figure class="grid-card landscape-img">
+    <img src="/quadcryo/assets/img/iiasboard1.jpg" alt="Whiteboard notes from Oxford University speaker Emmanuel Breuillard; Uniform expansion for finite simple groups " />
+    <figcaption>Whiteboard notes from Oxford University speaker Emmanuel Breuillard ("assuming <a href="https://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis">GRH</a>" on the right); <i> Uniform expansion for finite simple groups </i></figcaption>
+  </figure>
+
+  <figure class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/conferenceid.jpg" alt="IIAS conference badge" />
+    <figcaption>IIAS conference badge</figcaption>
+  </figure>
+
+  <figure class="grid-card full-width-row">
+    <img src="/quadcryo/assets/img/campuspic.jpg" alt="In the shade outside the IIAS on the Givat Ram campus" />
+    <figcaption>In the shade outside the IIAS on the Givat Ram campus</figcaption>
+  </figure>
+</div>
+
+<p> Something that I keep thinking back about is that in research mathematics, people tend to use words like "usually," "almost all," "some," "effective," "sometimes," etc. in reference to results or methods, which just seems so <i> crude</i> from the lack of a better description. I thought mathematics was an indestructible pillar founded on hundreds of year of mathematical formalism—and it is—but it is its crudeness that makes it interesting. I would never have thought mathematics could be similar to applied sciences. But it is. Somehow, trying out different methods and trying to get better and better bounds or isolating particular sets to work in a certain way is akin to watching bacteria multiply or carrying out PCR. </p>
+
+<p> I think this conference was sort of eye-opening for me in a few ways. It excites me that there is so much math on the frontier, but it's a little intimidating. But it was somehow ... relatable that some lecturers said "I don't know" when asked some particularly good questions. There was some shared humor that I didn't understand, but some things were also a bit down to earth, like when the person sitting beside me asked "what are the applications of these results?" I think these aspects of the conference will be among my greatest takeways, mostly because it showcases how mathematics is less of an all-absorbing gel full of pretensious people, and more of a collaborative construction—everyone is putting in their own effort, and developing a vast literature isn't done alone. I hope there is no place for elitism. Perhaps an open question: is it rude to ask something like "how much should I understand?" at a conference like this? </p>
+
+<h5 id="3">(26 June, 2026)</h5>
+
+<p> About 2 weeks later, we've worked some more on the project. I skimmed some more papers and we've worked on generalizing a result of Dawson-Nielsen to some avail (sort of pictured below), but I think more machinery will be needed if we want to address a more general result. I've started looking a lot more at recent results, and I've sort of fallen down a more conceptual rabbit hole trying to figure out what exactly to look at next. From what I understand, there are two appraoches to the topic of SK-like algorithms. Harrow-Recht-Chuang proved a fundamental theoretical result about words of length \(O(\log(1/\epsilon))\), but their result is a bit too advanced and theoretical to be useful—people want an algorithm nowadays. So what to do? Some later results of Breuillard-Green-Tao (2011) seem to address some fundamental problems and make some good progress in the more discrete case from a conjecture by Lubotzky in the 80s. This references the important result by Helfgott (2008). I was looking for more recent papers on this, and there are a few papers about navigating Cayley graphs that are highly useful. For example Bradford (2021), which so far to me looks the most promising for what we're trying to do. More to read.</p>
+
+<div class="top-heavy-triple-grid">
+  <figure class="grid-card full-width-row">
+    <img src="/quadcryo/assets/img/solovaykitaev3.jpg" alt="Solovay-Kitaev theorem extension whiteboard session" />
+    <figcaption>Pesudo-chalk (whiteboard) presentation about the SK theorem and other stuff</figcaption>
+  </figure>
+
+  <figure class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/nationallibrary.jpg" alt="The National Library of Israel building exterior" />
+    <figcaption>The National Library of Israel</figcaption>
+  </figure>
+
+  <figure class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/jewishduck.jpg" alt="Group theory proof notes featuring an Eastern Orthodox duck illustration" />
+    <figcaption>Eastern Orthodox duck, courtesy of me</figcaption>
+  </figure>
+</div>
+
+<p> Visited the National Library of Israel. It's a nice library, but I found its exhibition a little underwhelming, maybe because of its lack of things being exhibited. Maybe I'll go back to take a look at some other things. Also, to the right is a duck. I highly recommend ducks, particularly those generated using the <a href="https://mirrors.ibiblio.org/pub/mirrors/CTAN/graphics/pgf/contrib/tikzducks/tikzducks-doc.pdf">tikzducks package</a>. </p>]]></content><author><name></name></author><category term="research" /><summary type="html"><![CDATA[happenings this summer]]></summary></entry><entry><title type="html">The Future of Mathematics</title><link href="https://quadcryo.github.io/quadcryo/2026/future-mathematics/" rel="alternate" type="text/html" title="The Future of Mathematics" /><published>2026-04-24T00:00:00+00:00</published><updated>2026-04-24T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/2026/future-mathematics</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/2026/future-mathematics/"><![CDATA[<p> A friend of mine recently shared <a href="https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy">an article</a> about AI and mathematics that led me to think a little bit about the future of mathematics, particularly in regard to<i> my own </i>pursuits and interests in the field. The article itself is long, but incredibly interesting and shares many sentiments about the concerns of AI in a rapidly changing "mathematics economy." </p>
 
 <p> For centuries, even millenia, humanity has considered mathematics insurmountable: there was always more to discover, and there always is more to discover (there might be some exceptions with particularly egotistical eras where people believed themselves to be exceptional, but this should be generally true). Now, when I use the word "discover," there might be some debate about my underlying assumptions about the universe: whether mathematics is a formalisation of existing structure, or whether it was entirely created by humans to describe phenomenon. I'm not sure if I've talked about this before, but I am in the school that believes mathematical formalism is a tool created to understand existing structure, and the only thing limiting our conceptual understanding in any mathematical direction is, as Bessis also agrees with, <i>the human brain</i>. After all, AI can generate so much stuff, mathematical or not.</p>
 
@@ -251,17 +517,4 @@
 
 <p> The paper can be found <a href="https://quadcryo.github.io/quadcryo/assets/pdf/jackson_medved_relyea_polyominos.pdf">here</a>. The full journal issue (including all other papers) can be found <a href="https://issuu.com/ncssmedu/docs/broad_street_scientific_2024-2025">here</a>. Note that this is classified as "other writing," and so it should not be treated as a formal publication by any means. </p>
 
-<p>Now, why not some words about the project! I completed this project with two friends, and I think I had a lot of fun. Thanks!</p>]]></content><author><name></name></author><category term="mathematics" /><summary type="html"><![CDATA[a project from J-term]]></summary></entry><entry><title type="html">Is Mathematics a Language?</title><link href="https://quadcryo.github.io/quadcryo/2024/mathasalanguage/" rel="alternate" type="text/html" title="Is Mathematics a Language?" /><published>2024-07-01T00:00:00+00:00</published><updated>2024-07-01T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/2024/mathasalanguage</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/2024/mathasalanguage/"><![CDATA[<p>I do a lot of mathematics, so I believe I have some qualifications to answer this question objectively but uniquely and to my own taste. I hear very similar arguments in either situation: if someone believes that mathematics is a language, it is because they believe that it is capable of expressing ideas and facts, it contains symbols that can be read (whether from one language or multiple), and it is able to describe many things; if someone believes that mathematics is not a language, it is because they believe it is incapable of expressing emotion, complex thoughts, and does not possess qualities of art or creativity. Both reasons deserve more questioning. </p>
-
-<p>While both hold some ideas that are true to an extent, I believe that the inability to classify whether mathematics is a language is down to the fact that people do not know enough mathematics: the reasons for either argument are misinformed. I believe that mathematics is distinct from language in the sense that it describes something that is universally true, whether applied in the sense of physical descriptions of phenomena, or pure in the sense that abstraction is the only possible expression of ideas. Language typically develops from a certain form of culture: culture can be defined very loosely, where two friends can have a culture between them and a group of people might find a cultural affinity in collecting watches. In either case, there is almost always a cultural syntax that is commonly understood between members of the culture, but if this language is exposed to members of a different culture, many details might be lost in translation. This occurs on a multitude of levels, because likely a watch-enthusiast would be able to communicate with non-watch-enthusiasts if they are descriptive enough; a culture between two friends might be difficult to explain to members of other cultures, as often the relationship between two individuals is so rooted in experience and familiarity that to understand it would be to <i> be </i> one of the said friends. </p>
-
-<p>Mathematics, however, is different. Yes, while mathematics does have a culture in the sense that educational institutions often contort the meaning of who <i> does </i> mathematics - whether it is white men at Oxford University in the 19th century who twiddle their thumbs and "think about equations", or young people pushing new ideas and theories that no one has heard of or is willing to hear about - the ambiguity of mathematical culture is so confusing that it is impossible to differentiate "this mathematics" from "that mathematics". Under every single misconception and opinion regarding mathematics in any environment is a truth: every single well-established fact is true no matter what cultural syntax is used to express it. Some people believe pure mathematics is unimportant, but even if that may be true, it exists beyond the purpose of objective mathematical syntax: it just doesn't matter. </p>
-
-<p>I believe the first point at which you can truly consider what mathematics is is when you encounter proof. Many a mathematician will know how variable the way in which a result can be proven truly is, and I can say that I have written proofs in many different ways. Considerations of "elegance" and "non-elegance" are subjective, but they absolutely play a crucial role in determining whether something is beautiful or not. There are even many types of syntax with which a proof can be described, whether it is strictly using logic or using analogy. In either case, whether a proof uses a particular system of logic or field-related syntax, what it fundamentally describes is true no matter what. </p>
-
-<p>This brings me to the following. Does it even mean anything to question whether mathematics is a language? Mathematics is so different from any human or non-human language because it simply does not possess a universal cultural syntax. Rather, it is an amalgamation of the vocabulary from every single possible culture and it exists beyond self and other. Whether it is a language has no meaning: the people or things who - or that - do mathematics have their own interpretation of what mathematics is and how it can be expressed. Humanity is not developed enough to understand how different mathematics looks in different cultural syntaxes, but a good example that would seem distant for many anyway would be something like the difference between two different fields: say category theory and number theory. While these certainly have many connections (I will not describe them because I am not familiar enough of either field), on the surface level, one would never think that number theory - something that can be described fairly easily (it's definitely not easy, but the "big picture" ideas are more easily accessible) - is related to the often archaic seeming diagrams and ideas of category theory. Yet it is eye-opening to realize how much number theory really does fit in the framework of category theory: structures in number theory have vivid relationships with other structures in category theory. </p>
-
-<p>Ultimately, I believe that mathematics deserves to be separate from language; by analogy, history is often attributed to the humanities, but more often than not it behaves more like a social science, where arguments are shaped and deduced rather than discovered. Mathematics is just that in a different way: a study that is neither a language nor a science, but something else entirely. </p>
-
-<p><br /></p>
-<p>(1 July, 2024)</p>]]></content><author><name></name></author><category term="literature" /><summary type="html"><![CDATA[some thoughts about whether mathematics should or should not be a language]]></summary></entry></feed>
+<p>Now, why not some words about the project! I completed this project with two friends, and I think I had a lot of fun. Thanks!</p>]]></content><author><name></name></author><category term="mathematics" /><summary type="html"><![CDATA[a project from J-term]]></summary></entry></feed>
