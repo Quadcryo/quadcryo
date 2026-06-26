@@ -1,16 +1,11 @@
 ---
 layout: post
 title:  Einstein Institute of Mathematics REU
-date:   2026-06-27 00:00-00
+date:   2026-06-26 00:00-00
 description: happenings this summer
 tags: research
 ---
 
-Here is the complete CSS stylesheet containing all of your layout configurations, updated to support this new arrangement, followed by the HTML markup for your new 3-image grid (horizontal on top, two portraits below).
-
-### The Complete Unified CSS & New 3-Image Grid
-
-```html
 <style>
   /* ==========================================================================
      1. SHARED CARD & CAPTION BASE STYLES
@@ -166,6 +161,8 @@ Here is the complete CSS stylesheet containing all of your layout configurations
   }
 </style>
 
+
+
 <nav>
   <ul>
     <li><a href="#0">8 June, 2026</a></li>
@@ -257,7 +254,7 @@ Here is the complete CSS stylesheet containing all of your layout configurations
 
 <p> I think this conference was sort of eye-opening for me in a few ways. It excites me that there is so much math on the frontier, but it's a little intimidating. But it was somehow ... relatable that some lecturers said "I don't know" when asked some particularly good questions. There was some shared humor that I didn't understand, but some things were also a bit down to earth, like when the person sitting beside me asked "what are the applications of these results?" I think these aspects of the conference will be among my greatest takeways, mostly because it showcases how mathematics is less of an all-absorbing gel full of pretensious people, and more of a collaborative construction—everyone is putting in their own effort, and developing a vast literature isn't done alone. I hope there is no place for elitism. Perhaps an open question: is it rude to ask something like "how much should I understand?" at a conference like this? </p>
 
-<h5 id = "3">(27 June, 2026)</h5>
+<h5 id = "3">(26 June, 2026)</h5>
 
 <p> About 2 weeks later, we've worked some more on the project. I skimmed some more papers and we've worked on generalizing a result of Dawson-Nielsen to some avail (sort of pictured below), but I think more machinery will be needed if we want to address a more general result. I've started looking a lot more at recent results, and I've sort of fallen down a more conceptual rabbit hole trying to figure out what exactly to look at next. From what I understand, there are two appraoches to the topic of SK-like algorithms. Harrow-Recht-Chuang proved a fundamental theoretical result about words of length \(O(log(1/\epsilon))\), but their result is a bit too advanced and theoretical to be useful—people want an algorithm nowadays. So what to do? Some later results of Breuillard-Green-Tao (2011) seem to address some fundamental problems and make some good progress in the more discrete case from a conjecture by Lubotzky in the 80s. This references the important result by Helfgott (2008). I was looking for more recent papers on this, and there are a few papers about navigating Cayley graphs that are highly useful. For example Bradford (2021), which so far to me looks the most promising for what we're trying to do. More to read.</p>
 
