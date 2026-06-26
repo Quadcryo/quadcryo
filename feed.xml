@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://quadcryo.github.io/quadcryo/feed.xml" rel="self" type="application/atom+xml" /><link href="https://quadcryo.github.io/quadcryo/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-06-26T23:23:58+00:00</updated><id>https://quadcryo.github.io/quadcryo/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">Einstein Institute of Mathematics REU</title><link href="https://quadcryo.github.io/quadcryo/2026/einsteinreu/" rel="alternate" type="text/html" title="Einstein Institute of Mathematics REU" /><published>2026-06-14T00:00:00+00:00</published><updated>2026-06-14T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/2026/einsteinreu</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/2026/einsteinreu/"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://quadcryo.github.io/quadcryo/feed.xml" rel="self" type="application/atom+xml" /><link href="https://quadcryo.github.io/quadcryo/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-06-26T23:55:18+00:00</updated><id>https://quadcryo.github.io/quadcryo/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">Einstein Institute of Mathematics REU</title><link href="https://quadcryo.github.io/quadcryo/2026/einsteinreu/" rel="alternate" type="text/html" title="Einstein Institute of Mathematics REU" /><published>2026-06-26T00:00:00+00:00</published><updated>2026-06-26T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/2026/einsteinreu</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/2026/einsteinreu/"><![CDATA[<style>
   /* ==========================================================================
      1. SHARED CARD & CAPTION BASE STYLES
      ========================================================================== */
@@ -53,7 +53,7 @@
     box-sizing: border-box;
   }
 
-  /* Layout B: The 3-Image Grid Container (Asymmetrical Top Row) */
+  /* Layout B: Asymmetrical Grid (Wider Left, Narrower Right, Full Bottom) */
   .triple-image-grid {
     display: grid;
     grid-template-columns: 1.3fr 0.7fr;
@@ -62,12 +62,7 @@
     margin: 20px auto;
     padding: 10px;
     box-sizing: border-box;
-    align-items: stretch; /* Forces both top items to have identical height dynamically */
-  }
-
-  /* Makes the campus image break columns and stretch wide */
-  .full-width-row {
-    grid-column: span 2;
+    align-items: stretch;
   }
 
   /* Layout C: Standalone Single Image Container */
@@ -78,33 +73,53 @@
     box-sizing: border-box;
   }
 
+  /* Layout D: The 2-Image Portrait Grid Container */
+  .dual-portrait-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Layout E: New 3-Image Grid (Full Width Top, 2 Equal Columns Bottom) */
+  .top-heavy-triple-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Spanning helper for grid cells */
+  .full-width-row {
+    grid-column: span 2;
+  }
+
   /* ==========================================================================
      3. DESKTOP RESPONSIVE CONTROL (Screen width > 768px)
      ========================================================================== */
   @media (min-width: 769px) {
-    /* 2x2 Grid Desktop Parameters */
-    .mobile-friendly-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    .mobile-friendly-grid { grid-template-columns: repeat(2, 1fr); }
     .mobile-friendly-grid .landscape-img img { height: 380px; }
     .mobile-friendly-grid .portrait-img img { height: 550px; }
     
-    /* 3-Image Grid Desktop Parameters */
-    /* By using auto, the left image sets its height naturally and completely deletes the whitespace */
-    .triple-image-grid .landscape-img img { 
-      height: auto; 
-    }
-    /* Forces the ID badge container to match the height of the left image perfectly */
-    .triple-image-grid .portrait-img {
-      display: flex;
-    }
-    .triple-image-grid .portrait-img img { 
-      height: 100%; 
-    } 
+    .triple-image-grid .landscape-img img { height: auto; }
+    .triple-image-grid .portrait-img { display: flex; }
+    .triple-image-grid .portrait-img img { height: 100%; } 
     .triple-image-grid .full-width-row img { height: 440px; }
 
-    /* Standalone Desktop Parameters */
     .standalone-image-container .landscape-img img { height: 480px; } 
+    
+    .dual-portrait-grid .portrait-img img { height: 600px; }
+
+    /* New Layout Desktop heights */
+    .top-heavy-triple-grid .full-width-row img { height: 450px; }
+    .top-heavy-triple-grid .portrait-img img { height: 580px; }
   }
 
   /* ==========================================================================
@@ -112,7 +127,9 @@
      ========================================================================== */
   @media (max-width: 768px) {
     .mobile-friendly-grid, 
-    .triple-image-grid {
+    .triple-image-grid,
+    .dual-portrait-grid,
+    .top-heavy-triple-grid {
       grid-template-columns: 1fr;
       gap: 16px;
     }
@@ -141,6 +158,7 @@
     <li><a href="#0">8 June, 2026</a></li>
     <li><a href="#1">11 June,  2026</a></li>
     <li><a href="#2">14 June, 2026</a></li>
+    <li><a href="#3">26 June, 2026</a></li>
   </ul>
 </nav>
 
@@ -223,7 +241,30 @@
 
 <p> Something that I keep thinking back about is that in research mathematics, people tend to use words like "usually," "almost all," "some," "effective," "sometimes," etc. in reference to results or methods, which just seems so <i> crude</i> from the lack of a better description. I thought mathematics was an indestructible pillar founded on hundreds of year of mathematical formalism—and it is—but it is its crudeness that makes it interesting. I would never have thought mathematics could be similar to applied sciences. But it is. Somehow, trying out different methods and trying to get better and better bounds or isolating particular sets to work in a certain way is akin to watching bacteria multiply or carrying out PCR. </p>
 
-<p> I think this conference was sort of eye-opening for me in a few ways. It excites me that there is so much math on the frontier, but it's a little intimidating. But it was somehow ... relatable that some lecturers said "I don't know" when asked some particularly good questions. There was some shared humor that I didn't understand, but some things were also a bit down to earth, like when the person sitting beside me asked "what are the applications of these results?" I think these aspects of the conference will be among my greatest takeways, mostly because it showcases how mathematics is less of an all-absorbing gel full of pretensious people, and more of a collaborative construction—everyone is putting in their own effort, and developing a vast literature isn't done alone. I hope there is no place for elitism. Perhaps an open question: is it rude to ask something like "how much should I understand?" at a conference like this? </p>]]></content><author><name></name></author><category term="research" /><summary type="html"><![CDATA[happenings this summer]]></summary></entry><entry><title type="html">The Future of Mathematics</title><link href="https://quadcryo.github.io/quadcryo/2026/future-mathematics/" rel="alternate" type="text/html" title="The Future of Mathematics" /><published>2026-04-24T00:00:00+00:00</published><updated>2026-04-24T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/2026/future-mathematics</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/2026/future-mathematics/"><![CDATA[<p> A friend of mine recently shared <a href="https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy">an article</a> about AI and mathematics that led me to think a little bit about the future of mathematics, particularly in regard to<i> my own </i>pursuits and interests in the field. The article itself is long, but incredibly interesting and shares many sentiments about the concerns of AI in a rapidly changing "mathematics economy." </p>
+<p> I think this conference was sort of eye-opening for me in a few ways. It excites me that there is so much math on the frontier, but it's a little intimidating. But it was somehow ... relatable that some lecturers said "I don't know" when asked some particularly good questions. There was some shared humor that I didn't understand, but some things were also a bit down to earth, like when the person sitting beside me asked "what are the applications of these results?" I think these aspects of the conference will be among my greatest takeways, mostly because it showcases how mathematics is less of an all-absorbing gel full of pretensious people, and more of a collaborative construction—everyone is putting in their own effort, and developing a vast literature isn't done alone. I hope there is no place for elitism. Perhaps an open question: is it rude to ask something like "how much should I understand?" at a conference like this? </p>
+
+<h5 id="3">(26 June, 2026)</h5>
+
+<p> About 2 weeks later, we've worked some more on the project. I skimmed some more papers and we've worked on generalizing a result of Dawson-Nielsen to some avail (sort of pictured below), but I think more machinery will be needed if we want to address a more general result. I've started looking a lot more at recent results, and I've sort of fallen down a more conceptual rabbit hole trying to figure out what exactly to look at next. From what I understand, there are two appraoches to the topic of SK-like algorithms. Harrow-Recht-Chuang proved a fundamental theoretical result about words of length \(O(log(1/\epsilon))\), but their result is a bit too advanced and theoretical to be useful—people want an algorithm nowadays. So what to do? Some later results of Breuillard-Green-Tao (2011) seem to address some fundamental problems and make some good progress in the more discrete case from a conjecture by Lubotzky in the 80s. This references the important result by Helfgott (2008). I was looking for more recent papers on this, and there are a few papers about navigating Cayley graphs that are highly useful. For example Bradford (2021), which so far to me looks the most promising for what we're trying to do. More to read.</p>
+
+<div class="top-heavy-triple-grid">
+  <figure class="grid-card full-width-row">
+    <img src="/quadcryo/assets/img/solovaykitaev3.jpg" alt="Solovay-Kitaev theorem extension whiteboard session" />
+    <figcaption>Pesudo-chalk (whiteboard) presentation about the SK theorem and other stuff</figcaption>
+  </figure>
+
+  <figure class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/nationallibrary.jpg" alt="The National Library of Israel building exterior" />
+    <figcaption>National Library of Israel</figcaption>
+  </figure>
+
+  <figure class="grid-card portrait-img">
+    <img src="/quadcryo/assets/img/jewishduck.jpg" alt="Group theory proof notes featuring an Eastern Orthodox duck illustration" />
+    <figcaption>Eastern Orthodox duck, courtesy of me</figcaption>
+  </figure>
+</div>
+
+<p> Visited the National Library of Israel. It's a nice library, but I found its exhibition a little underwhelming, maybe because of its lack of things being exhibited. Maybe I'll go back to take a look at some other things. Also, to the right is a duck. I highly recommend ducks, particularly those generated using the <a href="https://mirrors.ibiblio.org/pub/mirrors/CTAN/graphics/pgf/contrib/tikzducks/tikzducks-doc.pdf">tikzducks package</a>. </p>]]></content><author><name></name></author><category term="research" /><summary type="html"><![CDATA[happenings this summer]]></summary></entry><entry><title type="html">The Future of Mathematics</title><link href="https://quadcryo.github.io/quadcryo/2026/future-mathematics/" rel="alternate" type="text/html" title="The Future of Mathematics" /><published>2026-04-24T00:00:00+00:00</published><updated>2026-04-24T00:00:00+00:00</updated><id>https://quadcryo.github.io/quadcryo/2026/future-mathematics</id><content type="html" xml:base="https://quadcryo.github.io/quadcryo/2026/future-mathematics/"><![CDATA[<p> A friend of mine recently shared <a href="https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy">an article</a> about AI and mathematics that led me to think a little bit about the future of mathematics, particularly in regard to<i> my own </i>pursuits and interests in the field. The article itself is long, but incredibly interesting and shares many sentiments about the concerns of AI in a rapidly changing "mathematics economy." </p>
 
 <p> For centuries, even millenia, humanity has considered mathematics insurmountable: there was always more to discover, and there always is more to discover (there might be some exceptions with particularly egotistical eras where people believed themselves to be exceptional, but this should be generally true). Now, when I use the word "discover," there might be some debate about my underlying assumptions about the universe: whether mathematics is a formalisation of existing structure, or whether it was entirely created by humans to describe phenomenon. I'm not sure if I've talked about this before, but I am in the school that believes mathematical formalism is a tool created to understand existing structure, and the only thing limiting our conceptual understanding in any mathematical direction is, as Bessis also agrees with, <i>the human brain</i>. After all, AI can generate so much stuff, mathematical or not.</p>
 
