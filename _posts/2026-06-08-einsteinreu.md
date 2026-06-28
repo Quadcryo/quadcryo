@@ -169,6 +169,7 @@ tags: research
     <li><a href="#1">11 June,  2026</a></li>
     <li><a href="#2">14 June, 2026</a></li>
     <li><a href="#3">26 June, 2026</a></li>
+    <li><a href="#4">28 June, 2026</a></li>
   </ul>
 </nav>
 
@@ -276,3 +277,12 @@ tags: research
 </div>
 
 <p> Visited the National Library of Israel. It's a nice library, but I found its exhibition a little underwhelming, maybe because of its lack of things being exhibited. Maybe I'll go back to take a look at some other things. Also, to the right is a duck. I highly recommend ducks, particularly those generated using the <a href = "https://mirrors.ibiblio.org/pub/mirrors/CTAN/graphics/pgf/contrib/tikzducks/tikzducks-doc.pdf">tikzducks package</a>. </p>
+
+<h5 id = "4">(28 June, 2026)</h5>
+
+<div class="standalone-image-container">
+  <figure class="grid-card landscape-img">
+    <img src="/quadcryo/assets/img/reuroom3.jpg" alt="A whiteboard unfortunately">
+    <figcaption>A whiteboard unfortunately; for some reason this room is simultaneously on the third and fourth floor</figcaption>
+  </figure>
+</div>
