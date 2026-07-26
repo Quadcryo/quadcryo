@@ -251,7 +251,8 @@ tags: mathematics research
     <li><a href="#7">12 July, 2026</a></li>
     <li><a href="#8">15 July, 2026</a></li>
     <li><a href="#9">20 July, 2026</a></li>
-    <li><a href="#10">23 July, 2026</a></li>
+    <li><a href="#10">22 July, 2026</a></li>
+    <li><a href="#10">26 July, 2026</a></li>
   </ul>
 </nav>
 
@@ -482,7 +483,7 @@ tags: mathematics research
 
 <p> <i><b>Theorem.</b></i> Let \(G = SL_{d}(\mathbb{Z}_{p})\) be a compact matrix Lie group. Let \(A\subset G\) be a finite, topologically generating set, such that \(A = A^{-1}\). Furthermore, define the surjective map \(G\twoheadrightarrow SL_{d}(\mathbb{Z}/p^{n}\mathbb{Z})\) to have kernel \(\Gamma_{n} = \text{Ker}(G\twoheadrightarrow SL_{d}(\mathbb{Z}/p^{n}\mathbb{Z})) = \{g\in G \mid g\equiv I\pmod{p^{n}}\}\). Let there be a metric (possibly a left-invariant <a href="https://en.wikipedia.org/wiki/Finsler_manifold">Finsler metric</a>) \(d: G\times G \rightarrow \mathbb{R}_{\geq 0}\) defined such that \(d(g,h)<2^{-n}\) if and only if \(g^{-1}h \in \Gamma_{n}\), where \((g,h\in G)\). Furthermore, denote each quotient \(G_{n}\cong G/\Gamma_{n}\). Lastly, for \(\omega\in \langle A\rangle\), define the <i>length function</i> of a word to be \(l(\omega) = \text{min}\{n \mid \omega = s_{1}\cdots s_{n}, s_{i}\in A\}\). Then, for all \(p\) and \(d\) there exists a constant \(c_{p,d}>0\) such that for all \(\alpha > \log_{\phi}(2)\), where \(\phi\) denotes the golden ratio, there exists an algorithm such that for an arbitrary target element \(g\in G_{n}\), there exists a sequence \(s_{1},\ldots,s_{l}\in A\) such that the word \(s_{1}\cdots s_{l} = g\), and \(l\leq \mathcal{O}(n^{\alpha})\). </p>
 
-<h5 id = "10">(23 July, 2026)</h5>
+<h5 id = "10">(22 July, 2026)</h5>
 
 <p> It would seem apparently difficult to justify a discussion about foreign policy when my aim on this site is to remain largely apolitical and to be a proponent of strictly mathematical interests. As a result, I aim not to specific conflicts, but rather to abstract the state of the world and its urgencies. </p>
 
@@ -504,3 +505,24 @@ tags: mathematics research
 <p> This is not to diminish obtaining a PhD, simplify to consider the diversification of interests. This brings me back to foreign policy. Perhaps a global mathematics education initiative to prepare new generations going into daring times would be helpful—advocating for such things at international organizations like <a href = "https://www.unesco.org/en">UNESCO</a> would be an arguably more G.H. Hardy-esque "mathematics for the sake of mathematics" pursuit. </p>
 
 <p> So, counterintuitively, this REU has widened my view of mathematics-adjacent fields that aren't necessarily pure theory. </p>
+
+<h5 id = "11">(26 July, 2026)</h5>
+
+<p> Why do you do mathematics? Unlike other meetings with our advisor, Professor Shai Evra, our meeting today was largely focused on some more philosophical notions of AI in mathematics (from the view of a research mathematician), motivations of a mathematician, and ultimately the question: why do you do mathematics? </p>
+
+<p> Before this new era of AI, mathematicians relied on a fragile structure of mathematical rigor and formality: there are journals, conferences, seminars, colloquiums, courses, etc. and these form the foundation for which mathematics is constructed. There were some formal rules of citation and questions about simple ethics, but in this pre-AI era, researchers of mathematics were (somewhat comically) <a href = "https://en.wikipedia.org/wiki/Anglerfish">anglerfish</a>, literally wandering blindly through all that mathematics can be. Mathematical formalism such as set-theory and <a href = "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory">ZF/ZFC</a> became axiomatic beacons from which mathematicians floated out into the depths. </p>
+
+<p> But the vast ocean has begun to light up. Small lights, faint glows, and dim luminescence. Disconnected, almost random, and—perhaps still closer to the surface of the ocean—leaving much of the depths still shrouded in darkness and uncertainty. But as the lights become brighter, it is only a matter of time before the anglerfish does not needs its light.. </p>
+
+<p> Now, this metaphor sounds a bit ominous. Professor Shai Evra held that the importance of mathematical results is in its explainability: mathematics is useless when it is unexplained and does not introduce new ideas. Recently, the <a href = "https://en.wikipedia.org/wiki/Jacobian_conjecture">Jacobian conjecture</a> was mostly resolved with a <a href = "https://www.newscientist.com/article/2580374-ais-solution-to-87-year-old-riddle-takes-mathematicians-by-surprise/">counterexample</a> using Anthropic's <a href = "https://en.wikipedia.org/wiki/Claude_Mythos">most advanced LLM (Fable 5)</a>. The consensus seems to be that such a result—excluding the tools and theory used in producing such a result—would likely have received publication in Annals or something of similar caliber, marking an important contribution to the field. And yet, the counterexample produced wasn't all that novel, essentially a check and verification. So what was the real contribution to the field? Was it the fact that it was solved? </p>
+
+<p> It is immediate that I agree with Professor Shai Evra's statement. The explainability of mathematics remains its most important feature. However, if all we care about is explaining, what is the role of the anglerfish? If all that can be wandered is wandered, modulo some difficulties in terrain navigation or unpredictable currents, the anglerfish might as well put its light away and see everything as it is. It doesn't need to explore anymore; it need only take in the vast ocean it was missing all along. This is a fear that I expressed in <a href = "https://matiascyrelyea.github.io/2026/future-mathematics/">a previous post</a>, where a pessimistic future of mathematics sees mathematicians picking away at novelty in a sea of correct and incorrect results or theories. Professor Evra expressed that this would be a troubling future, but he does not see this materializing any time soon, or even at all. Perhaps it is best to remain optimistic, but Professor Evra suggested that this view would sustain: people want to be the anglerfish, not the fish wandering an already illuminated ocean searching for answers. And yet, I think this is a skewed view to take.  </p>
+
+<p> Current mathematicians, and even current humans, will always have a bias toward the present. Society is changing. All it takes to change the entire profession of a mathematics researcher is a change of perspective: from "this result must be mine and only mine" to "it doesn't matter if this result is mine, as long as it makes sense to me and is explainable to my colleagues." In a way, modern pre-AI mathematics demands selfish tolerance. Preserving our intellectual property is fundamental to our own preservation in society, so the normalization of "results" over "why and how we got these results" seems like the tipping point. For now, we see simple computations as "trivial," but at what point will simple computations be simple lemmas, then simple propositions, and so on? If this does happen, it will be gradual, and we will not know it until it has already been done. </p>
+
+<p> To the anglerfish (which is almost entirely blind), the true extent of the depths of the ocean is not realized until it is fully illuminated. Its light will slowly dim, and soon it will be gone. </p>
+
+<p> So what is there to make of this? Is this post-AI era of mathematics truly just anglerfish wandering the depths of an ocean that is slowly becoming more and more illuminated, or are the lights too dim to illuminate the entirety of the depths? </p>
+
+<p> (second part of discussion) </p>
+
