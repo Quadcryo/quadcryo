@@ -17,9 +17,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>The Fundamental Group | Matias Relyea 賀彥龍</title>
+    <title>Journeys VII | Matias Relyea 賀彥龍</title>
     <meta name="author" content="Matias 賀  彥龍 Relyea">
-    <meta name="description" content="algebraic topology and some words about point set topology">
+    <meta name="description" content="stickermania">
 
 
     <!-- Bootstrap & MDB -->
@@ -44,7 +44,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon_aquamarine.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://matiascyrelyea.github.io/2026/topology/">
+    <link rel="canonical" href="https://matiascyrelyea.github.io/2026/journeys7/">
 
     <!-- Dark Mode -->
     
@@ -124,13 +124,13 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">The Fundamental Group</h1>
-    <p class="post-meta">April 10, 2026</p>
+    <h1 class="post-title">Journeys VII</h1>
+    <p class="post-meta">July 28, 2026</p>
     <p class="post-tags">
       <a href="/memoirs/2026"> <i class="fas fa-calendar fa-sm"></i> 2026 </a>
         ·  
-        <a href="/memoirs/tag/mathematics">
-          <i class="fas fa-hashtag fa-sm"></i> mathematics</a>  
+        <a href="/memoirs/tag/journeys">
+          <i class="fas fa-hashtag fa-sm"></i> journeys</a>  
           
 
     </p>
@@ -139,7 +139,245 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p> Coming soon! I plan on writing a short piece about the fundamental group, possibly covering the van Kampen theorem and adjacent ideas, at the conclusion of my topology course. </p>
+      <style>
+  /* ==========================================================================
+     1. SHARED CARD & CAPTION BASE STYLES
+     ========================================================================== */
+  .grid-card {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    width: 100%;
+  }
+
+  .grid-card img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .grid-card figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 35px 15px 12px 15px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    pointer-events: auto; 
+    z-index: 2;
+  }
+
+  .grid-card figcaption a {
+    pointer-events: auto;
+  }
+
+  /* ==========================================================================
+     2. CONTAINER LAYOUT TYPES (BASE STYLES)
+     ========================================================================== */
+  
+  /* Layout A: The 2x2 Image Grid Container */
+  .mobile-friendly-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Layout B: Asymmetrical Grid (Wider Left, Narrower Right, Full Bottom) */
+  .triple-image-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+  /* Layout C: Standalone Single Image Container */
+  .standalone-image-container {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  /* Layout D: The 2-Image Portrait Grid Container */
+  .dual-portrait-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Layout E: 3-Image Grid (Full Width Top, 2 Equal Columns Bottom) */
+  .top-heavy-triple-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Layout G: Bottom-Heavy 3-Image Grid (2 Portraits Top, 1 Full Landscape Bottom) */
+  .bottom-heavy-triple-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Layout I: Standalone Side-by-Side Dual Landscape Grid (No Cropping) */
+  .dual-landscape-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+  /* Layout J: Fixed Bounded Asymmetric Diagram Pair */
+  .asymmetric-clearance-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 12px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+  /* Grid cell helper: Spans an item full width across 2 columns */
+  .full-width-row {
+    grid-column: span 2;
+  }
+
+  /* ==========================================================================
+     3. DESKTOP RESPONSIVE CONTROL (Screen width > 768px)
+     ========================================================================== */
+  @media (min-width: 769px) {
+    /* Layout A (2x2 Grid) */
+    .mobile-friendly-grid { grid-template-columns: repeat(2, 1fr); }
+    .mobile-friendly-grid .landscape-img img { height: 380px; }
+    .mobile-friendly-grid .portrait-img img { height: 550px; }
+    
+    /* Layout B (Asymmetrical Grid) */
+    .triple-image-grid .landscape-img img { height: auto; }
+    .triple-image-grid .portrait-img { display: flex; }
+    .triple-image-grid .portrait-img img { height: 100%; } 
+    .triple-image-grid .full-width-row img { height: 440px; }
+
+    /* Layout C (Standalone Image) */
+    .standalone-image-container .landscape-img img { height: 480px; } 
+    
+    /* Layout D (Dual Portrait) */
+    .dual-portrait-grid .portrait-img img { height: 600px; }
+
+    /* Layout E (Top-Heavy Grid) */
+    .top-heavy-triple-grid .full-width-row img { height: 450px; }
+    .top-heavy-triple-grid .portrait-img img { height: 580px; }
+
+    /* Layout G (Bottom-Heavy Grid) */
+    .bottom-heavy-triple-grid .portrait-img img { height: 550px; }
+    .bottom-heavy-triple-grid .full-width-row img { height: 420px; }
+
+    /* Layout I (Standalone Dual Landscape Fix) */
+    .dual-landscape-grid .landscape-img img { height: 360px; }
+
+    /* Layout J (Asymmetric Diagram Desktop Bounds Fixed) */
+    .asymmetric-clearance-grid .left-diagram,
+    .asymmetric-clearance-grid .right-cropped-board {
+      height: 450px; /* Locks container height perfectly */
+    }
+    .asymmetric-clearance-grid .left-diagram {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .asymmetric-clearance-grid .left-diagram img {
+      height: 100%;
+      width: auto; /* Scales proportionally horizontally without layout overflow */
+      object-fit: contain;
+    }
+    .asymmetric-clearance-grid .right-cropped-board img {
+      height: 100%;
+      object-fit: cover; /* Crops sides cleanly to flush match diagram height */
+    }
+  }
+
+  /* ==========================================================================
+     4. MOBILE RESPONSIVE CONTROL (Screen width <= 768px)
+     ========================================================================== */
+  @media (max-width: 768px) {
+    .mobile-friendly-grid, 
+    .triple-image-grid,
+    .dual-portrait-grid,
+    .top-heavy-triple-grid,
+    .bottom-heavy-triple-grid,
+    .dual-landscape-grid,
+    .asymmetric-clearance-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    
+    .full-width-row {
+      grid-column: span 1; 
+    }
+    
+    .landscape-img img, 
+    .full-width-row img,
+    .asymmetric-clearance-grid .right-cropped-board img { 
+      height: 240px; 
+    }
+    
+    .portrait-img img { 
+      height: 420px; 
+    }
+
+    .asymmetric-clearance-grid .left-diagram img {
+      height: auto;
+      object-fit: contain;
+      background-color: #ffffff;
+    }
+    
+    .grid-card figcaption { 
+      font-size: 13px; 
+    }
+  }
+</style>
+
+<p> I think it's often easy to forget from where we came. </p>
+
+<div class="standalone-image-container">
+  <figure class="grid-card landscape-img">
+    <img src="/assets/img/violincase.jpg" alt="Violin case">
+  </figure>
+</div>
 
     </div>
   </article><div id="giscus_thread" style="max-width: 1000px; margin: 0 auto;">
