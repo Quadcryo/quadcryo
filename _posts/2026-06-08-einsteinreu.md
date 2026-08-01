@@ -330,7 +330,7 @@ tags: mathematics research
   </figure>
 
   <figure class="grid-card full-width-row">
-    <img src="""/assets/img/campuspic.jpg" alt="In the shade outside the IIAS on the Givat Ram campus">
+    <img src="/assets/img/campuspic.jpg" alt="In the shade outside the IIAS on the Givat Ram campus">
     <figcaption>In the shade outside the IIAS on the Givat Ram campus</figcaption>
   </figure>
 </div>
