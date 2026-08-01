@@ -547,4 +547,4 @@ tags: mathematics research
   </figure>
 </div>
 
-<p> We have begun writing our final paper pending adjustments to purpose. The paper will be titled something adjacent to <i>Improved Poly-Log Diameter Bounds for \(SL_{2}(\mathbb{Z}_{p})\) via Higher Commutators</i>. Aside from updates regarding the paper(s), I will likely include a final reflection and possibly anything else notable. But for now, the program has come to a close. </p>
+<p> We have begun writing our final paper pending adjustments to purpose. The paper will be titled something adjacent to "Improved Poly-Log Diameter Bounds for \(SL_{2}(\mathbb{Z}_{p})\) via Higher Commutators." Aside from updates regarding the paper(s), I will likely include a final reflection and possibly anything else notable. But for now, the program has come to a close. </p>
