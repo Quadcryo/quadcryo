@@ -399,12 +399,49 @@
       width: 100%; /* Expands to comfortable viewing size on small mobile screens */
     }
   }
+
+/* Container for horizontal TOC */
+nav.toc-horizontal ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  gap: 0.4rem 0; /* Row gap when wrapping on small screens */
+}
+
+/* Treat list items as inline flex blocks */
+nav.toc-horizontal li {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Insert a centered dot after every item except the last */
+nav.toc-horizontal li:not(:last-child)::after {
+  content: "•";
+  margin: 0 0.65rem;
+  opacity: 0.45; /* Keeps the dot subtle */
+}
+
+/* Link styling */
+nav.toc-horizontal a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: inherit;
+  transition: opacity 0.2s ease;
+}
+
+nav.toc-horizontal a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
 </style>
 
-<nav>
+<nav class="toc-horizontal">
   <ul>
     <li><a href="#0">8 June, 2026</a></li>
-    <li><a href="#1">11 June,  2026</a></li>
+    <li><a href="#1">11 June, 2026</a></li>
     <li><a href="#2">14 June, 2026</a></li>
     <li><a href="#3">26 June, 2026</a></li>
     <li><a href="#4">28 June, 2026</a></li>
