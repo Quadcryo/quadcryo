@@ -584,7 +584,7 @@ tags: mathematics research
 
 <div class="centered-square-container">
   <figure class="grid-card square-card">
-    <img src="/quadcryo/assets/img/shawarmaearth.jpg" alt="shawarma earth">
+    <img src="/assets/img/shawarmaearth.jpg" alt="shawarma earth">
     <figcaption>Canonical depiction of Earth time zones, circa 2020</figcaption>
   </figure>
 </div>
