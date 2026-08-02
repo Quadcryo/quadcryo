@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Einstein Institute of Mathematics REU
-date:   2026-08-01 00:00:00
+date:   2026-08-02 00:00:00
 description: happenings for summer 2026
 tags: mathematics research
 ---
@@ -234,6 +234,34 @@ tags: mathematics research
     
     .grid-card figcaption { 
       font-size: 13px; 
+    }
+  }
+
+  /* Layout L: Centered Half-Width Square Display */
+  .centered-square-container {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+
+  .centered-square-container .square-card {
+    width: 50%; /* Takes up exactly half the width of the 1000px layout block */
+    aspect-ratio: 1 / 1; /* Enforces a perfect 1:1 square ratio */
+  }
+
+  .centered-square-container .square-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+  }
+
+  /* Mobile responsiveness override */
+  @media (max-width: 768px) {
+    .centered-square-container .square-card {
+      width: 100%; /* Expands to comfortable viewing size on small mobile screens */
     }
   }
 </style>
@@ -548,3 +576,14 @@ tags: mathematics research
 </div>
 
 <p> We have begun writing our final paper pending adjustments to purpose. The paper will be titled something adjacent to "Improved Poly-Log Diameter Bounds for \(SL_{2}(\mathbb{Z}_{p})\) via Higher Commutators." Aside from updates regarding the paper(s), I will likely include a final reflection and possibly anything else notable. But for now, the program has come to a close. </p>
+
+<h4 id = "13">Reflection</h4>
+
+<p> Coming later! For now, enjoy this delicious image. </p>
+
+<div class="centered-square-container">
+  <figure class="grid-card square-card">
+    <img src="/quadcryo/assets/img/shawarmaearth.jpg" alt="shawarma earth">
+    <figcaption>Canonical depiction of Earth time zones, circa 2020</figcaption>
+  </figure>
+</div>
