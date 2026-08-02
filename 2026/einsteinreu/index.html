@@ -392,37 +392,9 @@
     height: 100%;
     object-fit: cover !important;
   }
-
-/* Container layout */
-nav.toc-horizontal ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1.5rem 0;
-  gap: 0.4rem 0;
-}
-
-nav.toc-horizontal li {
-  display: inline-flex;
-  align-items: center;
-}
-
-/* 
-  Attach ::after directly to 'a' tag.
-  It inherits your theme's exact link color automatically in both light & dark mode.
-*/
-nav.toc-horizontal li:not(:last-child) a::after {
-  content: "•";
-  margin-left: 0.65rem;
-  margin-right: 0.2rem;
-  display: inline-block;
-  text-decoration: none; /* Prevents underline on hover from stretching under the dot */
-}
 </style>
 
-<nav class="toc-horizontal">
+<nav>
   <ul>
     <li><a href="#0">8 June, 2026</a></li>
     <li><a href="#1">11 June, 2026</a></li>

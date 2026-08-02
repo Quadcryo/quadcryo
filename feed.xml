@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://matiascyrelyea.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://matiascyrelyea.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-08-02T13:00:56+00:00</updated><id>https://matiascyrelyea.github.io/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">Einstein Institute of Mathematics REU</title><link href="https://matiascyrelyea.github.io/2026/einsteinreu/" rel="alternate" type="text/html" title="Einstein Institute of Mathematics REU" /><published>2026-08-02T00:00:00+00:00</published><updated>2026-08-02T00:00:00+00:00</updated><id>https://matiascyrelyea.github.io/2026/einsteinreu</id><content type="html" xml:base="https://matiascyrelyea.github.io/2026/einsteinreu/"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://matiascyrelyea.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://matiascyrelyea.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-08-02T13:04:11+00:00</updated><id>https://matiascyrelyea.github.io/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">Einstein Institute of Mathematics REU</title><link href="https://matiascyrelyea.github.io/2026/einsteinreu/" rel="alternate" type="text/html" title="Einstein Institute of Mathematics REU" /><published>2026-08-02T00:00:00+00:00</published><updated>2026-08-02T00:00:00+00:00</updated><id>https://matiascyrelyea.github.io/2026/einsteinreu</id><content type="html" xml:base="https://matiascyrelyea.github.io/2026/einsteinreu/"><![CDATA[<style>
   /* ==========================================================================
      1. SHARED CARD & CAPTION BASE STYLES
      ========================================================================== */
@@ -249,37 +249,9 @@
     height: 100%;
     object-fit: cover !important;
   }
-
-/* Container layout */
-nav.toc-horizontal ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1.5rem 0;
-  gap: 0.4rem 0;
-}
-
-nav.toc-horizontal li {
-  display: inline-flex;
-  align-items: center;
-}
-
-/* 
-  Attach ::after directly to 'a' tag.
-  It inherits your theme's exact link color automatically in both light & dark mode.
-*/
-nav.toc-horizontal li:not(:last-child) a::after {
-  content: "•";
-  margin-left: 0.65rem;
-  margin-right: 0.2rem;
-  display: inline-block;
-  text-decoration: none; /* Prevents underline on hover from stretching under the dot */
-}
 </style>
 
-<nav class="toc-horizontal">
+<nav>
   <ul>
     <li><a href="#0">8 June, 2026</a></li>
     <li><a href="#1">11 June, 2026</a></li>
