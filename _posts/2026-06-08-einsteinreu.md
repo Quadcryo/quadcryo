@@ -258,15 +258,8 @@ tags: mathematics research
     object-fit: cover !important;
   }
 
-  /* Mobile responsiveness override */
-  @media (max-width: 768px) {
-    .centered-square-container .square-card {
-      width: 100%; /* Expands to comfortable viewing size on small mobile screens */
-    }
-  }
-
-/* Layout container only */
-nav ul {
+/* Scoped ONLY to the Table of Contents */
+nav.toc-horizontal ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -275,17 +268,19 @@ nav ul {
   margin: 0 0 1.5rem 0;
 }
 
-/* Keep list items inline */
-nav li {
+nav.toc-horizontal li {
   display: inline-flex;
   align-items: center;
 }
 
-/* Centered separator dot */
-nav li:not(:last-child)::after {
+/* Attaches the dot to the <a> tag so it inherits the exact link color */
+nav.toc-horizontal li:not(:last-child) a::after {
   content: "•";
-  margin: 0 0.65rem;
+  margin-left: 0.65rem;
+  margin-right: 0.65rem;
   opacity: 0.5;
+  display: inline-block;
+  text-decoration: none;
 }
 </style>
 
