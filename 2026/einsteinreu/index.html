@@ -393,7 +393,7 @@
     object-fit: cover !important;
   }
 
-/* Scoped ONLY to the Table of Contents */
+/* Container styling */
 nav.toc-horizontal ul {
   display: flex;
   flex-wrap: wrap;
@@ -408,14 +408,15 @@ nav.toc-horizontal li {
   align-items: center;
 }
 
-/* Attaches the dot to the <a> tag so it inherits the exact link color */
-nav.toc-horizontal li:not(:last-child) a::after {
+/* 
+  Attach the dot to <li> instead of <a>.
+  'color: inherit' forces it to match your site's normal paragraph/body text color instead of link blue!
+*/
+nav.toc-horizontal li:not(:last-child)::after {
   content: "•";
-  margin-left: 0.65rem;
-  margin-right: 0.65rem;
-  opacity: 0.5;
-  display: inline-block;
-  text-decoration: none;
+  margin: 0 0.65rem;
+  color: inherit;
+  opacity: 0.5; /* Makes it a subtle dot matching normal text tone */
 }
 </style>
 
