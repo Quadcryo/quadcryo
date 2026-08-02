@@ -273,7 +273,7 @@ nav.toc-horizontal ul {
   list-style: none;
   padding: 0;
   margin: 0 0 2rem 0;
-  gap: 0.4rem 0; /* Row gap when wrapping on small screens */
+  gap: 0.4rem 0; /* Vertical spacing when wrapping */
 }
 
 /* Treat list items as inline flex blocks */
@@ -282,24 +282,17 @@ nav.toc-horizontal li {
   align-items: center;
 }
 
-/* Insert a centered dot after every item except the last */
+/* Centered dot separator */
 nav.toc-horizontal li:not(:last-child)::after {
   content: "•";
   margin: 0 0.65rem;
-  opacity: 0.45; /* Keeps the dot subtle */
+  opacity: 0.45; /* Keeps the separator dot subtle */
+  color: currentColor; /* Matches current text color */
 }
 
-/* Link styling */
+/* Inherit native theme link colors */
 nav.toc-horizontal a {
-  text-decoration: none;
-  font-size: 0.95rem;
-  color: inherit;
-  transition: opacity 0.2s ease;
-}
-
-nav.toc-horizontal a:hover {
-  text-decoration: underline;
-  opacity: 0.8;
+  color: inherit; /* Uses your site's default link color */
 }
 </style>
 
