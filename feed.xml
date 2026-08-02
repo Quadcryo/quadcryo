@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://matiascyrelyea.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://matiascyrelyea.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-08-02T12:29:44+00:00</updated><id>https://matiascyrelyea.github.io/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">Einstein Institute of Mathematics REU</title><link href="https://matiascyrelyea.github.io/2026/einsteinreu/" rel="alternate" type="text/html" title="Einstein Institute of Mathematics REU" /><published>2026-08-02T00:00:00+00:00</published><updated>2026-08-02T00:00:00+00:00</updated><id>https://matiascyrelyea.github.io/2026/einsteinreu</id><content type="html" xml:base="https://matiascyrelyea.github.io/2026/einsteinreu/"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://matiascyrelyea.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://matiascyrelyea.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-08-02T12:30:24+00:00</updated><id>https://matiascyrelyea.github.io/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">Einstein Institute of Mathematics REU</title><link href="https://matiascyrelyea.github.io/2026/einsteinreu/" rel="alternate" type="text/html" title="Einstein Institute of Mathematics REU" /><published>2026-08-02T00:00:00+00:00</published><updated>2026-08-02T00:00:00+00:00</updated><id>https://matiascyrelyea.github.io/2026/einsteinreu</id><content type="html" xml:base="https://matiascyrelyea.github.io/2026/einsteinreu/"><![CDATA[<style>
   /* ==========================================================================
      1. SHARED CARD & CAPTION BASE STYLES
      ========================================================================== */
@@ -574,7 +574,7 @@
 
 <div class="centered-square-container">
   <figure class="grid-card square-card">
-    <img src="/quadcryo/assets/img/shawarmaearth.jpg" alt="shawarma earth" />
+    <img src="/assets/img/shawarmaearth.jpg" alt="shawarma earth" />
     <figcaption>Canonical depiction of Earth time zones, circa 2020</figcaption>
   </figure>
 </div>
