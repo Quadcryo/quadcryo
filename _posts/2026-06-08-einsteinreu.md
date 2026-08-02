@@ -258,7 +258,7 @@ tags: mathematics research
     object-fit: cover !important;
   }
 
-/* Container styling */
+/* Container layout */
 nav.toc-horizontal ul {
   display: flex;
   flex-wrap: wrap;
@@ -266,6 +266,7 @@ nav.toc-horizontal ul {
   list-style: none;
   padding: 0;
   margin: 0 0 1.5rem 0;
+  gap: 0.4rem 0;
 }
 
 nav.toc-horizontal li {
@@ -274,14 +275,15 @@ nav.toc-horizontal li {
 }
 
 /* 
-  Attach the dot to <li> instead of <a>.
-  'color: inherit' forces it to match your site's normal paragraph/body text color instead of link blue!
+  Attach ::after directly to 'a' tag.
+  It inherits your theme's exact link color automatically in both light & dark mode.
 */
-nav.toc-horizontal li:not(:last-child)::after {
+nav.toc-horizontal li:not(:last-child) a::after {
   content: "•";
-  margin: 0 0.65rem;
-  color: inherit;
-  opacity: 0.5; /* Makes it a subtle dot matching normal text tone */
+  margin-left: 0.65rem;
+  margin-right: 0.2rem;
+  display: inline-block;
+  text-decoration: none; /* Prevents underline on hover from stretching under the dot */
 }
 </style>
 
