@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://matiascyrelyea.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://matiascyrelyea.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-08-02T12:23:42+00:00</updated><id>https://matiascyrelyea.github.io/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">Einstein Institute of Mathematics REU</title><link href="https://matiascyrelyea.github.io/2026/einsteinreu/" rel="alternate" type="text/html" title="Einstein Institute of Mathematics REU" /><published>2026-08-01T00:00:00+00:00</published><updated>2026-08-01T00:00:00+00:00</updated><id>https://matiascyrelyea.github.io/2026/einsteinreu</id><content type="html" xml:base="https://matiascyrelyea.github.io/2026/einsteinreu/"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://matiascyrelyea.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://matiascyrelyea.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-08-02T12:25:42+00:00</updated><id>https://matiascyrelyea.github.io/feed.xml</id><title type="html">Matias Relyea 賀彥龍</title><subtitle></subtitle><entry><title type="html">Einstein Institute of Mathematics REU</title><link href="https://matiascyrelyea.github.io/2026/einsteinreu/" rel="alternate" type="text/html" title="Einstein Institute of Mathematics REU" /><published>2026-08-02T00:00:00+00:00</published><updated>2026-08-02T00:00:00+00:00</updated><id>https://matiascyrelyea.github.io/2026/einsteinreu</id><content type="html" xml:base="https://matiascyrelyea.github.io/2026/einsteinreu/"><![CDATA[<style>
   /* ==========================================================================
      1. SHARED CARD & CAPTION BASE STYLES
      ========================================================================== */
@@ -226,6 +226,34 @@
     
     .grid-card figcaption { 
       font-size: 13px; 
+    }
+  }
+
+  /* Layout L: Centered Half-Width Square Display */
+  .centered-square-container {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+
+  .centered-square-container .square-card {
+    width: 50%; /* Takes up exactly half the width of the 1000px layout block */
+    aspect-ratio: 1 / 1; /* Enforces a perfect 1:1 square ratio */
+  }
+
+  .centered-square-container .square-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+  }
+
+  /* Mobile responsiveness override */
+  @media (max-width: 768px) {
+    .centered-square-container .square-card {
+      width: 100%; /* Expands to comfortable viewing size on small mobile screens */
     }
   }
 </style>
@@ -538,6 +566,17 @@
 </div>
 
 <p> We have begun writing our final paper pending adjustments to purpose. The paper will be titled something adjacent to "Improved Poly-Log Diameter Bounds for \(SL_{2}(\mathbb{Z}_{p})\) via Higher Commutators." Aside from updates regarding the paper(s), I will likely include a final reflection and possibly anything else notable. But for now, the program has come to a close. </p>
+
+<h4 id="13">Reflection</h4>
+
+<p> Coming later! For now, enjoy this delicious image. </p>
+
+<div class="centered-square-container">
+  <figure class="grid-card square-card">
+    <img src="/quadcryo/assets/img/shawarmaearth.jpg" alt="shawarma earth" />
+    <figcaption>Canonical depiction of Earth time zones, circa 2020</figcaption>
+  </figure>
+</div>
 </p>]]></content><author><name></name></author><category term="mathematics" /><category term="research" /><summary type="html"><![CDATA[happenings for summer 2026]]></summary></entry><entry><title type="html">Journeys VII</title><link href="https://matiascyrelyea.github.io/2026/journeys7/" rel="alternate" type="text/html" title="Journeys VII" /><published>2026-07-28T00:00:00+00:00</published><updated>2026-07-28T00:00:00+00:00</updated><id>https://matiascyrelyea.github.io/2026/journeys7</id><content type="html" xml:base="https://matiascyrelyea.github.io/2026/journeys7/"><![CDATA[<style>
   /* ==========================================================================
      1. SHARED CARD & CAPTION BASE STYLES
