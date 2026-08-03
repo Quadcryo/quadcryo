@@ -275,7 +275,7 @@ tags: mathematics research
     <li><a href="#9">20 July, 2026</a></li>
     <li><a href="#10">22 July, 2026</a></li>
     <li><a href="#11">26 July, 2026</a></li>
-    <li><a href="#12">2 August, 2026</a></li>
+    <li><a href="#12">1 August, 2026</a></li>
     <li><a href="#13">Reflection</a></li>
   </ul>
 </nav>
@@ -559,7 +559,7 @@ tags: mathematics research
 
 <p> I could point to particular books or things that led to my interest in mathematics, like Donald Knuth's <a href = "https://en.wikipedia.org/wiki/Surreal_number">Surreal Numbers</a> or John Conway's <a href = "https://en.wikipedia.org/wiki/On_Numbers_and_Games">On Numbers and Games</a>. Maybe it's best to take comfort in what we believe to be true about ourselves if it is what motivates us. </p>
 
-<h5 id = "12">(2 August, 2026)</h5>
+<h5 id = "12">(1 August, 2026)</h5>
 
 <p> The REU is coming to a close (7 August). I've had a lot of fun documenting some of my endeavours, struggles understanding things, and fun experiences with regard to travel and pseudo-photography. I imagine this will be my last formal update, with the remaining updates being related to the deliverable of this project (which I will discuss briefly later). I hope this post paints a good picture of the positives and negatives of a math REU—I have tried to be objective and apolitical, and for anyone who endeavours to read the entirety of this document, I commend your patience. This document will evidently serve as a useful resource for me (and hopefully others) in the future. </p>
 
