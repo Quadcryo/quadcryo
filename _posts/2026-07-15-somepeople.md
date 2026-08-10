@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Some People
-date:   2026-07-15 00:00-00
+date:   2026-08-10 00:00-00
 description: 
 tags: 
 ---
