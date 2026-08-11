@@ -276,7 +276,7 @@ tags: mathematics research
     <li><a href="#10">22 July, 2026</a></li>
     <li><a href="#11">26 July, 2026</a></li>
     <li><a href="#12">1 August, 2026</a></li>
-    <li><a href="#13">Reflection</a></li>
+    <li><a href="#13">Concluding remarks</a></li>
   </ul>
 </nav>
 
@@ -570,11 +570,11 @@ tags: mathematics research
   </figure>
 </div>
 
-<p> We have begun writing our final paper pending adjustments to purpose. The paper will be titled something adjacent to "Improved Poly-Log Diameter Bounds for \(SL_{2}(\mathbb{Z}_{p})\) via Higher Commutators." Aside from updates regarding the paper(s), I will likely include a final reflection and possibly anything else notable. But for now, the program has come to a close. </p>
+<p> We have begun writing our final paper pending adjustments to purpose. The paper will be titled something adjacent to "Improved Poly-Log Diameter Bounds for \(SL_{2}(\mathbb{Z}_{p})\) via Higher Commutators." Aside from updates regarding the paper(s), I will likely include some concluding remarks and possibly anything else notable. But for now, the program has come to a close. </p>
 
-<h4 id = "13">Reflection</h4>
+<h4 id = "13">Concluding remarks</h4>
 
-<p> I will attempt to keep this reflection fairly succinct. Looking back at everything this REU has offered me, it's tempting to think that it creates a conclusive perspective about how I should think about mathematics, and more importantly, whether it is something I should want to pursue. If anything, this REU has complicated the question entirely. This post has spoken <i>ad nauseam</i> about the impact of AI on every aspect of our lives, from its less noticeable aspects to its field-revolutionizing aspects, particularly in academia. In the 3 months I have been gone, I have watched AI become the pinnacle of human endeavour, acknowledging that this is just the beginning. In the 3 months I have been gone, AI has raised question after question about the novelty of human thought. And still, there is little possibility to accurately predict this future. </p>
+<p> I will attempt to keep these concluding remarks fairly succinct. Looking back at everything this REU has offered me, it's tempting to think that it creates a conclusive perspective about how I should think about mathematics, and more importantly, whether it is something I should want to pursue. If anything, this REU has complicated the question entirely. This post has spoken <i>ad nauseam</i> about the impact of AI on every aspect of our lives, from its less noticeable aspects to its field-revolutionizing aspects, particularly in academia. In the 3 months I have been gone, I have watched AI become the pinnacle of human endeavour, acknowledging that this is just the beginning. In the 3 months I have been gone, AI has raised question after question about the novelty of human thought. And still, there is little possibility to accurately predict this future. </p>
 
 <div class="centered-square-container">
   <figure class="grid-card square-card">
