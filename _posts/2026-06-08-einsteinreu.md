@@ -590,7 +590,7 @@ tags: mathematics research
 <div class="standalone-image-container">
   <figure class="grid-card landscape-img">
     <img src="/assets/img/montmartre.jpg" alt="paris montmartre">
-    <figcaption>Sunrise picture taken of <a href = "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris">Sacré-Cœur</a> at <a href = "https://en.wikipedia.org/wiki/Montmartre">Montmartre</a> during a layover in Paris</figcaption>
+    <figcaption>Sunrise picture taken of <a href = "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris">Sacré-Cœur</a> at <a href = "https://en.wikipedia.org/wiki/Montmartre">Montmartre</a> during a layover in Paris, returning home</figcaption>
   </figure>
 </div>
 
